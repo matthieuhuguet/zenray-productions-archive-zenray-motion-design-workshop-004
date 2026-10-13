@@ -1,0 +1,119 @@
+{
+ "date": "12 October 2026",
+ "mark": "t-four-secure",
+ "from_mark_version": "V_007",
+ "build": {
+  "file": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/fonts/onekey-f3-t-four-secure/V_003/font.ttf",
+  "sha256": "ceee68cf0af64bb676bc94f5da49afbcf0ffb2d464a1a12c692438009a894728",
+  "bytes": 40360
+ },
+ "score_built": {
+  "iou": 0.941359,
+  "edge_mean": 0.2065,
+  "edge_p95": 1.0,
+  "loss": 0.06070575654651446
+ },
+ "trace": [
+  {
+   "stage": "identity",
+   "iou": 0.941439,
+   "edge_mean": 0.2188,
+   "edge_p95": 1.0,
+   "loss": 0.06074895493284097
+  },
+  {
+   "stage": "size starts",
+   "iou": 0.937425,
+   "edge_mean": 0.2424,
+   "edge_p95": 1.0,
+   "loss": 0.06499855360579689
+  },
+  {
+   "stage": "spacing 2",
+   "iou": 0.938127,
+   "edge_mean": 0.2332,
+   "edge_p95": 1.0,
+   "loss": 0.06420450055255911
+  },
+  {
+   "stage": "globals 2",
+   "iou": 0.939578,
+   "edge_mean": 0.2214,
+   "edge_p95": 1.0,
+   "loss": 0.06263590847373796
+  },
+  {
+   "stage": "spacing 3",
+   "iou": 0.939704,
+   "edge_mean": 0.2187,
+   "edge_p95": 1.0,
+   "loss": 0.06248325342966505
+  },
+  {
+   "stage": "globals 3",
+   "iou": 0.939954,
+   "edge_mean": 0.2145,
+   "edge_p95": 1.0,
+   "loss": 0.06219086490402575
+  },
+  {
+   "stage": "offsets",
+   "iou": 0.941502,
+   "edge_mean": 0.2042,
+   "edge_p95": 1.0,
+   "loss": 0.060539560448023236,
+   "snap": {
+    "iterations": 7,
+    "accepted": 2,
+    "final_damping": 0.0187,
+    "log": [
+     [
+      0,
+      0.6,
+      0.941224,
+      true
+     ],
+     [
+      1,
+      0.6,
+      0.940391,
+      false
+     ],
+     [
+      2,
+      0.3,
+      0.940593,
+      false
+     ],
+     [
+      3,
+      0.15,
+      0.941494,
+      true
+     ],
+     [
+      4,
+      0.15,
+      0.94043,
+      false
+     ],
+     [
+      5,
+      0.075,
+      0.941284,
+      false
+     ],
+     [
+      6,
+      0.0375,
+      0.94129,
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "private": true,
+ "rights": "private-1to1",
+ "seconds": 32.3
+}

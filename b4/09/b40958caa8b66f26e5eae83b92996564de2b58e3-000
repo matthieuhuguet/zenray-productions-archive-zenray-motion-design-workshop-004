@@ -1,0 +1,119 @@
+{
+ "date": "12 October 2026",
+ "mark": "t-four-secure",
+ "from_mark_version": "V_008",
+ "build": {
+  "file": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/fonts/onekey-f3-t-four-secure/V_004/font.ttf",
+  "sha256": "c93d6ec28073c93dd93a1b8aecc8784f2ecb1633f5c098b1a25080989ada88f4",
+  "bytes": 40360
+ },
+ "score_built": {
+  "iou": 0.941194,
+  "edge_mean": 0.2121,
+  "edge_p95": 1.0,
+  "loss": 0.06092680842258354
+ },
+ "trace": [
+  {
+   "stage": "identity",
+   "iou": 0.942129,
+   "edge_mean": 0.1952,
+   "edge_p95": 1.0,
+   "loss": 0.05982268393570283
+  },
+  {
+   "stage": "size starts",
+   "iou": 0.938473,
+   "edge_mean": 0.2289,
+   "edge_p95": 1.0,
+   "loss": 0.06381629923029321
+  },
+  {
+   "stage": "spacing 2",
+   "iou": 0.93945,
+   "edge_mean": 0.2166,
+   "edge_p95": 1.0,
+   "loss": 0.06271645389395575
+  },
+  {
+   "stage": "globals 2",
+   "iou": 0.941231,
+   "edge_mean": 0.201,
+   "edge_p95": 1.0,
+   "loss": 0.06077912715984206
+  },
+  {
+   "stage": "spacing 3",
+   "iou": 0.94137,
+   "edge_mean": 0.1979,
+   "edge_p95": 1.0,
+   "loss": 0.06060853529037329
+  },
+  {
+   "stage": "globals 3",
+   "iou": 0.9414,
+   "edge_mean": 0.1988,
+   "edge_p95": 1.0,
+   "loss": 0.060587758712189924
+  },
+  {
+   "stage": "offsets",
+   "iou": 0.941628,
+   "edge_mean": 0.1943,
+   "edge_p95": 1.0,
+   "loss": 0.060314797911863643,
+   "snap": {
+    "iterations": 7,
+    "accepted": 2,
+    "final_damping": 0.0187,
+    "log": [
+     [
+      0,
+      0.6,
+      0.941506,
+      true
+     ],
+     [
+      1,
+      0.6,
+      0.940676,
+      false
+     ],
+     [
+      2,
+      0.3,
+      0.940722,
+      false
+     ],
+     [
+      3,
+      0.15,
+      0.941632,
+      true
+     ],
+     [
+      4,
+      0.15,
+      0.940683,
+      false
+     ],
+     [
+      5,
+      0.075,
+      0.941559,
+      false
+     ],
+     [
+      6,
+      0.0375,
+      0.94164,
+      false
+     ]
+    ]
+   }
+  }
+ ],
+ "private": true,
+ "rights": "private-1to1",
+ "seconds": 29.2
+}
