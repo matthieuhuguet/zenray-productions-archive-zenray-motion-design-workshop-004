@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 97.809,
+ "plossBarNoOnset": 79.541,
+ "plossEvents": 78.84,
+ "tfBandsStable": 97.809,
+ "diagnosis": {
+  "E": 1.4848,
+  "score": 97.809,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.321,
+    "meanAbsDb": 3.72,
+    "signedDb": 0.13
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.276,
+    "meanAbsDb": 4.39,
+    "signedDb": 1.09
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.12,
+    "meanAbsDb": 2.57,
+    "signedDb": 0.67
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.117,
+    "meanAbsDb": 2.0,
+    "signedDb": -0.06
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.165,
+    "meanAbsDb": 2.01,
+    "signedDb": -0.26
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.115,
+    "meanAbsDb": 4.47,
+    "signedDb": 1.44
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.17,
+    "meanAbsDb": 2.57,
+    "signedDb": 0.26
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.141,
+    "meanAbsDb": 4.38,
+    "signedDb": 0.75
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.009,
+    "meanAbsDb": 3.16,
+    "signedDb": -1.09
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.099,
+    "meanAbsDb": 2.97,
+    "signedDb": 0.39
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.466,
+    "meanAbsDb": 2.64,
+    "signedDb": -0.01
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.615,
+   "sustainFrames": 0.385,
+   "missingEnergy": 0.213,
+   "extraEnergy": 0.269,
+   "within6Db": 0.518
+  },
+  "ifFixed": {
+   "missingEnergy": 98.64,
+   "extraEnergy": 98.82,
+   "onsetFrames": 99.67,
+   "lowUnder120Hz": 98.99
+  }
+ },
+ "version": "V_004"
+}

@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 98.304,
+ "plossBarNoOnset": 80.118,
+ "plossEvents": 76.545,
+ "tfBandsStable": 98.304,
+ "diagnosis": {
+  "E": 1.3047,
+  "score": 98.304,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.302,
+    "meanAbsDb": 3.08,
+    "signedDb": 0.2
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.252,
+    "meanAbsDb": 3.58,
+    "signedDb": 0.7
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.123,
+    "meanAbsDb": 2.34,
+    "signedDb": 0.18
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.134,
+    "meanAbsDb": 1.99,
+    "signedDb": -0.02
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.189,
+    "meanAbsDb": 1.99,
+    "signedDb": -0.03
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.115,
+    "meanAbsDb": 3.96,
+    "signedDb": 1.2
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.167,
+    "meanAbsDb": 2.22,
+    "signedDb": 0.24
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.144,
+    "meanAbsDb": 3.99,
+    "signedDb": 0.18
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.011,
+    "meanAbsDb": 3.32,
+    "signedDb": -0.99
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.092,
+    "meanAbsDb": 2.45,
+    "signedDb": 0.18
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.471,
+    "meanAbsDb": 2.33,
+    "signedDb": 0.06
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.599,
+   "sustainFrames": 0.401,
+   "missingEnergy": 0.178,
+   "extraEnergy": 0.239,
+   "within6Db": 0.584
+  },
+  "ifFixed": {
+   "missingEnergy": 98.85,
+   "extraEnergy": 99.01,
+   "onsetFrames": 99.72,
+   "lowUnder120Hz": 99.17
+  }
+ },
+ "version": "V_010"
+}

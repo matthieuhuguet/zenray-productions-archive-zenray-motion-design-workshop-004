@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 97.295,
+ "plossBarNoOnset": 78.18,
+ "plossEvents": 75.217,
+ "tfBandsStable": 97.295,
+ "diagnosis": {
+  "E": 1.6518,
+  "score": 97.295,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.304,
+    "meanAbsDb": 3.91,
+    "signedDb": -0.37
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.266,
+    "meanAbsDb": 4.71,
+    "signedDb": 0.47
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.115,
+    "meanAbsDb": 2.72,
+    "signedDb": 0.35
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.124,
+    "meanAbsDb": 2.36,
+    "signedDb": -0.72
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.191,
+    "meanAbsDb": 2.59,
+    "signedDb": -1.26
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.115,
+    "meanAbsDb": 5.03,
+    "signedDb": 0.32
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.17,
+    "meanAbsDb": 2.85,
+    "signedDb": -0.19
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.141,
+    "meanAbsDb": 4.92,
+    "signedDb": -0.32
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.008,
+    "meanAbsDb": 3.07,
+    "signedDb": -1.76
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.1,
+    "meanAbsDb": 3.34,
+    "signedDb": -0.26
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.466,
+    "meanAbsDb": 2.93,
+    "signedDb": -0.58
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.572,
+   "sustainFrames": 0.428,
+   "missingEnergy": 0.328,
+   "extraEnergy": 0.218,
+   "within6Db": 0.454
+  },
+  "ifFixed": {
+   "missingEnergy": 98.77,
+   "extraEnergy": 98.34,
+   "onsetFrames": 99.5,
+   "lowUnder120Hz": 98.68
+  }
+ },
+ "version": "V_003"
+}

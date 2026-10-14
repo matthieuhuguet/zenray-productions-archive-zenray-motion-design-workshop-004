@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 97.461,
+ "plossBarNoOnset": 79.416,
+ "plossEvents": 79.084,
+ "tfBandsStable": 97.461,
+ "diagnosis": {
+  "E": 1.5998,
+  "score": 97.461,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.324,
+    "meanAbsDb": 4.03,
+    "signedDb": -0.25
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.295,
+    "meanAbsDb": 5.09,
+    "signedDb": -0.17
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.114,
+    "meanAbsDb": 2.63,
+    "signedDb": 0.53
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.111,
+    "meanAbsDb": 2.04,
+    "signedDb": -0.13
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.156,
+    "meanAbsDb": 2.04,
+    "signedDb": -0.32
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.097,
+    "meanAbsDb": 4.12,
+    "signedDb": 0.63
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.175,
+    "meanAbsDb": 2.85,
+    "signedDb": -0.02
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.142,
+    "meanAbsDb": 4.77,
+    "signedDb": 0.29
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.009,
+    "meanAbsDb": 3.2,
+    "signedDb": -1.14
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.103,
+    "meanAbsDb": 3.31,
+    "signedDb": 0.12
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.474,
+    "meanAbsDb": 2.89,
+    "signedDb": -0.37
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.616,
+   "sustainFrames": 0.384,
+   "missingEnergy": 0.279,
+   "extraEnergy": 0.239,
+   "within6Db": 0.482
+  },
+  "ifFixed": {
+   "missingEnergy": 98.67,
+   "extraEnergy": 98.52,
+   "onsetFrames": 99.62,
+   "lowUnder120Hz": 98.83
+  }
+ },
+ "version": "V_002"
+}

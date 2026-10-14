@@ -1,0 +1,123 @@
+{
+ "date": "12 October 2026",
+ "tfBands": 98.038,
+ "plossBarNoOnset": 80.135,
+ "plossEvents": 75.716,
+ "tfBandsStable": 98.038,
+ "diagnosis": {
+  "E": 1.4039,
+  "score": 98.038,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.322,
+    "meanAbsDb": 3.53,
+    "signedDb": 0.12
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.257,
+    "meanAbsDb": 3.93,
+    "signedDb": 0.4
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.119,
+    "meanAbsDb": 2.42,
+    "signedDb": 0.28
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.125,
+    "meanAbsDb": 2.0,
+    "signedDb": 0.12
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.177,
+    "meanAbsDb": 2.01,
+    "signedDb": 0.09
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.114,
+    "meanAbsDb": 4.23,
+    "signedDb": 1.23
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.168,
+    "meanAbsDb": 2.41,
+    "signedDb": 0.16
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.144,
+    "meanAbsDb": 4.25,
+    "signedDb": 0.57
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.011,
+    "meanAbsDb": 3.3,
+    "signedDb": -0.8
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.093,
+    "meanAbsDb": 2.65,
+    "signedDb": 0.12
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.47,
+    "meanAbsDb": 2.51,
+    "signedDb": 0.01
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.61,
+   "sustainFrames": 0.39,
+   "missingEnergy": 0.197,
+   "extraEnergy": 0.252,
+   "within6Db": 0.551
+  },
+  "ifFixed": {
+   "missingEnergy": 98.73,
+   "extraEnergy": 98.9,
+   "onsetFrames": 99.7,
+   "lowUnder120Hz": 99.09
+  }
+ },
+ "version": "V_007"
+}

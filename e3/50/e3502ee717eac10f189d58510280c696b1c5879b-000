@@ -1,0 +1,125 @@
+{
+ "date": "12 October 2026",
+ "critic": {
+  "E": 1.5179,
+  "score": 97.711,
+  "groups": [
+   {
+    "hz": [
+     30,
+     120
+    ],
+    "errorShare": 0.406,
+    "meanAbsDb": 2.9,
+    "signedDb": 0.41
+   },
+   {
+    "hz": [
+     120,
+     500
+    ],
+    "errorShare": 0.39,
+    "meanAbsDb": 3.0,
+    "signedDb": 0.69
+   },
+   {
+    "hz": [
+     500,
+     2000
+    ],
+    "errorShare": 0.16,
+    "meanAbsDb": 3.05,
+    "signedDb": 0.67
+   },
+   {
+    "hz": [
+     2000,
+     6000
+    ],
+    "errorShare": 0.043,
+    "meanAbsDb": 6.35,
+    "signedDb": 1.6
+   },
+   {
+    "hz": [
+     6000,
+     16000
+    ],
+    "errorShare": 0.001,
+    "meanAbsDb": 5.12,
+    "signedDb": -3.68
+   }
+  ],
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.7469,
+    "errorShare": 0.011,
+    "meanAbsDb": 2.64,
+    "signedDb": -0.19
+   },
+   {
+    "start": 5.7469,
+    "end": 16.6502,
+    "errorShare": 0.235,
+    "meanAbsDb": 3.41,
+    "signedDb": 0.61
+   },
+   {
+    "start": 16.6502,
+    "end": 22.1018,
+    "errorShare": 0.087,
+    "meanAbsDb": 2.57,
+    "signedDb": 0.51
+   },
+   {
+    "start": 22.1018,
+    "end": 27.5534,
+    "errorShare": 0.067,
+    "meanAbsDb": 2.08,
+    "signedDb": 0.41
+   },
+   {
+    "start": 27.5534,
+    "end": 33.0051,
+    "errorShare": 0.069,
+    "meanAbsDb": 3.49,
+    "signedDb": 0.27
+   },
+   {
+    "start": 33.0051,
+    "end": 62.989,
+    "errorShare": 0.531,
+    "meanAbsDb": 3.12,
+    "signedDb": 0.68
+   },
+   {
+    "start": 62.989,
+    "end": 68.0533,
+    "errorShare": 0.0,
+    "meanAbsDb": 0.0,
+    "signedDb": 0.0
+   }
+  ],
+  "split": {
+   "onsetFrames": 0.201,
+   "sustainFrames": 0.799,
+   "missingEnergy": 0.144,
+   "extraEnergy": 0.356,
+   "within6Db": 0.5
+  },
+  "ifFixed": {
+   "missingEnergy": 98.32,
+   "extraEnergy": 99.04,
+   "onsetFrames": 98.53,
+   "lowUnder120Hz": 99.19
+  }
+ },
+ "stable": {
+  "plossEvents": 66.626,
+  "eventCount": 80,
+  "plossBarNoOnset": 70.52,
+  "tfBands": 97.711
+ },
+ "tfBands": 97.711
+}

@@ -1,0 +1,12 @@
+{
+ "date": "12 October 2026",
+ "neutralMaxDiff": 0.0,
+ "neutralScore": 97.711,
+ "sabotageScore": 75.414,
+ "bandModelE": 1.4824,
+ "criticE": 1.5179,
+ "complexModelE": 1.5179,
+ "complexModelSabotageE": 5.2988,
+ "criticSabotageE": 5.2988,
+ "pass": true
+}
