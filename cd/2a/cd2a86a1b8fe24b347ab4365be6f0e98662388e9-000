@@ -1,0 +1,14 @@
+{
+ "variation_of": "V_001",
+ "set": {
+  "text": "ZenRay",
+  "font.axes.wght": 700,
+  "colour": "#9bd5ff",
+  "lightmap": null
+ },
+ "iou_vs_parent": 0.35757,
+ "colour_parent": "#eeeeee",
+ "colour": "#9bd5ff",
+ "changed": true,
+ "date": "12 October 2026"
+}

@@ -1,0 +1,104 @@
+{
+  "schema": "zrmd/mark@1",
+  "date": "12 October 2026",
+  "slug": "onekey-pro-2",
+  "mark": "ui-unlock-line",
+  "kind": "text",
+  "family": "device-ui",
+  "rights": "private-1to1",
+  "rights_note": "1:1 benchmark of a third-party mark, private, never published (Rules.md, 12 October 2026)",
+  "text": "Use your fingerprint or tap to unlock",
+  "font": {
+    "file": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/ZenRayMotionDesign/datasets/fonts/files/AlbertSans/AlbertSans[wght].ttf",
+    "family": "AlbertSans",
+    "axes": {
+      "wght": 462.0943901799367
+    }
+  },
+  "size_px": 28.307,
+  "tracking_em": -0.064209,
+  "deltas_px": [
+    1.8407,
+    -0.385,
+    -0.5826,
+    -0.5826,
+    -0.6531,
+    0.1531,
+    0.2469,
+    0.0208,
+    0.0208,
+    -0.3052,
+    0.1069,
+    -0.1753,
+    0.075,
+    0.182,
+    0.0853,
+    0.014,
+    -0.1706,
+    0.2874,
+    -0.184,
+    -0.184,
+    0.0756,
+    -0.0857,
+    -0.0857,
+    0.5717,
+    0.2577,
+    -0.2853,
+    -0.2853,
+    0.109,
+    -0.3178,
+    -0.3178,
+    0.2866,
+    0.3607,
+    0.1498,
+    -0.0436,
+    -0.0168,
+    0.0
+  ],
+  "origin_px": [
+    755.972,
+    945.628
+  ],
+  "blur_px": 0.4492,
+  "colour": "#dadada",
+  "lightmap": {
+    "x_px": [
+      789.71,
+      847.14,
+      904.57,
+      962.0,
+      1019.43,
+      1076.86,
+      1134.29
+    ],
+    "gain": [
+      0.9977,
+      0.9923,
+      0.9946,
+      0.9923,
+      0.9832,
+      0.9923,
+      1.0
+    ]
+  },
+  "opacity": 1.0,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source": {
+    "time_s": 2.24,
+    "region": [
+      740,
+      910,
+      445,
+      60
+    ],
+    "crop_box_tlbr": [
+      3,
+      9,
+      54,
+      435
+    ]
+  }
+}

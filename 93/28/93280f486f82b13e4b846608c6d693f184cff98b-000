@@ -1,0 +1,82 @@
+{
+  "schema": "zrmd/mark@1",
+  "date": "12 October 2026",
+  "slug": "onekey-pro-2",
+  "mark": "t-with-a-touch",
+  "kind": "text",
+  "family": "caption",
+  "rights": "private-1to1",
+  "rights_note": "1:1 benchmark of a third-party mark, private, never published (Rules.md, 12 October 2026)",
+  "text": "with a touch",
+  "font": {
+    "file": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/fonts/onekey-f3-t-with-a-touch/V_001/font.ttf",
+    "family": "V_001",
+    "axes": {}
+  },
+  "size_px": 94.395,
+  "tracking_em": -0.009188,
+  "deltas_px": [
+    0.033,
+    -0.1846,
+    -0.6558,
+    -0.3719,
+    -0.1612,
+    0.0764,
+    0.1658,
+    0.7219,
+    0.005,
+    0.0622,
+    0.117,
+    0.2999
+  ],
+  "origin_px": [
+    1218.077,
+    564.19
+  ],
+  "blur_px": 0.4055,
+  "colour": "#ccd1d7",
+  "lightmap": {
+    "x_px": [
+      1250.78,
+      1310.33,
+      1369.89,
+      1429.44,
+      1489.0,
+      1548.56,
+      1608.11,
+      1667.67,
+      1727.22
+    ],
+    "gain": [
+      0.9889,
+      0.9904,
+      0.9889,
+      0.9873,
+      0.996,
+      1.0,
+      1.0,
+      0.992,
+      0.9873
+    ]
+  },
+  "opacity": 1.0,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source": {
+    "time_s": 20.8667,
+    "region": [
+      1150,
+      460,
+      680,
+      160
+    ],
+    "crop_box_tlbr": [
+      23,
+      59,
+      117,
+      619
+    ]
+  }
+}

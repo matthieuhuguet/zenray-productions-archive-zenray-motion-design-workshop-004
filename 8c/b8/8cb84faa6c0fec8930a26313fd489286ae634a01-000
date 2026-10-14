@@ -1,0 +1,58 @@
+{
+  "schema": "zrmd/mark@1",
+  "date": "12 October 2026",
+  "slug": "onekey-pro-2",
+  "mark": "ui-battery-text",
+  "kind": "text",
+  "family": "device-ui",
+  "rights": "private-1to1",
+  "rights_note": "1:1 benchmark of a third-party mark, private, never published (Rules.md, 12 October 2026)",
+  "text": "100%",
+  "font": {
+    "file": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/fonts/onekey-f3-ui-battery-text/V_002/font.ttf",
+    "family": "V_002",
+    "axes": {}
+  },
+  "size_px": 22.763,
+  "tracking_em": -0.035981,
+  "deltas_px": [
+    -0.0151,
+    0.4461,
+    -0.432,
+    0.0
+  ],
+  "origin_px": [
+    1078.617,
+    116.85
+  ],
+  "blur_px": 0.4247,
+  "colour": "#eaeaea",
+  "lightmap": {
+    "x_px": [
+      1106.0
+    ],
+    "gain": [
+      1.0
+    ]
+  },
+  "opacity": 1.0,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source": {
+    "time_s": 2.24,
+    "region": [
+      1076,
+      92,
+      60,
+      32
+    ],
+    "crop_box_tlbr": [
+      0,
+      0,
+      32,
+      60
+    ]
+  }
+}

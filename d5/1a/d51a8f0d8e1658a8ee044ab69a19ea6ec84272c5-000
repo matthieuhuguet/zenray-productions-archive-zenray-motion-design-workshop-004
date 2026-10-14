@@ -1,0 +1,157 @@
+{
+ "schema": "zrmd/asset2d@1",
+ "asset": "onekey-pro-2-ui-battery",
+ "date": "13 October 2026",
+ "canvas": {
+  "width": 54,
+  "height": 36
+ },
+ "source": {
+  "kind": "reference-crop",
+  "slug": "onekey-pro-2",
+  "time_s": 2.24,
+  "region": [
+   1133,
+   90,
+   54,
+   36
+  ],
+  "placement_px": [
+   1133,
+   90
+  ],
+  "canvas": [
+   1920,
+   1080
+  ]
+ },
+ "palette": {
+  "c0": "#000000",
+  "c1": "#e8e8e8"
+ },
+ "layers": [
+  {
+   "id": "L00",
+   "name": "L00-background",
+   "z": 0,
+   "kind": "rect",
+   "geometry": {
+    "cx": 27.0,
+    "cy": 18.0,
+    "w": 54.0,
+    "h": 36.0,
+    "angle": 0.0
+   },
+   "paint": {
+    "type": "flat",
+    "colour": "@c0",
+    "fit_rms": 0.671
+   },
+   "effects": {
+    "blur": 0.0,
+    "opacity": 1.0
+   },
+   "fit": {
+    "background": true
+   },
+   "shader_hint": [
+    "solid_color"
+   ]
+  },
+  {
+   "id": "L01",
+   "name": "L01-path",
+   "z": 1,
+   "kind": "path",
+   "geometry": {
+    "d": "M44.046 23.673C46.276 16.662 44.039 15.536 47.319 15.515C48.119 16.539 47.788 21.025 47.77 22.442C44.408 23.182 45.542 22.309 45.22 18.368C44.884 24.066 43.525 28.338 39.717 29.01C42.263 30.126 27.399 29.389 21.69 29.672C15.513 29.311 12.39 30.707 9.025 27.141C6.387 24.494 7.576 21.14 7.141 15.985C7.49 13.678 8.647 9.13 12.68 9.072C9.274 8.078 25.8 8.683 33.303 8.577C36.763 8.812 37.581 8.243 40.374 9.242C43.994 11.646 45.455 12.485 44.046 23.673Z",
+    "segments": 11
+   },
+   "paint": {
+    "type": "flat",
+    "colour": "@c1",
+    "fit_rms": 0.258
+   },
+   "effects": {
+    "blur": 0.0,
+    "opacity": 1.0
+   },
+   "fit": {
+    "refine": {
+     "before": 0.09980009125777173,
+     "after": 0.01351650521593796,
+     "nfev": 1034
+    },
+    "tried": [
+     {
+      "kind": "circle",
+      "cap": null,
+      "iou": 0.602204,
+      "edge_mean": 3.1236,
+      "ok": false
+     },
+     {
+      "kind": "ellipse",
+      "cap": null,
+      "iou": 0.878569,
+      "edge_mean": 0.7466,
+      "ok": false
+     },
+     {
+      "kind": "rect",
+      "cap": null,
+      "iou": 0.893827,
+      "edge_mean": 0.6587,
+      "ok": false
+     },
+     {
+      "kind": "rounded_rect",
+      "cap": null,
+      "iou": 0.964148,
+      "edge_mean": 0.2265,
+      "ok": false
+     },
+     {
+      "kind": "rounded_rect",
+      "cap": null,
+      "iou": 0.937038,
+      "edge_mean": 0.3358,
+      "ok": false
+     },
+     {
+      "kind": "rounded_rect",
+      "cap": null,
+      "iou": 0.961825,
+      "edge_mean": 0.2259,
+      "ok": false
+     }
+    ],
+    "stats": {
+     "area": 762.0,
+     "holes": 0,
+     "solidity": 0.9783,
+     "thickness": 22.0,
+     "skeleton": 29,
+     "thin": 1.318
+    }
+   },
+   "shader_hint": []
+  }
+ ],
+ "editing": "change palette colours, layer geometry, paint stops or effects here, then run Scripts/Vectorise.py rebuild to cook a new version (12 October 2026)",
+ "trace": {
+  "refine": true,
+  "sabotage": false,
+  "rejected": [],
+  "settings": {
+   "smooth_step": 10,
+   "fit_error_px": 0.3,
+   "band_px": 3
+  }
+ },
+ "rights": "private-1to1: benchmark of a reference, never published; publish variations only after rights validation",
+ "mark": "ui-battery",
+ "family": "icon",
+ "version": "V_001",
+ "parent": null
+}

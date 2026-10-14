@@ -1,0 +1,422 @@
+{
+ "schema": "zrmd/asset2d@1",
+ "asset": "onekey-pro-2-ui-bluetooth",
+ "date": "13 October 2026",
+ "canvas": {
+  "width": 28,
+  "height": 36
+ },
+ "source": {
+  "kind": "reference-crop",
+  "slug": "onekey-pro-2",
+  "time_s": 2.24,
+  "region": [
+   1048,
+   90,
+   28,
+   36
+  ],
+  "placement_px": [
+   1048,
+   90
+  ],
+  "canvas": [
+   1920,
+   1080
+  ]
+ },
+ "palette": {
+  "c0": "#000000",
+  "c1": "#323232",
+  "c2": "#212121"
+ },
+ "layers": [
+  {
+   "id": "L00",
+   "name": "L00-background",
+   "z": 0,
+   "kind": "rect",
+   "geometry": {
+    "cx": 14.0,
+    "cy": 18.0,
+    "w": 28.0,
+    "h": 36.0,
+    "angle": 0.0
+   },
+   "paint": {
+    "type": "flat",
+    "colour": "@c0",
+    "fit_rms": 0.948
+   },
+   "effects": {
+    "blur": 0.0,
+    "opacity": 1.0
+   },
+   "fit": {
+    "background": true
+   },
+   "shader_hint": [
+    "solid_color"
+   ]
+  },
+  {
+   "id": "L01",
+   "name": "L01-path",
+   "z": 1,
+   "kind": "path",
+   "geometry": {
+    "d": "M12.978 29.955Q12.99 28.313 13.203 28.168Q12.241 18.567 17.432 23.216Q15.576 29.815 15.656 21.461Q10.663 23.064 10.812 24.309Q8.723 26.691 7.627 25.453Q6.945 24.815 7.951 23.276Q9.449 22.066 10.691 20.416Q12.211 19.432 12.388 18.283Q10.808 17.025 9.365 15.392Q8.121 14.247 7.229 13.012Q7.252 13.357 7.967 12.068Q8.451 10.821 10.559 12.76Q11.437 14.399 13.952 15.643Q10.75 10.335 17.279 12.209Q18.061 16.742 12.726 9.996Q13.575 10.059 13.2 7.352Q14.375 7.432 15.101 7.191Q17.173 9.311 19.078 10.632Q20.114 11.292 21.457 12.662Q21.535 13.802 20.127 14.621Q19.489 15.719 18.315 16.547Q17.512 17.637 16.295 18.414Q17.145 19.997 18.579 20.987Q19.614 22.278 21.447 24.087Q20.696 26.164 19.257 26.882Q18.204 28.016 16.448 28.758Q15.592 29.211 16.309 30.127Q16.111 29.39 15.831 30.08Q14.614 29.784 13.663 30.078Q14.344 30.196 12.978 29.955Z",
+    "segments": 30
+   },
+   "paint": {
+    "type": "radial",
+    "cx": 15.094,
+    "cy": 13.09,
+    "r": 16.487,
+    "stops": [
+     {
+      "offset": 0.0,
+      "colour": "#c8c8c8"
+     },
+     {
+      "offset": 0.06667,
+      "colour": "#ffffff"
+     },
+     {
+      "offset": 0.13333,
+      "colour": "#e1e1e1"
+     },
+     {
+      "offset": 0.26667,
+      "colour": "#efefef"
+     },
+     {
+      "offset": 0.4,
+      "colour": "#e6e6e6"
+     },
+     {
+      "offset": 0.46667,
+      "colour": "#e8e8e8"
+     },
+     {
+      "offset": 0.53333,
+      "colour": "#dbdbdb"
+     },
+     {
+      "offset": 0.6,
+      "colour": "#ffffff"
+     },
+     {
+      "offset": 0.66667,
+      "colour": "#dedede"
+     },
+     {
+      "offset": 0.73333,
+      "colour": "#efefef"
+     },
+     {
+      "offset": 0.8,
+      "colour": "#f8f8f8"
+     },
+     {
+      "offset": 0.86667,
+      "colour": "#939393"
+     },
+     {
+      "offset": 0.93333,
+      "colour": "#ffffff"
+     },
+     {
+      "offset": 1.0,
+      "colour": "#000000"
+     }
+    ],
+    "approx": true,
+    "fit_rms": 5.794
+   },
+   "effects": {
+    "blur": 0.0,
+    "opacity": 1.0
+   },
+   "fit": {
+    "refine": {
+     "before": 0.1775088618296541,
+     "after": 0.048848029050903616,
+     "nfev": 1911
+    },
+    "tried": [
+     {
+      "kind": "polyline",
+      "cap": "round",
+      "iou": 0.918701,
+      "edge_mean": 0.051,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "butt",
+      "iou": 0.880267,
+      "edge_mean": 0.1413,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "square",
+      "iou": 0.914564,
+      "edge_mean": 0.0749,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "round",
+      "iou": 0.917991,
+      "edge_mean": 0.0633,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "butt",
+      "iou": 0.918266,
+      "edge_mean": 0.0651,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "square",
+      "iou": 0.921243,
+      "edge_mean": 0.0588,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "round",
+      "iou": 0.916225,
+      "edge_mean": 0.0584,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "butt",
+      "iou": 0.907905,
+      "edge_mean": 0.0763,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "square",
+      "iou": 0.913999,
+      "edge_mean": 0.074,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "round",
+      "iou": 0.901645,
+      "edge_mean": 0.0746,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "butt",
+      "iou": 0.91681,
+      "edge_mean": 0.0616,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "square",
+      "iou": 0.92334,
+      "edge_mean": 0.0594,
+      "ok": false
+     }
+    ],
+    "stats": {
+     "area": 162.0,
+     "holes": 4,
+     "solidity": 0.6429,
+     "thickness": 6.0,
+     "skeleton": 45,
+     "thin": 7.5
+    }
+   },
+   "shader_hint": [
+    "radial_gradient3",
+    "glow_gaussian"
+   ]
+  },
+  {
+   "id": "L02",
+   "name": "L02-path",
+   "z": 2,
+   "kind": "path",
+   "geometry": {
+    "d": "M10.907 17.161Q7.665 14.186 6.534 13.209Q6.848 13.469 7.256 14.041Q6.301 12.424 7.83 11.875Q8.375 10.337 8.142 10.99Q10.078 10.737 9.897 11.383Q10.047 11.818 13.422 14.633Q12.655 15.788 13.833 16.874Q10.256 12.088 8.97 13.128Q9.031 14.647 9.135 15.05Q10.646 15.449 10.907 17.161ZM22.801 26.844Q16.208 15.777 15.55 11.839Q19.906 16.64 24.222 2.58Q17.095 21.945 22.649 11.856Q10.777 12.349 22.801 26.844ZM11.462 24.141Q9.401 26.256 7.377 23.924Q6.633 23.645 6.896 23.432Q6.675 23.785 8.975 21.586Q8.483 19.334 18.453 27.305Q11.378 19.922 8.914 22.552Q9.448 24.437 7.811 23.915Q14.796 24.664 10.653 15.937Q12.991 24.732 11.462 24.141Z",
+    "segments": 22
+   },
+   "paint": {
+    "type": "flat",
+    "colour": "@c1",
+    "fit_rms": 50.403
+   },
+   "effects": {
+    "blur": 0.0,
+    "opacity": 1.0
+   },
+   "fit": {
+    "refine": {
+     "before": 0.20962856768809923,
+     "after": 0.13113646172140594,
+     "nfev": 1562
+    },
+    "tried": [
+     {
+      "kind": "polyline",
+      "cap": "round",
+      "iou": 0.510402,
+      "edge_mean": 0.2147,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "butt",
+      "iou": 0.465375,
+      "edge_mean": 0.295,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "square",
+      "iou": 0.503464,
+      "edge_mean": 0.2451,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "round",
+      "iou": 0.543486,
+      "edge_mean": 0.1966,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "butt",
+      "iou": 0.496253,
+      "edge_mean": 0.3843,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "square",
+      "iou": 0.530434,
+      "edge_mean": 0.2309,
+      "ok": false
+     }
+    ],
+    "stats": {
+     "area": 49.0,
+     "holes": 0,
+     "solidity": 0.2003,
+     "thickness": 2.828,
+     "skeleton": 40,
+     "thin": 14.142
+    }
+   },
+   "shader_hint": []
+  },
+  {
+   "id": "L03",
+   "name": "L03-path",
+   "z": 3,
+   "kind": "path",
+   "geometry": {
+    "d": "M8.819 18.241Q13.453 16.563 6.058 13.624Q7.005 14.297 7.156 13.333Q6.185 12.884 7.7 11.793Q9.741 10.216 8.614 10.17Q8.686 9.996 10.203 11.804Q12.465 19.889 21.355 8.298Q11.902 16.474 14.407 15.524Q11.219 12.974 10.496 11.729Q10.995 13.926 8.528 12.681Q11.465 19.635 8.819 18.241ZM7.995 25.989Q5.477 26.19 8.303 21.584Q3.706 21.979 8.675 21.861Q13.573 16.62 11.835 20.076Q7.68 23.276 9.374 24.094Q10.199 24.453 12.8 21.904Q16.327 23.9 19.656 19.486Q9.316 24.187 9.978 26.154Q10.654 25.916 7.995 25.989ZM19.856 28.6Q9.762 22.491 24.319 10.138Q9.507 26.158 24.924 25.055Q12.064 22.61 19.856 28.6ZM13.137 30.225Q13.219 28.464 11.921 27.464Q14.365 30.987 19.322 26.55Q18.769 29.032 16.097 29.249Q14.064 32.347 13.137 30.225Z",
+    "segments": 25
+   },
+   "paint": {
+    "type": "flat",
+    "colour": "@c2",
+    "fit_rms": 47.14
+   },
+   "effects": {
+    "blur": 0.0,
+    "opacity": 1.0
+   },
+   "fit": {
+    "refine": {
+     "before": 0.22855831109747352,
+     "after": 0.13114401983635324,
+     "nfev": 1664
+    },
+    "tried": [
+     {
+      "kind": "polyline",
+      "cap": "round",
+      "iou": 0.494944,
+      "edge_mean": 0.2362,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "butt",
+      "iou": 0.521559,
+      "edge_mean": 0.1935,
+      "ok": false
+     },
+     {
+      "kind": "polyline",
+      "cap": "square",
+      "iou": 0.505643,
+      "edge_mean": 0.1888,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "round",
+      "iou": 0.553288,
+      "edge_mean": 0.1865,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "butt",
+      "iou": 0.542449,
+      "edge_mean": 0.182,
+      "ok": false
+     },
+     {
+      "kind": "stroke_path",
+      "cap": "square",
+      "iou": 0.602541,
+      "edge_mean": 0.0929,
+      "ok": false
+     }
+    ],
+    "stats": {
+     "area": 58.0,
+     "holes": 0,
+     "solidity": 0.2066,
+     "thickness": 2.828,
+     "skeleton": 43,
+     "thin": 15.203
+    }
+   },
+   "shader_hint": []
+  }
+ ],
+ "editing": "change palette colours, layer geometry, paint stops or effects here, then run Scripts/Vectorise.py rebuild to cook a new version (12 October 2026)",
+ "trace": {
+  "refine": true,
+  "sabotage": false,
+  "rejected": [],
+  "settings": {
+   "smooth_step": 10,
+   "fit_error_px": 0.3,
+   "band_px": 3
+  }
+ },
+ "rights": "private-1to1: benchmark of a reference, never published; publish variations only after rights validation",
+ "mark": "ui-bluetooth",
+ "family": "icon",
+ "version": "V_001",
+ "parent": null
+}

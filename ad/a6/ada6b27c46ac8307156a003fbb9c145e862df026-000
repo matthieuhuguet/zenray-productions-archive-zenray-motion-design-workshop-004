@@ -1,0 +1,68 @@
+{
+  "schema": "zrmd/mark@1",
+  "date": "12 October 2026",
+  "slug": "onekey-pro-2",
+  "mark": "t-unlock",
+  "kind": "text",
+  "family": "caption",
+  "rights": "private-1to1",
+  "rights_note": "1:1 benchmark of a third-party mark, private, never published (Rules.md, 12 October 2026)",
+  "text": "Unlock",
+  "font": {
+    "file": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/fonts/onekey-f3-t-unlock/V_002/font.ttf",
+    "family": "V_002",
+    "axes": {}
+  },
+  "size_px": 96.5965,
+  "tracking_em": 0.005167,
+  "deltas_px": [
+    0.0623,
+    0.0811,
+    -0.0699,
+    -0.0305,
+    -0.0819,
+    0.0
+  ],
+  "origin_px": [
+    243.978,
+    566.875
+  ],
+  "blur_px": 0.3968,
+  "colour": "#cacfd6",
+  "lightmap": {
+    "x_px": [
+      281.9,
+      341.7,
+      401.5,
+      461.3,
+      521.1
+    ],
+    "gain": [
+      0.9904,
+      0.992,
+      0.9888,
+      1.0,
+      0.9936
+    ]
+  },
+  "opacity": 1.0,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source": {
+    "time_s": 20.2333,
+    "region": [
+      200,
+      460,
+      420,
+      160
+    ],
+    "crop_box_tlbr": [
+      26,
+      40,
+      120,
+      363
+    ]
+  }
+}

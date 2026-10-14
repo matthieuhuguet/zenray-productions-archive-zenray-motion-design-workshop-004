@@ -1,0 +1,23 @@
+{
+  "latest": "V_004",
+  "versions": [
+    "V_001",
+    "V_002",
+    "V_003",
+    "V_004"
+  ],
+  "updated": "12 October 2026",
+  "id": "onekey-s13-studio-backdrop",
+  "title": "Studio backdrop, shader",
+  "recipe": "shader-backdrop",
+  "source": {
+    "slug": "onekey-pro-2",
+    "start": 19.6,
+    "end": 22.55
+  },
+  "tags": [
+    "shader",
+    "backdrop",
+    "onekey-pro-2"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+ "date": "13 October 2026",
+ "rule": {
+  "iou_min": 0.99,
+  "edge_mean_max_px": 0.5,
+  "colour_mae_max": 2.0,
+  "colour_p99_max": 24
+ },
+ "layers": [
+  {
+   "id": "L01",
+   "kind": "path",
+   "iou": 0.98641,
+   "edge_mean": 0.0318,
+   "edge_p95": 0.0623,
+   "ok": false
+  },
+  {
+   "id": "L02",
+   "kind": "path",
+   "iou": 0.914207,
+   "edge_mean": 0.459,
+   "edge_p95": 2.024,
+   "ok": false
+  },
+  {
+   "id": "L03",
+   "kind": "path",
+   "iou": 0.891117,
+   "edge_mean": 0.0288,
+   "edge_p95": 0.0907,
+   "ok": false
+  },
+  {
+   "id": "L04",
+   "kind": "path",
+   "iou": 0.747873,
+   "edge_mean": 0.045,
+   "edge_p95": 0.133,
+   "ok": false
+  }
+ ],
+ "colour": {
+  "mae": 1.3621,
+  "p99": 24.0,
+  "max": 71.0,
+  "share_over_16": 0.02013
+ },
+ "layers_ok": false,
+ "colour_ok": true,
+ "pass": false,
+ "worst_layer": {
+  "id": "L04",
+  "kind": "path",
+  "iou": 0.747873,
+  "edge_mean": 0.045,
+  "edge_p95": 0.133,
+  "ok": false
+ },
+ "min_iou": 0.747873,
+ "max_edge_mean": 0.459,
+ "f3": {
+  "iou_soft": 0.97746,
+  "iou_hard": 0.99411,
+  "edge_mean_px": 0.052,
+  "edge_p95_px": 0.1967,
+  "dE2000_band_mean": 1.158,
+  "dE2000_band_p95": 5.904,
+  "dE2000_core_mean": 0.461,
+  "weighted_px": 4620,
+  "hidden_px": 0,
+  "match": false
+ }
+}

@@ -1,0 +1,102 @@
+{
+  "schema": "zrmd/mark@1",
+  "date": "12 October 2026",
+  "slug": "onekey-pro-2",
+  "mark": "ui-unlock-line",
+  "kind": "text",
+  "family": "device-ui",
+  "rights": "private-1to1",
+  "rights_note": "1:1 benchmark of a third-party mark, private, never published (Rules.md, 12 October 2026)",
+  "text": "Use your fingerprint or tap to unlock",
+  "font": {
+    "file": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/fonts/onekey-f3-ui-unlock-line/V_001/font.ttf",
+    "family": "V_001",
+    "axes": {}
+  },
+  "size_px": 28.2818,
+  "tracking_em": -0.063962,
+  "deltas_px": [
+    -0.0034,
+    0.1074,
+    -0.2821,
+    -0.2968,
+    -0.1856,
+    0.1475,
+    -0.0404,
+    -0.0031,
+    0.2688,
+    0.025,
+    -0.109,
+    -0.0429,
+    0.3551,
+    0.262,
+    0.1236,
+    -0.034,
+    -0.085,
+    0.0555,
+    -0.3363,
+    0.0684,
+    0.1077,
+    -0.0802,
+    0.1917,
+    0.3868,
+    -0.0448,
+    -0.1811,
+    -0.042,
+    -0.0603,
+    -0.2664,
+    -0.0605,
+    0.0033,
+    0.1054,
+    0.0106,
+    -0.0334,
+    0.1003,
+    0.0
+  ],
+  "origin_px": [
+    758.551,
+    945.666
+  ],
+  "blur_px": 0.4379,
+  "colour": "#dadada",
+  "lightmap": {
+    "x_px": [
+      789.71,
+      847.14,
+      904.57,
+      962.0,
+      1019.43,
+      1076.86,
+      1134.29
+    ],
+    "gain": [
+      0.9977,
+      0.9923,
+      0.9946,
+      0.9923,
+      0.9832,
+      0.9923,
+      1.0
+    ]
+  },
+  "opacity": 1.0,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "source": {
+    "time_s": 2.24,
+    "region": [
+      740,
+      910,
+      445,
+      60
+    ],
+    "crop_box_tlbr": [
+      3,
+      9,
+      54,
+      435
+    ]
+  }
+}
