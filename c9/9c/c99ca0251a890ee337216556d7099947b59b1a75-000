@@ -1,0 +1,94 @@
+{
+ "schema": "zrmd/report@1",
+ "slug": "onekey-pro-2",
+ "title": "This is OneKey Pro 2. Everything a cold wallet can be.",
+ "duration_s": 68.053,
+ "date": "14 October 2026, 09:46",
+ "modules": [
+  {
+   "module": "rhythm",
+   "label": "Rhythm",
+   "hint": "cuts and timing",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "visual",
+   "label": "Image",
+   "hint": "shaders, 3D, 2D, fonts",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "music",
+   "label": "Music",
+   "hint": "stems, notes, instruments",
+   "value": 0.9906,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": true,
+   "version": "V_037",
+   "detail": {
+    "drums": 0.9911,
+    "bass": 0.9905,
+    "other": 0.9846,
+    "vocals": 0.9917,
+    "mix": 0.9906
+   },
+   "coverage": null
+  },
+  {
+   "module": "sfx",
+   "label": "Sound effects",
+   "hint": "events and synthesis",
+   "value": 0.785,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": "V_021",
+   "detail": {
+    "sound": 0.8377,
+    "sfx": 0.785,
+    "timing": 0.75,
+    "mix": 0.9984,
+    "music": 0.9916
+   },
+   "coverage": null
+  },
+  {
+   "module": "mix",
+   "label": "Mix",
+   "hint": "loudness and balance",
+   "value": 0.9984,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": true,
+   "version": "V_021",
+   "detail": {
+    "sound": 0.8377,
+    "sfx": 0.785,
+    "timing": 0.75,
+    "mix": 0.9984,
+    "music": 0.9916
+   },
+   "coverage": null
+  }
+ ],
+ "status": {
+  "shots": 30,
+  "stems": true,
+  "sfx_versions": 21,
+  "motions": 37
+ },
+ "lastRun": null
+}

@@ -1,0 +1,158 @@
+{
+ "schema": "zrmd/report-index@1",
+ "date": "14 October 2026, 09:46",
+ "targets": {
+  "default": 0.99,
+  "stretch": 0.999
+ },
+ "limits": [
+  "visual: only text cards and graphic shots are reproduced by code; photographed plates stay colour animatics",
+  "sfx: not yet near the target on a new video",
+  "the music chain was proven on two videos, not yet on a third"
+ ],
+ "references": [
+  {
+   "slug": "onekey-pro-2",
+   "title": "This is OneKey Pro 2. Everything a cold wallet can be.",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": 0.9906,
+    "sfx": 0.785,
+    "mix": 0.9984
+   }
+  },
+  {
+   "slug": "claude-opus-5-5",
+   "title": "Claude Opus 5.5 — first model in the Claude 5.5 family",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": 0.9732,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "flora-agents-on-canvas",
+   "title": "Flora AI — agents now live on the canvas",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "memo",
+   "title": "Introducing Memo: ai for walkie talkies",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "motion-opus-5-5",
+   "title": "Claude Opus 5.5 for launch videos",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "kardashev-0-7",
+   "title": "Introducing Kardashev-0.7",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "paper-mono-code",
+   "title": "How the whole Paper Mono launch video was made",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "interface",
+   "title": "Interface, the primary hardware for the agent era",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "x-anabology-2105325733312884869",
+   "title": "anabology - Gave Claude another 12 hours to one up this..  Woke up to.. The Clody... #1",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "x-anabology-2106157622986748377",
+   "title": "anabology - I gave Claude another 18 hours.. and I think this one is the best one... #1",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "yt-4Q-o_ylnVnc",
+   "title": "Claude Opus 5.5 Music Video - Ignore Previous Instructions",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "arkadata-music-02",
+   "title": "ARKADATA Yasuo Montage 2 \"THE UNFORGIVEN\"",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  },
+  {
+   "slug": "fin-4",
+   "title": "Introducing Fin 4",
+   "modules": {
+    "rhythm": null,
+    "visual": null,
+    "music": null,
+    "sfx": null,
+    "mix": null
+   }
+  }
+ ]
+}

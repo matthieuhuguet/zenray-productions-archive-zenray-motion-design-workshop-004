@@ -1,0 +1,129 @@
+# Bible graphique de la référence paper-mono-code (12 October 2026)
+
+Bible mesurée par `zrmd.bible` le 12 October 2026, à partir du fichier du cache local ; aucun pixel ni aucun échantillon de la référence n'entre dans ce document, qui ne porte que des nombres et des descriptions paraphrasées. Storyboard : [storyboard.html](storyboard.html). Données : [bible.json](bible.json). (12 October 2026)
+
+Capture d'écran continue d'un outil de création : l'interface reste fixe et seule la zone de canevas change, où défile une suite rapide d'animations typographiques monospaces (mots répétés, pages qui se courbent en 3D, glyphes, collages, terminal), sans aucune coupe de montage. (12 October 2026)
+
+## Identité
+
+| Mesure | Valeur |
+|---|---|
+| Durée | 60,59 s |
+| Format | 1340 x 1080 |
+| Cadence du fichier | 60,000 images par seconde |
+| Cadence du contenu | 30,00 images par seconde |
+| Son | oui |
+
+## Rythme de montage
+
+La référence compte 1 plans et 0 coupes, soit 0,0 coupes par minute ; un plan dure 60,55 s en médiane et 60,55 s en moyenne, du plus court (60,55 s) au plus long (60,55 s), avec un coefficient de variation de 0,00. 0 plans durent moins d'une demi-seconde et 1 plus de trois secondes. Le plan médian dure 139,19 temps. Le détecteur avait trouvé 0 coupes ; la revue à l'œil des planches (une image tous les quarts de seconde) en a ajouté 0 et retiré 0, chaque ajout étant recalé sur l'image de plus forte différence à 0,3 s près.
+
+## Familles de plans
+
+| Famille | Part du temps |
+|---|---|
+| plaque 3D ou prise de vue | 100,0 % |
+
+Le classement automatique (aplats, couverture du texte, entropie des zones non plates, sonde 3D) concorde avec le classement à l'œil sur 0 plans sur 1, soit 0 % ; la bible retient le classement à l'œil et garde la mesure à côté (`content_measured`).
+
+La famille « montage » regroupe les plans de moins d'une demi-seconde, quel que soit leur contenu ; la part du contenu seul est : plaque 3D ou prise de vue 100,0 %.
+
+## Couleurs
+
+Palette globale (regroupement Lab, fusion sous 6 unités CIEDE2000, pondérée par la surface et la durée) :
+
+| Couleur | Part | L* | Chroma |
+|---|---|---|---|
+| `#f7f9fb` | 78,6 % | 97,9 | 1,1 |
+| `#060708` | 6,7 % | 1,8 | 0,3 |
+| `#ccd8ec` | 6,2 % | 86,0 | 11,4 |
+| `#d1d5d6` | 6,2 % | 84,9 | 1,3 |
+| `#8ba7d7` | 2,3 % | 68,0 | 27,5 |
+
+Rôles (part du temps où la couleur tient ce rôle) :
+
+| Rôle | Couleurs |
+|---|---|
+| fond | `#fafbfc` (100 %) |
+
+## Typographie
+
+Aucune ligne de texte mesurable dans les plans carte texte ou graphique.
+
+## Mouvements et courbes
+
+Courbes identifiées contre la table exacte de GSAP 3.14.2 (une courbe n'est gardée que si elle explique le mouvement à 6 % de l'amplitude près et que le mouvement dépasse dix fois le bruit de mesure) :
+
+| Ease | Occurrences |
+|---|---|
+| `elastic.inOut(1,0.3)` | 3 |
+| `expo.inOut` | 1 |
+| `elastic.inOut(1,0.45)` | 1 |
+| `bounce.inOut` | 1 |
+
+Un mouvement d'élément dure 0,25 s en médiane.
+
+Mouvement global de l'image (similarité chaînée image après image ; sur un fond uni, il suit le calque dominant) :
+
+| Mouvement | Plans |
+|---|---|
+| zoom arrière | 1 |
+| travelling vertical | 1 |
+| roulis | 1 |
+
+## Transitions
+
+| Transition d'entrée | Plans |
+|---|---|
+| ouverture | 1 |
+
+## Usage de la 3D
+
+Les plaques (rendu 3D ou prise de vue) occupent 100,0 % du temps, dont 0 plans que la sonde géométrique classe comme 3D (perspective, parallaxe, scène rigide, apparence changeante ou mouvement complexe). La sonde répond juste quand elle dit 3D, mais elle manque les objets 3D qui glissent comme un calque (R04, section 10) ; les descriptions plan par plan corrigent ce point à l'œil.
+
+| Classe de la sonde | Plans |
+|---|---|
+| scène 3D rigide en profondeur | 1 |
+
+## Son
+
+Sonie intégrée -27,9 LUFS, centroïde spectral médian 2210 Hz, part harmonique 94 %. Le détecteur d'attaques relève 298 événements (attaque médium 288, clic aigu 10) et le détecteur de houles 8 montées ou souffles longs.
+
+Événements principaux (les plus forts) :
+
+| Instant | Nature | Crête |
+|---|---|---|
+| 12,67 s | clic aigu | -27,8 dB |
+| 20,26 s | attaque médium | -29,2 dB |
+| 21,69 s | clic aigu | -27,6 dB |
+| 22,01 s | attaque médium | -28,0 dB |
+| 23,00 s | attaque médium | -30,3 dB |
+| 23,97 s | attaque médium | -30,0 dB |
+| 25,71 s | attaque médium | -26,7 dB |
+| 29,41 s | attaque médium | -28,8 dB |
+| 34,76 s | attaque médium | -28,3 dB |
+| 36,49 s | attaque médium | -26,9 dB |
+| 37,89 s | attaque médium | -25,9 dB |
+| 46,09 s | attaque médium | -26,2 dB |
+
+Houles : 7,26 s (montée 0,45 s), 8,49 s (montée 0,38 s), 10,72 s (montée 0,41 s), 17,64 s (montée 0,30 s), 29,18 s (montée 0,25 s), 30,91 s (montée 0,26 s), 36,13 s (montée 0,26 s), 45,41 s (montée 0,49 s).
+
+## Musique
+
+Tempo estimé 137,9 BPM, 135 temps détectés, régularité de la grille 0,045 (écart type relatif des intervalles, 0 pour une grille parfaite). La musique ne se reprend jamais note à note : seuls le tempo, la grille, les sections, l'énergie et la production servent.
+
+| Section | Début | Fin | Niveau médian |
+|---|---|---|---|
+| 1 | 0,00 s | 25,05 s | -31,1 dB |
+| 2 | 25,05 s | 46,40 s | -27,4 dB |
+| 3 | 46,40 s | 52,25 s | -34,1 dB |
+| 4 | 52,25 s | 57,60 s | -28,7 dB |
+| 5 | 57,60 s | 60,60 s | -45,5 dB |
+
+## Plans
+
+| Plan | Début | Durée | Famille | Description |
+|---|---|---|---|---|
+| S01 | 0,00 s | 60,55 s | plaque 3D ou prise de vue | Plan unique d'une minute : dans la zone centrale d'un logiciel clair, un mot se répète en pile puis s'efface, des feuilles imprimées se courbent et tournent comme du papier en 3D, de grands glyphes isolés défilent, des cartes de lettres s'empilent, une photo s'invite dans le collage, une phrase se tape sur fond noir et du code défile avant le retour au canevas vide. |
+
+Paramètres : `settings.json`, sections `analysis.bible`, `analysis.camera`, `analysis.easefit`, `analysis.sound` (12 October 2026).

@@ -1,0 +1,76 @@
+{
+ "schema": "zrmd/report@1",
+ "slug": "arkadata-music-02",
+ "title": "ARKADATA Yasuo Montage 2 \"THE UNFORGIVEN\"",
+ "duration_s": 253,
+ "date": "14 October 2026, 09:46",
+ "modules": [
+  {
+   "module": "rhythm",
+   "label": "Rhythm",
+   "hint": "cuts and timing",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "visual",
+   "label": "Image",
+   "hint": "shaders, 3D, 2D, fonts",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "music",
+   "label": "Music",
+   "hint": "stems, notes, instruments",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "sfx",
+   "label": "Sound effects",
+   "hint": "events and synthesis",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "mix",
+   "label": "Mix",
+   "hint": "loudness and balance",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  }
+ ],
+ "status": {
+  "shots": 0,
+  "stems": true,
+  "sfx_versions": 0,
+  "motions": 0
+ },
+ "lastRun": null
+}

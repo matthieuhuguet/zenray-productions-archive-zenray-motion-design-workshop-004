@@ -1,0 +1,600 @@
+{
+ "schema": "zrmd/marks@1",
+ "date": "12 October 2026",
+ "slug": "onekey-pro-2",
+ "_doc": "F3 inventory of every text and 2D mark of the reference, 12 October 2026. region = [x, y, w, h] search box at 1920x1080 (generous; the ink box is measured inside it); window = [t0, t1] seconds where the mark holds; the extractor picks the frame of highest steady contrast inside the window. kind text = fitted by a font, kind svg = traced by zrmd.vector.asset. family groups marks that share one font or one drawing. occluders = boxes hidden by a foreground object (weight 0). Texts are written as they appear on screen, typos included (Ultra-crips).",
+ "marks": [
+  {
+   "id": "t-title",
+   "kind": "text",
+   "family": "title",
+   "text": "OneKey Pro 2",
+   "window": [
+    4.3,
+    4.92
+   ],
+   "region": [
+    150,
+    420,
+    1620,
+    230
+   ],
+   "occluders": {
+    "auto": true,
+    "boxes": [
+     [
+      710,
+      0,
+      205,
+      230
+     ],
+     [
+      700,
+      75,
+      300,
+      155
+     ]
+    ]
+   }
+  },
+  {
+   "id": "t-title-small",
+   "kind": "text",
+   "family": "caption",
+   "text": "OneKey Pro 2",
+   "window": [
+    58.0,
+    59.6
+   ],
+   "region": [
+    740,
+    100,
+    400,
+    100
+   ]
+  },
+  {
+   "id": "t-beautifully-powerful",
+   "kind": "text",
+   "family": "caption",
+   "text": "Beautifully powerful",
+   "window": [
+    5.0,
+    6.2
+   ],
+   "region": [
+    160,
+    470,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-aluminum-unibody",
+   "kind": "text",
+   "family": "caption",
+   "text": "Aluminum unibody",
+   "window": [
+    7.9,
+    8.6
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-mirror-polished",
+   "kind": "text",
+   "family": "caption",
+   "text": "Mirror-polished aluminum",
+   "window": [
+    9.9,
+    11.2
+   ],
+   "region": [
+    160,
+    470,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-ultra-crips",
+   "kind": "text",
+   "family": "caption",
+   "text": "Ultra-crips display",
+   "window": [
+    13.9,
+    14.4
+   ],
+   "region": [
+    160,
+    470,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-gorilla",
+   "kind": "text",
+   "family": "caption",
+   "text": "with Corning® Gorilla® Glass",
+   "window": [
+    12.8,
+    14.2
+   ],
+   "region": [
+    680,
+    955,
+    560,
+    80
+   ]
+  },
+  {
+   "id": "t-quantum-ready",
+   "kind": "text",
+   "family": "caption",
+   "text": "Quantum ready",
+   "window": [
+    16.0,
+    17.2
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-four-secure",
+   "kind": "text",
+   "family": "caption",
+   "text": "Four secure elements",
+   "window": [
+    18.0,
+    19.4
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-eal",
+   "kind": "text",
+   "family": "caption",
+   "text": "EAL 6+ Certified",
+   "window": [
+    18.0,
+    19.4
+   ],
+   "region": [
+    700,
+    960,
+    520,
+    80
+   ]
+  },
+  {
+   "id": "t-unlock",
+   "kind": "text",
+   "family": "caption",
+   "text": "Unlock",
+   "window": [
+    20.0,
+    22.0
+   ],
+   "region": [
+    200,
+    460,
+    420,
+    160
+   ]
+  },
+  {
+   "id": "t-with-a-touch",
+   "kind": "text",
+   "family": "caption",
+   "text": "with a touch",
+   "window": [
+    20.0,
+    22.0
+   ],
+   "region": [
+    1150,
+    460,
+    680,
+    160
+   ]
+  },
+  {
+   "id": "t-clear-signing",
+   "kind": "text",
+   "family": "caption",
+   "text": "Clear signing",
+   "window": [
+    23.0,
+    25.2
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-see-exactly",
+   "kind": "text",
+   "family": "caption",
+   "text": "See exactly what you sign",
+   "window": [
+    25.5,
+    27.0
+   ],
+   "region": [
+    160,
+    470,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-cant-find",
+   "kind": "text",
+   "family": "caption",
+   "text": "Can’t find your wallet?",
+   "window": [
+    27.3,
+    28.4
+   ],
+   "region": [
+    160,
+    470,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-no-worries",
+   "kind": "text",
+   "family": "caption",
+   "text": "No worries.",
+   "window": [
+    28.5,
+    29.5
+   ],
+   "region": [
+    160,
+    470,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-find-my",
+   "kind": "text",
+   "family": "caption",
+   "text": "Works with Apple Find My",
+   "window": [
+    30.9,
+    31.5
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-charge-wirelessly",
+   "kind": "text",
+   "family": "caption",
+   "text": "Charge wirelessly",
+   "window": [
+    32.0,
+    34.2
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-backup-seedcard",
+   "kind": "text",
+   "family": "caption",
+   "text": "Backup with SeedCard",
+   "window": [
+    37.0,
+    39.2
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-bundled",
+   "kind": "text",
+   "family": "caption",
+   "text": "Bundled with OneKey Pro 2",
+   "window": [
+    37.0,
+    39.2
+   ],
+   "region": [
+    680,
+    955,
+    560,
+    80
+   ]
+  },
+  {
+   "id": "t-air-gap",
+   "kind": "text",
+   "family": "caption",
+   "text": "Air-gap signing",
+   "window": [
+    42.4,
+    43.6
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-nfc-passkey",
+   "kind": "text",
+   "family": "caption",
+   "text": "NFC Passkey",
+   "window": [
+    45.6,
+    48.6
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-on-device",
+   "kind": "text",
+   "family": "caption",
+   "text": "On-device portfolio",
+   "window": [
+    52.8,
+    53.8
+   ],
+   "region": [
+    160,
+    820,
+    1600,
+    150
+   ]
+  },
+  {
+   "id": "t-all-new",
+   "kind": "text",
+   "family": "caption",
+   "text": "All new",
+   "window": [
+    54.1,
+    55.2
+   ],
+   "region": [
+    120,
+    380,
+    360,
+    120
+   ]
+  },
+  {
+   "id": "t-safeos",
+   "kind": "text",
+   "family": "caption",
+   "text": "safeOS 2",
+   "window": [
+    54.1,
+    55.2
+   ],
+   "region": [
+    120,
+    490,
+    700,
+    170
+   ]
+  },
+  {
+   "id": "t-open-source",
+   "kind": "text",
+   "family": "caption",
+   "text": "Open source firmware",
+   "window": [
+    55.4,
+    56.5
+   ],
+   "region": [
+    160,
+    460,
+    1600,
+    160
+   ]
+  },
+  {
+   "id": "t-smoother",
+   "kind": "text",
+   "family": "caption",
+   "text": "Smoother. Clearer.",
+   "window": [
+    56.6,
+    58.0
+   ],
+   "region": [
+    160,
+    450,
+    1600,
+    170
+   ]
+  },
+  {
+   "id": "ui-onekey",
+   "kind": "text",
+   "family": "device-ui",
+   "text": "OneKey",
+   "window": [
+    2.24,
+    2.27
+   ],
+   "region": [
+    850,
+    185,
+    230,
+    95
+   ]
+  },
+  {
+   "id": "ui-unlock-line",
+   "kind": "text",
+   "family": "device-ui",
+   "text": "Use your fingerprint or tap to unlock",
+   "window": [
+    2.24,
+    2.27
+   ],
+   "region": [
+    740,
+    910,
+    445,
+    60
+   ]
+  },
+  {
+   "id": "ui-battery-text",
+   "kind": "text",
+   "family": "device-ui",
+   "text": "100%",
+   "window": [
+    2.24,
+    2.27
+   ],
+   "region": [
+    1076,
+    92,
+    60,
+    32
+   ]
+  },
+  {
+   "id": "ui-padlock",
+   "kind": "svg",
+   "family": "icon",
+   "window": [
+    2.24,
+    2.27
+   ],
+   "region": [
+    928,
+    845,
+    66,
+    70
+   ]
+  },
+  {
+   "id": "logo-end",
+   "kind": "svg",
+   "family": "logo",
+   "window": [
+    64.0,
+    66.0
+   ],
+   "region": [
+    880,
+    420,
+    160,
+    240
+   ]
+  },
+  {
+   "id": "ui-bluetooth",
+   "kind": "svg",
+   "family": "icon",
+   "window": [
+    2.24,
+    2.27
+   ],
+   "region": [
+    1048,
+    90,
+    28,
+    36
+   ]
+  },
+  {
+   "id": "ui-battery",
+   "kind": "svg",
+   "family": "icon",
+   "window": [
+    2.24,
+    2.27
+   ],
+   "region": [
+    1133,
+    90,
+    54,
+    36
+   ]
+  }
+ ],
+ "out_of_scope": [
+  {
+   "id": "pro-letters",
+   "time_s": [
+    58.0,
+    62.0
+   ],
+   "why": "PRO letters are 3D extruded volumes filled with simulated smoke and lit on a reflective floor (S27 to S29): a 3D shot, not a 2D mark; their silhouette is partly hidden by the device, so a 2D 1:1 is not the right block (handled by the 3D track)."
+  },
+  {
+   "id": "chip-eal-engraving",
+   "time_s": [
+    16.0,
+    19.0
+   ],
+   "why": "EAL 6+ engraving on the 3D chip top, seen in perspective and bloom; a texture on a 3D object."
+  },
+  {
+   "id": "device-back-logo",
+   "time_s": [
+    44.0,
+    60.0
+   ],
+   "why": "The 1o mark on the device back is a 3D embossed decal; its 2D drawing is the end logo, reproduced as logo-end."
+  },
+  {
+   "id": "screen-ui-app",
+   "time_s": [
+    22.0,
+    55.0
+   ],
+   "why": "Wallet app screens (portfolio, QR, NFC, confirmations) are small, moving and perspective-warped on a filmed device, under 12 px x-height; not measurable to 0.99 at 1080p."
+  }
+ ],
+ "_doc_occluders": "12 October 2026: occluders = 'auto' (pixels the two-colour model cannot explain, and low-contrast background) or {auto, boxes: [[x, y, w, h] relative to the region]}."
+}

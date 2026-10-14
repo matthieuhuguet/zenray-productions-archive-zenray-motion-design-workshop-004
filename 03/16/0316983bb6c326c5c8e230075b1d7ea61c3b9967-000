@@ -1,0 +1,124 @@
+{
+ "schema": "zrmd/report@1",
+ "slug": "claude-opus-5-5",
+ "title": "Claude Opus 5.5 — first model in the Claude 5.5 family",
+ "duration_s": 20.053,
+ "date": "14 October 2026, 09:46",
+ "modules": [
+  {
+   "module": "rhythm",
+   "label": "Rhythm",
+   "hint": "cuts and timing",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "visual",
+   "label": "Image",
+   "hint": "shaders, 3D, 2D, fonts",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "music",
+   "label": "Music",
+   "hint": "stems, notes, instruments",
+   "value": 0.9732,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": "V_010",
+   "detail": {
+    "drums": 0.9457,
+    "bass": 0.9893,
+    "other": 0.9579,
+    "vocals": 0.9114,
+    "mix": 0.9732
+   },
+   "coverage": null
+  },
+  {
+   "module": "sfx",
+   "label": "Sound effects",
+   "hint": "events and synthesis",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  },
+  {
+   "module": "mix",
+   "label": "Mix",
+   "hint": "loudness and balance",
+   "value": null,
+   "target": 0.99,
+   "stretch": 0.999,
+   "reached": false,
+   "version": null,
+   "detail": null,
+   "coverage": null
+  }
+ ],
+ "status": {
+  "shots": 37,
+  "stems": true,
+  "sfx_versions": 1,
+  "motions": 0
+ },
+ "lastRun": {
+  "id": "run-20261014-094449-f4d86b",
+  "state": "running",
+  "created": "14 October 2026, 09:44",
+  "steps": [
+   {
+    "id": "shots",
+    "state": "done",
+    "seconds": 1.3,
+    "score": null
+   },
+   {
+    "id": "stems",
+    "state": "done",
+    "seconds": 0.0,
+    "score": null
+   },
+   {
+    "id": "music",
+    "state": "skipped",
+    "seconds": null,
+    "score": null
+   },
+   {
+    "id": "sfx",
+    "state": "running",
+    "seconds": 68.1,
+    "score": null
+   },
+   {
+    "id": "soundtrack",
+    "state": "pending",
+    "seconds": null,
+    "score": null
+   },
+   {
+    "id": "film",
+    "state": "pending",
+    "seconds": null,
+    "score": null
+   }
+  ]
+ }
+}

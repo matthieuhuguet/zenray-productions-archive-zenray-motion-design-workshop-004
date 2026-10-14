@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+# Build the whatships.com video catalogue (metadata only, no media). (12 October 2026)
+# FR : recense toutes les vidéos de whatships.com, sans rien télécharger d'autre que les index publics. (12 October 2026)
+# Sources: /directory-index.json (full records) merged with /sitemap.xml (every /videos/<slug>/ URL). (12 October 2026)
+# Usage: python3 -I BuildWhatshipsCatalogue.py [--out PATH] (12 October 2026)
+import argparse
+import json
+import re
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+# Central parameters (HDA interface). (12 October 2026)
+CONFIG = {
+    "site": "https://whatships.com",
+    "index_path": "/directory-index.json",
+    "sitemap_path": "/sitemap.xml",
+    "out": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design/references/whatships-catalogue.json",
+    "date": "12 October 2026",
+}
+
+
+def fetch(url, dest):
+    # curl as a subprocess, fail loudly on HTTP errors. (12 October 2026)
+    subprocess.run(["curl", "-fsSL", "--max-time", "60", "-o", str(dest), url], check=True)
+    return dest.read_bytes()
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--out", default=CONFIG["out"])
+    a = p.parse_args()
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+        index = json.loads(fetch(CONFIG["site"] + CONFIG["index_path"], tmp / "index.json"))
+        sitemap = fetch(CONFIG["site"] + CONFIG["sitemap_path"], tmp / "sitemap.xml").decode("utf-8")
+    if not isinstance(index, list) or not index:
+        sys.exit("directory-index.json is empty or not a list")
+    locs = re.findall(r"<loc>(https://whatships\.com/videos/([^/<]+)/)</loc>", sitemap)
+    sitemap_slugs = {slug: url for url, slug in locs}
+    items, seen = [], set()
+    for r in index:
+        slug = r.get("slug")
+        if not slug or slug in seen:
+            continue
+        seen.add(slug)
+        items.append({
+            "slug": slug,
+            "url": f"{CONFIG['site']}/videos/{slug}/",
+            "title": r.get("title"),
+            "brand": r.get("company") or None,
+            "product": r.get("product") or None,
+            "date": (r.get("publishedAt") or "")[:10] or None,
+            "category": r.get("category"),
+            "duration_s": r.get("durationSeconds"),
+            "tweet_url": r.get("tweetUrl"),
+            "media_url": r.get("videoUrl"),
+            "in_sitemap": slug in sitemap_slugs,
+        })
+    # Sitemap-only entries: URL known, other fields not visible without fetching each page. (12 October 2026)
+    for slug, url in sorted(sitemap_slugs.items()):
+        if slug not in seen:
+            seen.add(slug)
+            items.append({"slug": slug, "url": url, "title": None, "brand": None, "date": None,
+                          "in_sitemap": True, "note": "sitemap only, absent from directory-index.json"})
+    items.sort(key=lambda x: (x.get("date") or "", x["slug"]), reverse=True)
+    out = {
+        "schema": "zenray-motion-design/whatships-catalogue@1",
+        "date": CONFIG["date"],
+        "sources": [CONFIG["site"] + CONFIG["index_path"], CONFIG["site"] + CONFIG["sitemap_path"]],
+        "count": len(items),
+        "count_index": len(index),
+        "count_sitemap_videos": len(sitemap_slugs),
+        "items": items,
+    }
+    Path(a.out).parent.mkdir(parents=True, exist_ok=True)
+    Path(a.out).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(json.dumps({k: out[k] for k in ("count", "count_index", "count_sitemap_videos")}))
+
+
+if __name__ == "__main__":
+    main()

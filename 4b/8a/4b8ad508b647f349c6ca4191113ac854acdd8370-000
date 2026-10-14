@@ -1,0 +1,527 @@
+{
+ "format": "zrmd.resynth/1",
+ "date": "12 October 2026",
+ "slug": "claude-opus-5-5",
+ "_doc": "12 October 2026: procedural controls of this render. tempo.bpm and transposeSemitones retime and transpose the score; voices.<role>.timbre are the fitted block parameters (edit freely), gainDb and mute per role; stemGainsDb and stemFx per stem (eq per section, automation on or off, stereo side/mid per band); mixBus; patternEdits (ops mute, gainDb, transpose, dropBars, addDrumSteps). Render: Scripts/ResynthMusic.py render --params <this file>.",
+ "tempo": {
+  "bpm": 176.872,
+  "referenceBpm": 176.872
+ },
+ "transposeSemitones": 0,
+ "lengthSamples": 884352,
+ "voices": {
+  "kick": {
+   "block": "drum_hit",
+   "kind": "drum",
+   "pitchParam": null,
+   "noteParams": [
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "tone_start_hz": 665.776611,
+    "tone_end_hz": 44.426159,
+    "pitch_tau_s": 0.002033,
+    "tone_t60": 0.571477,
+    "tone_db": -8.689934,
+    "noise_hp_hz": 20.819178,
+    "noise_lp_hz": 16738.101562,
+    "noise_t60": 1.873185,
+    "noise_db": -41.338707,
+    "burst_gap_s": 0.026632,
+    "burst_db": -0.32333,
+    "attack_s": 0.019886,
+    "drive_db": 14.691162
+   },
+   "exemplar": {
+    "levelDb": -39.02,
+    "ampDb": -12.633339,
+    "onsetS": 0.044165,
+    "leadS": 0.05
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 0.232881,
+      "wet_db": -29.105659,
+      "dry_db": -22.555103,
+      "predelay_s": 0.039624,
+      "damp_hz": 1874.293213,
+      "lowcut_hz": 28.108191
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 78.2664,
+    "b1": 13.417,
+    "exemplarT": 12.8458,
+    "crossMean": 44.1922
+   }
+  },
+  "snare": {
+   "block": "drum_hit",
+   "kind": "drum",
+   "pitchParam": null,
+   "noteParams": [
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "tone_start_hz": 2619.496826,
+    "tone_end_hz": 80.757584,
+    "pitch_tau_s": 0.004299,
+    "tone_t60": 1.024702,
+    "tone_db": -22.109261,
+    "noise_hp_hz": 43.298733,
+    "noise_lp_hz": 3587.08374,
+    "noise_t60": 0.209406,
+    "noise_db": -5.802441,
+    "burst_gap_s": 0.021794,
+    "burst_db": -15.050446,
+    "attack_s": 0.01994,
+    "drive_db": 7.562558
+   },
+   "exemplar": {
+    "levelDb": -45.17,
+    "ampDb": -17.477066,
+    "onsetS": 0.035209,
+    "leadS": 0.05
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 1.204609,
+      "wet_db": -26.775719,
+      "dry_db": -18.137156,
+      "predelay_s": 0.075457,
+      "damp_hz": 14725.652344,
+      "lowcut_hz": 33.762421
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 63.1631,
+    "b1": 12.006,
+    "exemplarT": 15.4649,
+    "crossMean": 50.5927
+   }
+  },
+  "clap": {
+   "block": "drum_hit",
+   "kind": "drum",
+   "pitchParam": null,
+   "noteParams": [
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "tone_start_hz": 2924.006348,
+    "tone_end_hz": 1252.911621,
+    "pitch_tau_s": 0.047355,
+    "tone_t60": 0.110073,
+    "tone_db": -11.528214,
+    "noise_hp_hz": 24.685154,
+    "noise_lp_hz": 4225.452637,
+    "noise_t60": 1.776439,
+    "noise_db": -25.1413,
+    "burst_gap_s": 0.020407,
+    "burst_db": -0.109184,
+    "attack_s": 0.019681,
+    "drive_db": 7.496663
+   },
+   "exemplar": {
+    "levelDb": -43.19,
+    "ampDb": -17.230873,
+    "onsetS": 0.036622,
+    "leadS": 0.05
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 4.371688,
+      "wet_db": -26.470863,
+      "dry_db": -13.916721,
+      "predelay_s": 0.064207,
+      "damp_hz": 7600.029297,
+      "lowcut_hz": 31.483809
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 53.8684,
+    "b1": 39.082,
+    "exemplarT": 15.6145,
+    "crossMean": 37.8802
+   }
+  },
+  "hatClosed": {
+   "block": "drum_hit",
+   "kind": "drum",
+   "pitchParam": null,
+   "noteParams": [
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "tone_start_hz": 261.982025,
+    "tone_end_hz": 56.36277,
+    "pitch_tau_s": 0.006157,
+    "tone_t60": 0.24033,
+    "tone_db": -8.65313,
+    "noise_hp_hz": 20.13414,
+    "noise_lp_hz": 200.923187,
+    "noise_t60": 0.010053,
+    "noise_db": -6.332813,
+    "burst_gap_s": 0.020837,
+    "burst_db": -0.059998,
+    "attack_s": 0.019706,
+    "drive_db": 14.598749
+   },
+   "exemplar": {
+    "levelDb": -59.0,
+    "ampDb": -12.166153,
+    "onsetS": 0.048887,
+    "leadS": 0.05
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 0.331955,
+      "wet_db": -26.886326,
+      "dry_db": -3.852068,
+      "predelay_s": 0.036287,
+      "damp_hz": 6397.943848,
+      "lowcut_hz": 78.48645
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 74.5572,
+    "b1": 71.378,
+    "exemplarT": 17.3306,
+    "crossMean": 37.2811
+   }
+  },
+  "hatOpen": {
+   "block": "drum_hit",
+   "kind": "drum",
+   "pitchParam": null,
+   "noteParams": [
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "tone_start_hz": 33.854053,
+    "tone_end_hz": 47.17054,
+    "pitch_tau_s": 0.002439,
+    "tone_t60": 1.174011,
+    "tone_db": -0.263,
+    "noise_hp_hz": 36.348614,
+    "noise_lp_hz": 2623.31543,
+    "noise_t60": 0.425246,
+    "noise_db": -8.383156,
+    "burst_gap_s": 0.02237,
+    "burst_db": -10.148361,
+    "attack_s": 0.017489,
+    "drive_db": 20.729467
+   },
+   "exemplar": {
+    "levelDb": -90.69,
+    "ampDb": -57.347439,
+    "onsetS": 0.037762,
+    "leadS": 0.05
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 4.687078,
+      "wet_db": -11.28064,
+      "dry_db": -7.607023,
+      "predelay_s": 0.07588,
+      "damp_hz": 14690.375,
+      "lowcut_hz": 128.138382
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 76.1298,
+    "b1": 12.559,
+    "exemplarT": 5.4875,
+    "crossMean": 61.9562
+   }
+  },
+  "bass": {
+   "block": "synth_voice",
+   "kind": "tonal",
+   "pitchParam": "f0_hz",
+   "noteParams": [
+    "f0_hz",
+    "gate_s",
+    "glide_st",
+    "glide_s",
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "saw_mix": 0.043672,
+    "pulse_mix": 0.519336,
+    "sine_mix": 0.59668,
+    "pulse_width": 0.473387,
+    "detune_cents": 13.064867,
+    "sub_db": -59.961628,
+    "noise_db": -59.980396,
+    "cutoff_mult": 1.031846,
+    "env_oct": 0.006294,
+    "filter_decay_s": 0.882855,
+    "q": 1.70287,
+    "drive_db": 9.7725,
+    "attack_s": 0.002018,
+    "decay_s": 5.961742,
+    "sustain": 0.890586,
+    "release_s": 0.058052
+   },
+   "exemplar": {
+    "levelDb": -13.71,
+    "ampDb": -4.36919,
+    "onsetS": 0.039529,
+    "leadS": 0.05,
+    "midi": 26.106,
+    "pitchValue": 36.910019,
+    "gateRatio": 0.8346947946573461
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 0.091971,
+      "wet_db": -7.49297,
+      "dry_db": -5.812071,
+      "predelay_s": 0.015146,
+      "damp_hz": 844.518921,
+      "lowcut_hz": 595.233459
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 77.2596,
+    "b1": 88.64,
+    "exemplarT": 14.3499,
+    "crossMean": 52.8221
+   }
+  },
+  "otherLow": {
+   "block": "synth_voice",
+   "kind": "tonal",
+   "pitchParam": "f0_hz",
+   "noteParams": [
+    "f0_hz",
+    "gate_s",
+    "glide_st",
+    "glide_s",
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "saw_mix": 0.086211,
+    "pulse_mix": 0.22543,
+    "sine_mix": 0.971797,
+    "pulse_width": 0.077085,
+    "detune_cents": 4.296329,
+    "sub_db": -6.100777,
+    "noise_db": -23.039059,
+    "cutoff_mult": 23.544918,
+    "env_oct": 3.239327,
+    "filter_decay_s": 1.371134,
+    "q": 1.758536,
+    "drive_db": 7.823438,
+    "attack_s": 0.000504,
+    "decay_s": 0.658902,
+    "sustain": 0.565742,
+    "release_s": 3.973352
+   },
+   "exemplar": {
+    "levelDb": -28.39,
+    "ampDb": -24.731461,
+    "onsetS": 0.035275,
+    "leadS": 0.05,
+    "midi": 50.0,
+    "pitchValue": 144.99411,
+    "gateRatio": 0.8003568498769483
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 0.277802,
+      "wet_db": -4.24453,
+      "dry_db": -8.009062,
+      "predelay_s": 0.049479,
+      "damp_hz": 770.792358,
+      "lowcut_hz": 20.088827
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 65.7721,
+    "b1": 0.0,
+    "exemplarT": 17.3105,
+    "crossMean": 56.2937
+   }
+  },
+  "otherMid": {
+   "block": "synth_voice",
+   "kind": "tonal",
+   "pitchParam": "f0_hz",
+   "noteParams": [
+    "f0_hz",
+    "gate_s",
+    "glide_st",
+    "glide_s",
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "saw_mix": 0.901823,
+    "pulse_mix": 0.813485,
+    "sine_mix": 0.434424,
+    "pulse_width": 0.495323,
+    "detune_cents": 2.19964,
+    "sub_db": -48.130138,
+    "noise_db": -21.154819,
+    "cutoff_mult": 0.694276,
+    "env_oct": 0.975576,
+    "filter_decay_s": 0.332101,
+    "q": 7.091928,
+    "drive_db": 13.070339,
+    "attack_s": 0.057654,
+    "decay_s": 1.513916,
+    "sustain": 0.431718,
+    "release_s": 3.98699
+   },
+   "exemplar": {
+    "levelDb": -27.05,
+    "ampDb": -3.869518,
+    "onsetS": 0.035,
+    "leadS": 0.05,
+    "midi": 66.0,
+    "pitchValue": 380.058899,
+    "gateRatio": 1.2462106657833718
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 4.977421,
+      "wet_db": -18.10231,
+      "dry_db": -14.011676,
+      "predelay_s": 0.044682,
+      "damp_hz": 9604.460938,
+      "lowcut_hz": 95.346313
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 47.1927,
+    "b1": 25.135,
+    "exemplarT": 18.5063,
+    "crossMean": 19.0276
+   }
+  },
+  "otherHigh": {
+   "block": "synth_voice",
+   "kind": "tonal",
+   "pitchParam": "f0_hz",
+   "noteParams": [
+    "f0_hz",
+    "gate_s",
+    "glide_st",
+    "glide_s",
+    "amp_db",
+    "onset_s"
+   ],
+   "timbre": {
+    "saw_mix": 0.295655,
+    "pulse_mix": 0.271968,
+    "sine_mix": 0.68696,
+    "pulse_width": 0.171646,
+    "detune_cents": 4.063126,
+    "sub_db": -19.869129,
+    "noise_db": -5.169327,
+    "cutoff_mult": 1.59356,
+    "env_oct": 0.007701,
+    "filter_decay_s": 1.994022,
+    "q": 0.501273,
+    "drive_db": 4.86203,
+    "attack_s": 0.000581,
+    "decay_s": 3.609629,
+    "sustain": 0.689664,
+    "release_s": 3.547364
+   },
+   "exemplar": {
+    "levelDb": -36.24,
+    "ampDb": -20.103085,
+    "onsetS": 0.035446,
+    "leadS": 0.05,
+    "midi": 76.0,
+    "pitchValue": 655.862671,
+    "gateRatio": 1.2498696461824954
+   },
+   "effects": [
+    {
+     "block": "room_reverb",
+     "params": {
+      "t60_s": 0.993928,
+      "wet_db": -25.887409,
+      "dry_db": -9.634006,
+      "predelay_s": 0.040108,
+      "damp_hz": 566.764526,
+      "lowcut_hz": 54.750977
+     },
+     "gainDb": 0.0
+    }
+   ],
+   "gainDb": 0.0,
+   "mute": false,
+   "fit": {
+    "score": 69.6049,
+    "b1": 90.212,
+    "exemplarT": 5.7469,
+    "crossMean": 51.099
+   }
+  }
+ },
+ "stemGainsDb": {},
+ "stemFx": {},
+ "mixBus": null,
+ "patternEdits": [],
+ "version": "V_002"
+}

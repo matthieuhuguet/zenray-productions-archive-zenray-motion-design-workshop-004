@@ -1,0 +1,292 @@
+# Bible graphique de la référence x-anabology-2106157622986748377 (12 October 2026)
+
+Bible mesurée par `zrmd.bible` le 12 October 2026, à partir du fichier du cache local ; aucun pixel ni aucun échantillon de la référence n'entre dans ce document, qui ne porte que des nombres et des descriptions paraphrasées. Storyboard : [storyboard.html](storyboard.html). Données : [bible.json](bible.json). (12 October 2026)
+
+Clip musical nostalgique construit dans l'univers d'un système d'exploitation de bureau des années 2000 : fond d'écran de colline, fenêtres et boîtes de dialogue qui s'empilent, assistant animé, économiseurs d'écran, avec une jeune femme incrustée qui danse et des prises de vue réelles dans une vraie prairie. (12 October 2026)
+
+## Identité
+
+| Mesure | Valeur |
+|---|---|
+| Durée | 181,35 s |
+| Format | 1280 x 720 |
+| Cadence du fichier | 24,000 images par seconde |
+| Cadence du contenu | 24,00 images par seconde |
+| Son | oui |
+
+## Rythme de montage
+
+La référence compte 107 plans et 106 coupes, soit 35,1 coupes par minute ; un plan dure 1,25 s en médiane et 1,69 s en moyenne, du plus court (0,12 s) au plus long (8,50 s), avec un coefficient de variation de 0,88. 15 plans durent moins d'une demi-seconde et 22 plus de trois secondes. La part des coupes tombant à 50 ms près d'un temps de la grille vaut 26 %, et celle des coupes tombant sur une attaque sonore 45 %. Le plan médian dure 2,72 temps. Le détecteur avait trouvé 89 coupes ; la revue à l'œil des planches (une image tous les quarts de seconde) en a ajouté 17 et retiré 0, chaque ajout étant recalé sur l'image de plus forte différence à 0,3 s près.
+
+## Familles de plans
+
+| Famille | Part du temps |
+|---|---|
+| plaque 3D ou prise de vue | 91,4 % |
+| graphique | 3,8 % |
+| montage | 2,9 % |
+| carte texte | 1,9 % |
+
+Le classement automatique (aplats, couverture du texte, entropie des zones non plates, sonde 3D) concorde avec le classement à l'œil sur 105 plans sur 107, soit 98 % ; la bible retient le classement à l'œil et garde la mesure à côté (`content_measured`).
+
+La famille « montage » regroupe les plans de moins d'une demi-seconde, quel que soit leur contenu ; la part du contenu seul est : plaque 3D ou prise de vue 94,3 %, graphique 3,8 %, carte texte 1,9 %.
+
+## Couleurs
+
+Palette globale (regroupement Lab, fusion sous 6 unités CIEDE2000, pondérée par la surface et la durée) :
+
+| Couleur | Part | L* | Chroma |
+|---|---|---|---|
+| `#eff0f1` | 12,0 % | 94,9 | 0,4 |
+| `#010101` | 8,2 % | 0,4 | 0,0 |
+| `#526231` | 6,6 % | 39,1 | 29,8 |
+| `#7695e4` | 6,0 % | 62,4 | 44,6 |
+| `#456cd7` | 4,9 % | 48,2 | 62,9 |
+| `#24331e` | 4,7 % | 19,3 | 15,6 |
+| `#3a4a22` | 3,4 % | 29,3 | 26,2 |
+| `#709b25` | 2,9 % | 59,0 | 62,2 |
+| `#b5aebb` | 2,1 % | 72,1 | 7,6 |
+| `#6b7b41` | 2,1 % | 49,0 | 33,8 |
+| `#2e3126` | 2,1 % | 19,7 | 8,1 |
+| `#2757d1` | 2,1 % | 41,0 | 72,9 |
+
+Rôles (part du temps où la couleur tient ce rôle) :
+
+| Rôle | Couleurs |
+|---|---|
+| fond | `#416ee7` (11 %), `#f6f4f2` (10 %), `#020302` (9 %), `#303327` (8 %) |
+| accent | `#2552bc` (33 %), `#3963cb` (13 %), `#81985f` (5 %), `#728d20` (5 %) |
+| texte | `#d6d6d6` (2 %), `#cf7565` (2 %), `#e1d7df` (1 %) |
+
+## Typographie
+
+15 lignes de texte ont été mesurées sur l'image où le texte est le plus présent de chaque plan carte texte ou graphique. La hauteur d'x, ramenée à une image de 1080 pixels de haut, va de 4,0 à 117,0 pixels, médiane 45,0 ; la densité de trait médiane vaut 0,544. On compte 5 lignes en capitales et 10 en bas de casse, et 100 % des lignes sont claires sur fond sombre. Couleurs de texte relevées : `#a9a9a9`, `#aeaeba`, `#c5c5c5`, `#cf7464`, `#cf7565`, `#cf7566`, `#dedede`, `#ebc3d6`.
+
+Police libre la plus proche (comparateur `zrmd.analyze.fontmatch`, ligne de S106, texte lu en mémoire et jamais écrit) : Chivo 625, approche -0,02 em, score 0,369 ; Cabinet Grotesk 775, approche 0,00 em, score 0,369 ; Clash Grotesk 575, approche -0,01 em, score 0,420.
+
+## Mouvements et courbes
+
+Courbes identifiées contre la table exacte de GSAP 3.14.2 (une courbe n'est gardée que si elle explique le mouvement à 6 % de l'amplitude près et que le mouvement dépasse dix fois le bruit de mesure) :
+
+| Ease | Occurrences |
+|---|---|
+| `power2.inOut` | 66 |
+| `material.standard` | 18 |
+| `back.inOut(0.5)` | 16 |
+| `css.ease` | 14 |
+| `power1.inOut` | 14 |
+| `power4.inOut` | 11 |
+| `none` | 10 |
+| `circ.inOut` | 9 |
+| `circ.out` | 8 |
+| `back.in(3.5)` | 7 |
+| `expo.in` | 7 |
+| `expo.inOut` | 7 |
+| `css.ease-in-out` | 7 |
+| `elastic.inOut(1,0.3)` | 7 |
+
+Un mouvement d'élément dure 0,25 s en médiane.
+
+Mouvement global de l'image (similarité chaînée image après image ; sur un fond uni, il suit le calque dominant) :
+
+| Mouvement | Plans |
+|---|---|
+| panoramique | 62 |
+| zoom avant | 54 |
+| zoom arrière | 34 |
+| roulis | 30 |
+| travelling vertical | 29 |
+| fixe | 10 |
+
+## Transitions
+
+| Transition d'entrée | Plans |
+|---|---|
+| fondu enchaîné | 45 |
+| coupe franche | 40 |
+| coupe franche (relevée à l'œil) | 17 |
+| coupe franche vers un noir | 2 |
+| coupe franche après passage au noir | 2 |
+| ouverture | 1 |
+
+## Usage de la 3D
+
+Les plaques (rendu 3D ou prise de vue) occupent 94,3 % du temps, dont 0 plans que la sonde géométrique classe comme 3D (perspective, parallaxe, scène rigide, apparence changeante ou mouvement complexe). La sonde répond juste quand elle dit 3D, mais elle manque les objets 3D qui glissent comme un calque (R04, section 10) ; les descriptions plan par plan corrigent ce point à l'œil.
+
+| Classe de la sonde | Plans |
+|---|---|
+| calque 2D | 40 |
+| plusieurs couches en parallaxe (2,5D) | 21 |
+| mouvement complexe (déformation, fluide ou rendu 3D éclairé) | 17 |
+| immobile | 11 |
+| calque 2D dont l'apparence change (rendu éclairé ou 3D possible) | 9 |
+| calque 2D déformé (affine) | 4 |
+| scène 3D rigide en profondeur | 4 |
+| carte plane en perspective | 1 |
+
+## Son
+
+Sonie intégrée -15,6 LUFS, centroïde spectral médian 3214 Hz, part harmonique 74 %. Le détecteur d'attaques relève 660 événements (attaque médium 648, clic aigu 8, impact grave 4) et le détecteur de houles 15 montées ou souffles longs.
+
+Événements principaux (les plus forts) :
+
+| Instant | Nature | Crête |
+|---|---|---|
+| 7,42 s | attaque médium | -18,5 dB |
+| 41,76 s | attaque médium | -17,0 dB |
+| 49,87 s | attaque médium | -10,8 dB |
+| 67,64 s | attaque médium | -21,3 dB |
+| 69,65 s | attaque médium | -23,6 dB |
+| 100,81 s | attaque médium | -16,2 dB |
+| 128,34 s | attaque médium | -9,7 dB |
+| 132,03 s | attaque médium | -9,8 dB |
+| 132,25 s | attaque médium | -23,3 dB |
+| 133,88 s | attaque médium | -10,3 dB |
+| 134,57 s | attaque médium | -16,5 dB |
+| 154,41 s | attaque médium | -23,4 dB |
+
+Houles : 14,35 s (montée 0,20 s), 29,23 s (montée 0,34 s), 43,16 s (montée 0,27 s), 47,68 s (montée 0,21 s), 66,61 s (montée 0,30 s), 78,26 s (montée 0,23 s), 94,84 s (montée 0,41 s), 106,87 s (montée 0,57 s), 128,97 s (montée 0,24 s), 133,09 s (montée 0,28 s), 151,16 s (montée 0,45 s), 155,46 s (montée 0,29 s), 164,07 s (montée 0,20 s), 165,93 s (montée 0,45 s), 176,92 s (montée 0,38 s).
+
+## Musique
+
+Tempo estimé 130,4 BPM, 384 temps détectés, régularité de la grille 0,077 (écart type relatif des intervalles, 0 pour une grille parfaite). La musique ne se reprend jamais note à note : seuls le tempo, la grille, les sections, l'énergie et la production servent.
+
+| Section | Début | Fin | Niveau médian |
+|---|---|---|---|
+| 1 | 0,00 s | 3,20 s | -29,1 dB |
+| 2 | 3,20 s | 7,20 s | -25,6 dB |
+| 3 | 7,20 s | 11,10 s | -22,1 dB |
+| 4 | 11,10 s | 15,30 s | -20,4 dB |
+| 5 | 15,30 s | 28,35 s | -19,0 dB |
+| 6 | 28,35 s | 37,45 s | -22,9 dB |
+| 7 | 37,45 s | 44,15 s | -18,3 dB |
+| 8 | 44,15 s | 49,55 s | -17,4 dB |
+| 9 | 49,55 s | 67,60 s | -17,8 dB |
+| 10 | 67,60 s | 70,65 s | -22,2 dB |
+| 11 | 70,65 s | 93,50 s | -18,8 dB |
+| 12 | 93,50 s | 96,50 s | -26,4 dB |
+| 13 | 96,50 s | 103,25 s | -17,1 dB |
+| 14 | 103,25 s | 108,60 s | -16,3 dB |
+| 15 | 108,60 s | 126,05 s | -22,2 dB |
+| 16 | 126,05 s | 130,75 s | -17,9 dB |
+| 17 | 130,75 s | 140,95 s | -18,0 dB |
+| 18 | 140,95 s | 144,05 s | -25,1 dB |
+| 19 | 144,05 s | 152,90 s | -16,9 dB |
+| 20 | 152,90 s | 170,45 s | -16,9 dB |
+| 21 | 170,45 s | 174,75 s | -22,8 dB |
+| 22 | 174,75 s | 178,40 s | -28,9 dB |
+| 23 | 178,40 s | 181,40 s | -73,1 dB |
+
+## Plans
+
+| Plan | Début | Durée | Famille | Description |
+|---|---|---|---|---|
+| S01 | 0,00 s | 4,04 s | plaque 3D ou prise de vue | Écran bleu d'ouverture de session d'un vieux système de bureau, une icône d'utilisateur et un message de bienvenue qui change. |
+| S02 | 4,04 s | 4,17 s | plaque 3D ou prise de vue | Le fond d'écran de colline verte sous le ciel bleu, une jeune femme incrustée danse au pied de l'écran pendant qu'une bulle d'aide s'ouvre. |
+| S03 | 8,21 s | 0,42 s | montage | Des fenêtres de photos s'ouvrent sur le bureau, très bref. |
+| S04 | 8,62 s | 0,46 s | montage | Les fenêtres se multiplient avec la jeune femme qui pose, très bref. |
+| S05 | 9,08 s | 1,79 s | plaque 3D ou prise de vue | Bureau encombré de fenêtres et d'une photo en grand, la danseuse passe devant. |
+| S06 | 10,88 s | 0,67 s | plaque 3D ou prise de vue | La danseuse sur la colline, la barre des tâches et une date apparaissent en bas. |
+| S07 | 11,54 s | 1,25 s | plaque 3D ou prise de vue | Un vieux moniteur translucide dans une pièce blanche, une main sur une souris. |
+| S08 | 12,79 s | 2,08 s | plaque 3D ou prise de vue | Plan serré sur l'écran du moniteur où s'ouvre une boîte de dialogue. |
+| S09 | 14,88 s | 0,25 s | montage | Boîte de dialogue au-dessus de la danseuse sur la colline, très bref. |
+| S10 | 15,12 s | 1,38 s | plaque 3D ou prise de vue | Fenêtre de photos de groupe, la danseuse de face qui salue. |
+| S11 | 16,50 s | 0,58 s | plaque 3D ou prise de vue | Fenêtres de photos et la danseuse qui marche sur le fond d'écran. |
+| S12 | 17,08 s | 1,42 s | plaque 3D ou prise de vue | Une fenêtre de discussion en ligne avec la danseuse incrustée et le curseur. |
+| S13 | 18,50 s | 2,08 s | plaque 3D ou prise de vue | Fenêtres de navigation empilées montrant un décollage de fusée, la danseuse au premier plan. |
+| S14 | 20,58 s | 0,50 s | plaque 3D ou prise de vue | Fenêtres de dialogue et la danseuse en manteau brillant, très bref. |
+| S15 | 21,08 s | 0,62 s | plaque 3D ou prise de vue | Même empilement de fenêtres, la danseuse change de pose. |
+| S16 | 21,71 s | 0,88 s | plaque 3D ou prise de vue | Grille de vignettes de photos dans une fenêtre, curseur. |
+| S17 | 22,58 s | 0,50 s | plaque 3D ou prise de vue | Une fenêtre se ferme et la danseuse apparaît sur le fond d'écran de nuit. |
+| S18 | 23,08 s | 0,75 s | plaque 3D ou prise de vue | Fond d'écran nocturne, une boîte de dialogue et la danseuse en manteau bleu. |
+| S19 | 23,83 s | 0,50 s | plaque 3D ou prise de vue | La danseuse tourne sur le fond nocturne, une fenêtre d'alerte s'ouvre. |
+| S20 | 24,33 s | 0,62 s | plaque 3D ou prise de vue | Plusieurs copies de la danseuse sur le fond nocturne, curseur en flèche. |
+| S21 | 24,96 s | 0,21 s | montage | Fond nocturne vide avec seulement le curseur, très bref. |
+| S22 | 25,17 s | 0,42 s | montage | Fenêtre de dossiers de fichiers, la danseuse en coin, très bref. |
+| S23 | 25,58 s | 1,50 s | plaque 3D ou prise de vue | Un clavier virtuel s'affiche sous la danseuse sur le fond nocturne. |
+| S24 | 27,08 s | 0,38 s | montage | La danseuse et un sablier d'attente géant, très bref. |
+| S25 | 27,46 s | 2,21 s | plaque 3D ou prise de vue | La danseuse danse sur le fond nocturne, une notification apparaît en bas. |
+| S26 | 29,67 s | 4,54 s | plaque 3D ou prise de vue | Une page de moteur de recherche avec un assistant animé et la danseuse dans une bulle d'aide. |
+| S27 | 34,21 s | 0,50 s | plaque 3D ou prise de vue | Même page de recherche, la bulle d'aide change. |
+| S28 | 34,71 s | 2,71 s | plaque 3D ou prise de vue | Pages de recherche empilées, la danseuse dans l'assistant. |
+| S29 | 37,42 s | 0,46 s | montage | Un mur de fenêtres de photos se superpose, très bref. |
+| S30 | 37,88 s | 0,21 s | montage | Cascade de fenêtres identiques qui se répètent en diagonale, très bref. |
+| S31 | 38,08 s | 2,79 s | plaque 3D ou prise de vue | Les fenêtres en cascade se referment et laissent la danseuse sur la colline. |
+| S32 | 40,88 s | 3,83 s | plaque 3D ou prise de vue | La jeune femme en robe imprimée de nuages tourne sur une colline réelle. |
+| S33 | 44,71 s | 1,79 s | plaque 3D ou prise de vue | Vue d'une fenêtre ouverte d'une pièce blanche donnant sur la colline, une boîte de dialogue. |
+| S34 | 46,50 s | 0,92 s | plaque 3D ou prise de vue | Une flèche de curseur géante et un voilage qui flotte dans la pièce. |
+| S35 | 47,42 s | 4,75 s | plaque 3D ou prise de vue | La colline réelle sous le soleil, des fenêtres apparaissent puis un mot en lettres blanches en haut à droite. |
+| S36 | 52,17 s | 5,54 s | plaque 3D ou prise de vue | Un curseur géant glisse sur la colline où danse la jeune femme. |
+| S37 | 57,71 s | 3,17 s | plaque 3D ou prise de vue | Une flèche blanche en relief traverse la colline vers la danseuse. |
+| S38 | 60,88 s | 1,33 s | plaque 3D ou prise de vue | Le fond devient un écran vert d'incrustation avec des cadres photo. |
+| S39 | 62,21 s | 0,71 s | plaque 3D ou prise de vue | Des tuyaux blancs en arc rebondissent sur fond vert avec des cadres photo. |
+| S40 | 62,92 s | 1,04 s | plaque 3D ou prise de vue | Le fond vert se couvre d'un égaliseur graphique, la danseuse au premier plan. |
+| S41 | 63,96 s | 0,50 s | plaque 3D ou prise de vue | Barres d'égaliseur vertes sur noir derrière la danseuse. |
+| S42 | 64,46 s | 0,67 s | plaque 3D ou prise de vue | La danseuse devant l'égaliseur, autre pose. |
+| S43 | 65,12 s | 1,33 s | graphique | Un économiseur d'écran de tuyaux colorés en 3D remplit l'image. |
+| S44 | 66,46 s | 3,92 s | plaque 3D ou prise de vue | Une fenêtre de code et des boîtes de copie de fichiers sur le bureau. |
+| S45 | 70,38 s | 1,54 s | plaque 3D ou prise de vue | Une bulle de notification se met à jour en bas de l'écran. |
+| S46 | 71,92 s | 0,29 s | montage | Un jeu de flipper sur l'écran avec la danseuse en surimpression, très bref. |
+| S47 | 72,21 s | 0,50 s | plaque 3D ou prise de vue | Le flipper et la danseuse, score qui défile. |
+| S48 | 72,71 s | 1,29 s | plaque 3D ou prise de vue | Même flipper, la danseuse plus proche. |
+| S49 | 74,00 s | 0,12 s | montage | Une page web avec des photos, très bref. |
+| S50 | 74,12 s | 1,38 s | plaque 3D ou prise de vue | Une page web d'actualités de réseau s'ouvre en grand. |
+| S51 | 75,50 s | 0,42 s | montage | Une page de journal en ligne avec un gros titre, très bref. |
+| S52 | 75,92 s | 0,50 s | plaque 3D ou prise de vue | La page de journal montre l'image d'une ville la nuit. |
+| S53 | 76,42 s | 1,25 s | plaque 3D ou prise de vue | Page de journal et image de ville nocturne, zoom. |
+| S54 | 77,67 s | 2,50 s | plaque 3D ou prise de vue | Fenêtres de dialogue, puis la danseuse en robe argentée sur fond étoilé avec une phrase blanche. |
+| S55 | 80,17 s | 0,75 s | plaque 3D ou prise de vue | Un vieux moniteur bleuté affiche la danseuse et une phrase. |
+| S56 | 80,92 s | 0,79 s | plaque 3D ou prise de vue | Une pièce blanche avec un écran bleu au mur. |
+| S57 | 81,71 s | 3,46 s | plaque 3D ou prise de vue | Fenêtres de messagerie et deux danseuses sur la colline. |
+| S58 | 85,17 s | 2,79 s | plaque 3D ou prise de vue | Gros plan d'une jeune femme en veste verte qui pointe la caméra, texte en italique. |
+| S59 | 87,96 s | 8,50 s | plaque 3D ou prise de vue | Une main ouvre une fenêtre réelle derrière une bulle d'aide, puis des boîtes de dialogue. |
+| S60 | 96,46 s | 3,25 s | plaque 3D ou prise de vue | Une fenêtre réelle ouverte sur la colline numérique couverte de fenêtres. |
+| S61 | 99,71 s | 0,46 s | montage | La colline avec une palette de couleurs flottante, très bref. |
+| S62 | 100,17 s | 1,75 s | plaque 3D ou prise de vue | Une main effleure l'herbe haute sous des notifications du bureau. |
+| S63 | 101,92 s | 0,75 s | plaque 3D ou prise de vue | La main dans l'herbe, autre moment. |
+| S64 | 102,67 s | 1,21 s | plaque 3D ou prise de vue | La main se referme dans l'herbe, bulles d'aide. |
+| S65 | 103,88 s | 2,75 s | plaque 3D ou prise de vue | Une main tient un vieux téléphone à clapet au-dessus de l'herbe. |
+| S66 | 106,62 s | 3,88 s | plaque 3D ou prise de vue | La colline vide puis la jeune femme au bord du cadre, boîte de dialogue. |
+| S67 | 110,50 s | 0,75 s | plaque 3D ou prise de vue | Une fenêtre de visionneuse d'images montre la colline. |
+| S68 | 111,25 s | 3,08 s | plaque 3D ou prise de vue | La jeune femme sur un fond de ciel rose, un message se tape dans une fenêtre. |
+| S69 | 114,33 s | 1,08 s | plaque 3D ou prise de vue | Même ciel rose, le message continue. |
+| S70 | 115,42 s | 1,25 s | plaque 3D ou prise de vue | Une visionneuse de photos avec un nuage de fumée et une jeune femme. |
+| S71 | 116,67 s | 3,79 s | plaque 3D ou prise de vue | Gros plan d'une jeune femme aux cheveux noirs dans une fourrure blanche, reflets colorés. |
+| S72 | 120,46 s | 3,25 s | plaque 3D ou prise de vue | La jeune femme en combinaison argentée pose la main contre l'écran. |
+| S73 | 123,71 s | 2,29 s | plaque 3D ou prise de vue | Une main caresse l'herbe, deux mots blancs s'écrivent au-dessus. |
+| S74 | 126,00 s | 1,88 s | graphique | Un logo de système s'allume sur fond noir avec une barre de chargement. |
+| S75 | 127,88 s | 1,83 s | graphique | Écran de démarrage avec la barre de progression qui avance. |
+| S76 | 129,71 s | 1,83 s | graphique | Le logo et la barre de chargement grossissent puis disparaissent. |
+| S77 | 131,54 s | 3,71 s | plaque 3D ou prise de vue | Une silhouette en tenue blanche flotte dans un champ d'étoiles. |
+| S78 | 135,25 s | 3,21 s | plaque 3D ou prise de vue | Écran de session bleu, icônes d'utilisateurs. |
+| S79 | 138,46 s | 1,83 s | plaque 3D ou prise de vue | Écran de bienvenue qui se fond vers le blanc. |
+| S80 | 140,29 s | 0,71 s | plaque 3D ou prise de vue | Blanc puis bureau couvert de fenêtres et la danseuse. |
+| S81 | 141,00 s | 0,50 s | plaque 3D ou prise de vue | Mosaïque dense de fenêtres et de photos avec un visage masqué de rouge. |
+| S82 | 141,50 s | 0,50 s | plaque 3D ou prise de vue | Même mosaïque, les fenêtres changent. |
+| S83 | 142,00 s | 0,50 s | plaque 3D ou prise de vue | Mosaïque de fenêtres, autre agencement. |
+| S84 | 142,50 s | 0,50 s | plaque 3D ou prise de vue | Mosaïque de fenêtres, la danseuse en bas. |
+| S85 | 143,00 s | 0,50 s | plaque 3D ou prise de vue | La mosaïque commence à se refermer. |
+| S86 | 143,50 s | 0,50 s | plaque 3D ou prise de vue | Les fenêtres se ferment, la colline réapparaît avec la danseuse. |
+| S87 | 144,00 s | 0,46 s | montage | Dernières fenêtres et la danseuse sur la colline, très bref. |
+| S88 | 144,46 s | 3,42 s | plaque 3D ou prise de vue | La colline réelle sous le vent, une fenêtre de dialogue au loin. |
+| S89 | 147,88 s | 0,50 s | plaque 3D ou prise de vue | Ciel de nuages blancs sur la colline. |
+| S90 | 148,38 s | 1,29 s | plaque 3D ou prise de vue | La jeune femme en robe de nuages court sur la colline, fenêtres en surimpression. |
+| S91 | 149,67 s | 1,29 s | plaque 3D ou prise de vue | Elle tourne en contre-plongée devant le ciel. |
+| S92 | 150,96 s | 1,79 s | plaque 3D ou prise de vue | Contre-plongée de la jeune femme qui tourne, la robe se confond avec le ciel. |
+| S93 | 152,75 s | 1,38 s | plaque 3D ou prise de vue | Même contre-plongée, la robe flotte. |
+| S94 | 154,12 s | 0,50 s | plaque 3D ou prise de vue | Elle tourne encore sous le ciel. |
+| S95 | 154,62 s | 0,29 s | montage | Rotation rapide, très bref. |
+| S96 | 154,92 s | 0,62 s | plaque 3D ou prise de vue | Fin de la rotation face au ciel. |
+| S97 | 155,54 s | 1,00 s | plaque 3D ou prise de vue | Un gestionnaire de tâches s'ouvre avec des danseuses miniatures en rang. |
+| S98 | 156,54 s | 0,67 s | plaque 3D ou prise de vue | Une boîte d'erreur au milieu de fenêtres et de petites danseuses. |
+| S99 | 157,21 s | 2,04 s | plaque 3D ou prise de vue | Des dizaines de petites danseuses alignées sur la colline. |
+| S100 | 159,25 s | 3,62 s | plaque 3D ou prise de vue | Un vieux téléphone à clapet tenu dans l'herbe, écran allumé. |
+| S101 | 162,88 s | 2,83 s | plaque 3D ou prise de vue | Une flèche blanche géante pointe la danseuse en bleu sur la colline. |
+| S102 | 165,71 s | 3,83 s | plaque 3D ou prise de vue | Une jeune femme de dos assise dans l'herbe devant un moniteur posé sur la colline. |
+| S103 | 169,54 s | 0,50 s | plaque 3D ou prise de vue | Le moniteur dans l'herbe montre un visage, puis l'écran du bureau. |
+| S104 | 170,04 s | 0,38 s | montage | Le menu de démarrage s'ouvre sur le bureau, très bref. |
+| S105 | 170,42 s | 1,58 s | plaque 3D ou prise de vue | La boîte d'extinction de l'ordinateur sur un fond qui se désature. |
+| S106 | 172,00 s | 3,46 s | carte texte | Écran noir avec un petit astérisque et une phrase orange qui s'écrit. |
+| S107 | 175,46 s | 5,83 s | plaque 3D ou prise de vue | La jeune femme assise dans l'herbe face au moniteur, un mot en grand blanc apparaît. |
+
+Paramètres : `settings.json`, sections `analysis.bible`, `analysis.camera`, `analysis.easefit`, `analysis.sound` (12 October 2026).

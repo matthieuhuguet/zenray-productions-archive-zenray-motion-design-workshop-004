@@ -1,0 +1,320 @@
+# Bible graphique de la référence yt-4Q-o_ylnVnc (12 October 2026)
+
+Bible mesurée par `zrmd.bible` le 12 October 2026, à partir du fichier du cache local ; aucun pixel ni aucun échantillon de la référence n'entre dans ce document, qui ne porte que des nombres et des descriptions paraphrasées. Storyboard : [storyboard.html](storyboard.html). Données : [bible.json](bible.json). (12 October 2026)
+
+Clip musical entièrement graphique, cadencé sur la musique : interfaces crème, roses, bleues et noires, mots géants en capitales qui s'empilent, se glitchent et se répètent, silhouette dansante, petite bulle mascotte, et fausses fenêtres de discussion, de messagerie et de boutique qui racontent une histoire d'injection d'instructions. (12 October 2026)
+
+## Identité
+
+| Mesure | Valeur |
+|---|---|
+| Durée | 181,82 s |
+| Format | 1920 x 1080 |
+| Cadence du fichier | 30,000 images par seconde |
+| Cadence du contenu | 30,00 images par seconde |
+| Son | oui |
+
+## Rythme de montage
+
+La référence compte 143 plans et 142 coupes, soit 46,9 coupes par minute ; un plan dure 0,70 s en médiane et 1,27 s en moyenne, du plus court (0,07 s) au plus long (12,90 s), avec un coefficient de variation de 1,18. 51 plans durent moins d'une demi-seconde et 13 plus de trois secondes. La part des coupes tombant à 50 ms près d'un temps de la grille vaut 56 %, et celle des coupes tombant sur une attaque sonore 46 %. Le plan médian dure 1,67 temps. Le détecteur avait trouvé 86 coupes ; la revue à l'œil des planches (une image tous les quarts de seconde) en a ajouté 56 et retiré 0, chaque ajout étant recalé sur l'image de plus forte différence à 0,3 s près.
+
+## Familles de plans
+
+| Famille | Part du temps |
+|---|---|
+| graphique | 91,2 % |
+| montage | 8,8 % |
+
+Le classement automatique (aplats, couverture du texte, entropie des zones non plates, sonde 3D) concorde avec le classement à l'œil sur 120 plans sur 143, soit 84 % ; la bible retient le classement à l'œil et garde la mesure à côté (`content_measured`).
+
+La famille « montage » regroupe les plans de moins d'une demi-seconde, quel que soit leur contenu ; la part du contenu seul est : graphique 100,0 %.
+
+## Couleurs
+
+Palette globale (regroupement Lab, fusion sous 6 unités CIEDE2000, pondérée par la surface et la durée) :
+
+| Couleur | Part | L* | Chroma |
+|---|---|---|---|
+| `#efeee8` | 43,5 % | 94,0 | 2,9 |
+| `#0c0b0f` | 26,8 % | 3,2 | 1,8 |
+| `#fb2c88` | 10,0 % | 56,2 | 79,0 |
+| `#a5adfa` | 5,8 % | 72,8 | 41,8 |
+| `#2b58f9` | 3,4 % | 44,6 | 94,4 |
+| `#c4c1ba` | 2,8 % | 78,2 | 4,3 |
+| `#450f2b` | 2,8 % | 14,3 | 28,7 |
+| `#250d1c` | 1,3 % | 6,9 | 16,2 |
+| `#787675` | 0,6 % | 49,8 | 1,1 |
+| `#851c4c` | 0,5 % | 30,3 | 47,2 |
+| `#8e8b8a` | 0,5 % | 58,1 | 1,5 |
+| `#bb2b6b` | 0,4 % | 43,3 | 60,5 |
+
+Rôles (part du temps où la couleur tient ce rôle) :
+
+| Rôle | Couleurs |
+|---|---|
+| fond | `#f0efe8` (41 %), `#0a0a0d` (30 %), `#fc2c89` (11 %), `#a5aefb` (5 %) |
+| texte | `#ff328f` (11 %), `#d2bcd7` (7 %), `#8e8b89` (5 %), `#c02d6f` (4 %) |
+| accent | `#fb2d89` (18 %), `#2a57fb` (12 %), `#a0abf4` (10 %), `#7d1747` (7 %) |
+
+## Typographie
+
+416 lignes de texte ont été mesurées sur l'image où le texte est le plus présent de chaque plan carte texte ou graphique. La hauteur d'x, ramenée à une image de 1080 pixels de haut, va de 3,0 à 229,0 pixels, médiane 42,0 ; la densité de trait médiane vaut 0,559. On compte 216 lignes en capitales et 200 en bas de casse, et 48 % des lignes sont claires sur fond sombre. Couleurs de texte relevées : `#0c0a11`, `#0c0a12`, `#0c0b12`, `#0e0a13`, `#0e0a14`, `#0e0a15`, `#0e0a16`, `#0f0a16`.
+
+Appariement de police faible sur la ligne de S40 (meilleur score 2,407, au-delà du seuil 0,60) : aucune police libre de la base ne ressemble assez au dessin mesuré, la plus proche étant Hubot Sans 200 ; la police se choisira à l'œil.
+
+## Mouvements et courbes
+
+Courbes identifiées contre la table exacte de GSAP 3.14.2 (une courbe n'est gardée que si elle explique le mouvement à 6 % de l'amplitude près et que le mouvement dépasse dix fois le bruit de mesure) :
+
+| Ease | Occurrences |
+|---|---|
+| `elastic.inOut(1,0.3)` | 59 |
+| `expo.out` | 54 |
+| `circ.out` | 31 |
+| `elastic.in(1,0.3)` | 30 |
+| `back.inOut(1.70158)` | 25 |
+| `none` | 23 |
+| `elastic.in(1.5,0.4)` | 18 |
+| `bounce.in` | 16 |
+| `bounce.inOut` | 16 |
+| `circ.inOut` | 15 |
+| `bounce.out` | 15 |
+| `material.standard` | 15 |
+| `elastic.inOut(1,0.45)` | 13 |
+| `circ.in` | 13 |
+
+Un mouvement d'élément dure 0,28 s en médiane.
+
+Mouvement global de l'image (similarité chaînée image après image ; sur un fond uni, il suit le calque dominant) :
+
+| Mouvement | Plans |
+|---|---|
+| zoom arrière | 53 |
+| panoramique | 42 |
+| fixe | 41 |
+| travelling vertical | 35 |
+| zoom avant | 34 |
+| roulis | 31 |
+
+## Transitions
+
+| Transition d'entrée | Plans |
+|---|---|
+| coupe franche | 71 |
+| coupe franche (relevée à l'œil) | 56 |
+| fondu enchaîné | 11 |
+| coupe franche après passage au noir | 3 |
+| ouverture | 1 |
+| coupe franche vers un noir | 1 |
+
+## Usage de la 3D
+
+Les plaques (rendu 3D ou prise de vue) occupent 0,0 % du temps, dont 0 plans que la sonde géométrique classe comme 3D (perspective, parallaxe, scène rigide, apparence changeante ou mouvement complexe). La sonde répond juste quand elle dit 3D, mais elle manque les objets 3D qui glissent comme un calque (R04, section 10) ; les descriptions plan par plan corrigent ce point à l'œil.
+
+| Classe de la sonde | Plans |
+|---|---|
+| calque 2D | 46 |
+| immobile | 29 |
+| mouvement complexe (déformation, fluide ou rendu 3D éclairé) | 25 |
+| plusieurs couches en parallaxe (2,5D) | 23 |
+| scène 3D rigide en profondeur | 9 |
+| calque 2D déformé (affine) | 7 |
+| calque 2D dont l'apparence change (rendu éclairé ou 3D possible) | 3 |
+| carte plane en perspective | 1 |
+
+## Son
+
+Sonie intégrée -15,9 LUFS, centroïde spectral médian 3878 Hz, part harmonique 88 %. Le détecteur d'attaques relève 664 événements (attaque médium 637, clic aigu 18, impact grave 9) et le détecteur de houles 15 montées ou souffles longs.
+
+Événements principaux (les plus forts) :
+
+| Instant | Nature | Crête |
+|---|---|---|
+| 5,27 s | attaque médium | -23,2 dB |
+| 11,67 s | attaque médium | -14,3 dB |
+| 16,36 s | attaque médium | -14,6 dB |
+| 18,50 s | attaque médium | -13,8 dB |
+| 23,40 s | attaque médium | -18,3 dB |
+| 38,97 s | attaque médium | -22,7 dB |
+| 50,21 s | attaque médium | -19,5 dB |
+| 93,55 s | attaque médium | -12,8 dB |
+| 99,42 s | attaque médium | -12,2 dB |
+| 127,64 s | attaque médium | -22,9 dB |
+| 178,72 s | impact grave | -14,0 dB |
+| 178,92 s | impact grave | -10,8 dB |
+
+Houles : 5,68 s (montée 0,47 s), 50,20 s (montée 0,52 s), 84,60 s (montée 0,54 s), 87,00 s (montée 0,24 s), 90,99 s (montée 0,27 s), 92,48 s (montée 0,24 s), 93,36 s (montée 0,21 s), 116,94 s (montée 0,28 s), 117,47 s (montée 0,58 s), 134,13 s (montée 0,55 s), 141,06 s (montée 0,24 s), 150,56 s (montée 0,34 s), 153,87 s (montée 0,34 s), 163,81 s (montée 0,21 s), 175,60 s (montée 0,39 s).
+
+## Musique
+
+Tempo estimé 142,9 BPM, 430 temps détectés, régularité de la grille 0,056 (écart type relatif des intervalles, 0 pour une grille parfaite). La musique ne se reprend jamais note à note : seuls le tempo, la grille, les sections, l'énergie et la production servent.
+
+| Section | Début | Fin | Niveau médian |
+|---|---|---|---|
+| 1 | 0,00 s | 3,15 s | -28,2 dB |
+| 2 | 3,15 s | 9,35 s | -25,7 dB |
+| 3 | 9,35 s | 37,45 s | -21,8 dB |
+| 4 | 37,45 s | 43,85 s | -24,1 dB |
+| 5 | 43,85 s | 69,40 s | -18,9 dB |
+| 6 | 69,40 s | 85,05 s | -19,8 dB |
+| 7 | 85,05 s | 88,10 s | -24,7 dB |
+| 8 | 88,10 s | 91,45 s | -21,8 dB |
+| 9 | 91,45 s | 118,40 s | -15,9 dB |
+| 10 | 118,40 s | 127,40 s | -27,4 dB |
+| 11 | 127,40 s | 131,60 s | -26,7 dB |
+| 12 | 131,60 s | 148,60 s | -18,4 dB |
+| 13 | 148,60 s | 153,90 s | -24,2 dB |
+| 14 | 153,90 s | 158,05 s | -20,4 dB |
+| 15 | 158,05 s | 174,45 s | -13,8 dB |
+| 16 | 174,45 s | 177,45 s | -29,0 dB |
+| 17 | 177,45 s | 181,85 s | -14,1 dB |
+
+## Plans
+
+| Plan | Début | Durée | Famille | Description |
+|---|---|---|---|---|
+| S01 | 0,00 s | 0,47 s | montage | Un visage de bulle de conversation violette entre accolades clignote sur fond noir, une étiquette de nom se tape dessous. |
+| S02 | 0,47 s | 0,20 s | montage | Un mot en grand serif noir répété trois fois sur fond crème, très bref. |
+| S03 | 0,67 s | 0,23 s | montage | Le même mot dans des cadres bleus sur noir, très bref. |
+| S04 | 0,90 s | 2,20 s | graphique | Une ligne de saisie se remplit d'une phrase pendant qu'une silhouette bleue danse au-dessus, fond crème. |
+| S05 | 3,10 s | 0,07 s | montage | La phrase éclatée en étiquettes bleues dispersées, deux images. |
+| S06 | 3,17 s | 0,27 s | montage | Les étiquettes de mots se réorganisent autour de la bulle, très bref. |
+| S07 | 3,43 s | 4,73 s | graphique | Fenêtres d'interface crème où la phrase se recompose et se surligne en bleu, petite bulle mascotte à droite. |
+| S08 | 8,17 s | 0,30 s | montage | Un mot rose énorme se tape dans une fenêtre, très bref. |
+| S09 | 8,47 s | 0,20 s | montage | Barres verticales roses sur noir, comme un curseur géant. |
+| S10 | 8,67 s | 0,47 s | montage | Deux mots roses géants s'écrivent dans la fenêtre crème. |
+| S11 | 9,13 s | 0,07 s | montage | Le dernier mot sur fond violet avec un œil rond de la mascotte, deux images. |
+| S12 | 9,20 s | 4,03 s | graphique | Une fausse page de recommandations de lieux défile, un passage caché surligné et la silhouette bleue en marge. |
+| S13 | 13,23 s | 1,87 s | graphique | Un réglage de police minuscule est montré par une étiquette rose puis une bande de couleurs rose et bleue. |
+| S14 | 15,10 s | 3,17 s | graphique | Une ligne de texte quasi invisible en bas de page se révèle, puis une notification d'envoi. |
+| S15 | 18,27 s | 0,50 s | graphique | Une fenêtre de discussion où une demande se tape, très bref. |
+| S16 | 18,77 s | 0,87 s | graphique | La demande se complète dans la fenêtre de discussion. |
+| S17 | 19,63 s | 0,30 s | montage | Des blocs de texte surlignés apparaissent sur une page, silhouette bleue. |
+| S18 | 19,93 s | 0,27 s | montage | Une colonne de texte de code se déroule, la mascotte en bas. |
+| S19 | 20,20 s | 0,47 s | montage | La mascotte en très grand plan fait un clin d'œil sur fond crème, un mot rose à côté. |
+| S20 | 20,67 s | 0,77 s | graphique | Zoom sur l'œil de la mascotte qui devient une spirale de texte. |
+| S21 | 21,43 s | 1,10 s | graphique | L'œil en spirale tourne, des mots s'enroulent autour. |
+| S22 | 22,53 s | 0,63 s | graphique | La mascotte change d'expression trois fois, une étiquette rose à droite. |
+| S23 | 23,17 s | 0,73 s | graphique | Une boîte de réception s'ouvre et des messages se surlignent un par un. |
+| S24 | 23,90 s | 1,17 s | graphique | La liste de messages s'allonge avec des étiquettes roses. |
+| S25 | 25,07 s | 1,30 s | graphique | Un agenda et une liste de fichiers défilent, cases roses cochées. |
+| S26 | 26,37 s | 0,90 s | graphique | Un mot se tape lettre à lettre dans des pastilles bleues puis roses. |
+| S27 | 27,27 s | 2,53 s | graphique | Des fenêtres de code avec un appel d'outil, la phrase en bas change de mot surligné. |
+| S28 | 29,80 s | 5,53 s | graphique | Une citation et des mots surlignés en couleur se répartissent sur la page crème. |
+| S29 | 35,33 s | 1,40 s | graphique | Une ligne de mots en pastilles défile horizontalement sur fond crème, un mot rose apparaît à droite. |
+| S30 | 36,73 s | 0,57 s | graphique | Un mot rose en grand glisse sur une bande blanche qui se replie. |
+| S31 | 37,30 s | 0,17 s | montage | Le mot rose minuscule au centre d'un écran noir. |
+| S32 | 37,47 s | 2,97 s | graphique | Des mains en icônes et une clé dorée apparaissent autour de la mascotte, phrases blanches en haut, fond noir. |
+| S33 | 40,43 s | 1,77 s | graphique | Une rangée d'icônes d'outils s'aligne sur fond noir, phrases qui se tapent en haut. |
+| S34 | 42,20 s | 1,47 s | graphique | Une phrase en serif italique blanche se tape puis une autre en rose sur noir, curseur visible. |
+| S35 | 43,67 s | 0,43 s | montage | Deux mots en rose plein cadre sur fond rose vif. |
+| S36 | 44,10 s | 1,70 s | graphique | Fenêtres d'interface roses : trois mots en capitales géantes s'empilent avec la silhouette au trait. |
+| S37 | 45,80 s | 0,40 s | montage | Les mots géants sur fond noir sous une barre de titre, silhouette rose. |
+| S38 | 46,20 s | 0,63 s | graphique | Silhouette bleue qui danse sur un panneau noir, bannière de mots en haut. |
+| S39 | 46,83 s | 0,67 s | graphique | Un fragment de mot en capitales géantes se répète en grand. |
+| S40 | 47,50 s | 0,37 s | montage | Le fragment se démultiplie en pile, très bref. |
+| S41 | 47,87 s | 1,33 s | graphique | Le mot complet se reconstruit en couches. |
+| S42 | 49,20 s | 1,07 s | graphique | Le dernier mot en capitales blanches sur bande noire, fenêtres roses autour. |
+| S43 | 50,27 s | 0,60 s | graphique | Une fiche de profil d'interface se remplit sur fond noir. |
+| S44 | 50,87 s | 0,43 s | montage | La fiche de profil sur fond rose, une phrase se tape en haut. |
+| S45 | 51,30 s | 0,37 s | montage | La phrase s'allonge au-dessus de la fiche, très bref. |
+| S46 | 51,67 s | 0,50 s | graphique | La silhouette bleue apparaît dans la fiche, un mot se tape dans un champ. |
+| S47 | 52,17 s | 0,40 s | montage | Un mot à la fois en grand sur rose, silhouette noire et mascotte. |
+| S48 | 52,57 s | 1,57 s | graphique | Mots successifs en blanc sur noir, silhouette bleue qui pointe. |
+| S49 | 54,13 s | 0,13 s | montage | Un mot rose en capitales sur noir avec une petite liste d'outils dessous. |
+| S50 | 54,27 s | 1,70 s | graphique | Le même mot sur fond rose avec une liste d'actions qui s'allonge. |
+| S51 | 55,97 s | 1,70 s | graphique | Trois colonnes de commandes s'alignent sous le mot sur noir. |
+| S52 | 57,67 s | 0,23 s | montage | Le mot en rose sur page crème avec la silhouette au trait, très bref. |
+| S53 | 57,90 s | 2,10 s | graphique | Une fenêtre de message : trois mots géants s'empilent en bleu, noir et rose. |
+| S54 | 60,00 s | 1,07 s | graphique | Une alerte d'instruction inhabituelle avec un panneau d'avertissement jaune apparaît dans un message. |
+| S55 | 61,07 s | 0,17 s | montage | Un message de recruteur s'affiche avec du texte surligné, très bref. |
+| S56 | 61,23 s | 0,27 s | montage | Un cadre bleu plein porte un mot en capitales blanches au milieu du message. |
+| S57 | 61,50 s | 0,83 s | graphique | Les cadres bleus s'empilent avec deux puis trois mots. |
+| S58 | 62,33 s | 2,13 s | graphique | Alerte jaune et recette affichée dans le message, cadre bleu à droite. |
+| S59 | 64,47 s | 1,27 s | graphique | Un château dessiné au trait avec une clé rose, mots roses en capitales, prix affiché. |
+| S60 | 65,73 s | 2,10 s | graphique | Une fiche produit de château avec prix et bouton de commande, le prix change. |
+| S61 | 67,83 s | 2,30 s | graphique | Le prix chute à une somme dérisoire et une étiquette rose de vente s'affiche. |
+| S62 | 70,13 s | 2,47 s | graphique | Un terminal noir : une phrase se tape et un interrupteur passe au jaune. |
+| S63 | 72,60 s | 0,67 s | graphique | Un nuage en pixels argentés monte sur fond noir, mascotte et fenêtre. |
+| S64 | 73,27 s | 1,73 s | graphique | Une boîte de permission jaune : le bouton d'autorisation permanente s'allonge. |
+| S65 | 75,00 s | 1,30 s | graphique | Des fenêtres contextuelles s'empilent en cascade, un mot rose en bas. |
+| S66 | 76,30 s | 0,20 s | montage | Un réglage de configuration passe à vrai, mot rose en capitales répété. |
+| S67 | 76,50 s | 3,37 s | graphique | Un résumé d'e-mails se tape dans une fenêtre, un badge jaune de félicitations apparaît. |
+| S68 | 79,87 s | 1,90 s | graphique | Un e-mail se transfère avec des pièces jointes sensibles, champs remplis. |
+| S69 | 81,77 s | 2,50 s | graphique | Un e-mail d'envoi vers une adresse inconnue se tape, bouton d'envoi. |
+| S70 | 84,27 s | 4,87 s | graphique | Trois cases à cocher d'un schéma de risque se remplissent en rose. |
+| S71 | 89,13 s | 2,37 s | graphique | Un triangle rose relie trois risques, une bannière d'achèvement s'affiche. |
+| S72 | 91,50 s | 1,23 s | graphique | Fond bleu électrique : mots géants blancs et silhouette bleue sur des panneaux. |
+| S73 | 92,73 s | 0,83 s | graphique | Les trois mots blancs s'empilent sur fond bleu, silhouette à droite. |
+| S74 | 93,57 s | 0,60 s | graphique | Même composition bleue, variation de mise en page. |
+| S75 | 94,17 s | 0,23 s | montage | Un fragment de mot répété en blanc sur bleu, très bref. |
+| S76 | 94,40 s | 1,20 s | graphique | Le fragment se multiplie puis le mot entier apparaît, fond bleu. |
+| S77 | 95,60 s | 0,70 s | graphique | Un mot blanc seul sur fond bleu, silhouette à droite. |
+| S78 | 96,30 s | 0,40 s | montage | Un long mot coupé en trois lignes, contours puis plein, fond bleu. |
+| S79 | 96,70 s | 0,80 s | graphique | Les trois lignes se remplissent en blanc l'une après l'autre. |
+| S80 | 97,50 s | 0,70 s | graphique | Une phrase en capitales se construit mot à mot en blanc et en pastille noire, fond bleu. |
+| S81 | 98,20 s | 0,77 s | graphique | La phrase complète en capitales blanches sur noir, un mot barré. |
+| S82 | 98,97 s | 0,50 s | graphique | Une silhouette rose danse derrière une bande blanche oblique portant un mot. |
+| S83 | 99,47 s | 1,80 s | graphique | Fenêtres de terminal autour de la silhouette rose, un mot change en bas à gauche. |
+| S84 | 101,27 s | 0,73 s | graphique | Un mot rose sur noir, la silhouette au centre et des listes qui défilent. |
+| S85 | 102,00 s | 0,80 s | graphique | La silhouette rose danse entourée de petites bulles mascottes. |
+| S86 | 102,80 s | 0,43 s | montage | La silhouette tourne, rangée de bulles, très bref. |
+| S87 | 103,23 s | 1,67 s | graphique | Fond rose : la silhouette en miroir et des bulles mascottes en colonnes. |
+| S88 | 104,90 s | 2,27 s | graphique | Mots en pixels roses empilés sur fond sombre tramé, silhouette bleue à droite. |
+| S89 | 107,17 s | 0,67 s | graphique | Rangées de pilules d'interface sur fond sombre, un mot rose au centre. |
+| S90 | 107,83 s | 0,40 s | montage | Le mot rose suivi d'un autre dans les rangées de pilules, très bref. |
+| S91 | 108,23 s | 0,43 s | montage | Fenêtres sombres avec un mot en cadre bleu, silhouette, très bref. |
+| S92 | 108,67 s | 1,83 s | graphique | Trois mots roses en capitales s'empilent à gauche de la silhouette bleue. |
+| S93 | 110,50 s | 0,67 s | graphique | Le mot rose seul au milieu des rangées de pilules. |
+| S94 | 111,17 s | 1,67 s | graphique | Un mot noir sur rose, puis une ville de blocs de données avec une clé. |
+| S95 | 112,83 s | 0,83 s | graphique | Des mots en capitales noires défilent sur la ville de blocs roses. |
+| S96 | 113,67 s | 0,83 s | graphique | Un mot se répète sur la ville de blocs, étiquettes de prix. |
+| S97 | 114,50 s | 3,23 s | graphique | Le mot de vente en grand sur la ville rose avec un compteur négatif en haut. |
+| S98 | 117,73 s | 0,53 s | graphique | Un grand cercle rose balaie un objet blanc qui tombe sur noir. |
+| S99 | 118,27 s | 12,90 s | graphique | Long plan sur page crème : un texte en serif italique se tape, des annotations et un mot surligné apparaissent, un téléphone en marge. |
+| S100 | 131,17 s | 2,10 s | graphique | Une phrase se tape au-dessus de la mascotte et une liste de permissions cochées. |
+| S101 | 133,27 s | 2,47 s | graphique | Fond violet : une phrase s'enroule en cercle autour du curseur. |
+| S102 | 135,73 s | 5,83 s | graphique | Des fiches d'agenda et de boîte de réception s'empilent autour de la mascotte sur fond clair. |
+| S103 | 141,57 s | 3,30 s | graphique | Fond violet : un mot dans un cadre en pointillés glisse et se défait lettre à lettre. |
+| S104 | 144,87 s | 3,47 s | graphique | Les lettres roses du mot s'éparpillent sur fond noir autour de la mascotte. |
+| S105 | 148,33 s | 0,30 s | montage | Fond rose : un mot géant en capitales sous la silhouette au trait, très bref. |
+| S106 | 148,63 s | 0,30 s | montage | Le même mot sur rose en variante noire, très bref. |
+| S107 | 148,93 s | 0,63 s | graphique | Deuxième mot géant sur rose, mots répétés en fond. |
+| S108 | 149,57 s | 0,23 s | montage | Un long mot coupé sur deux lignes en noir sur rose, très bref. |
+| S109 | 149,80 s | 0,57 s | graphique | Le mot rose sur bande noire avec une page de recommandations derrière. |
+| S110 | 150,37 s | 0,70 s | graphique | Colonnes de pastilles roses qui se remplissent d'un mot répété. |
+| S111 | 151,07 s | 0,40 s | montage | Les colonnes de pastilles roses se décalent, très bref. |
+| S112 | 151,47 s | 0,17 s | montage | Même grille de pastilles, deux images. |
+| S113 | 151,63 s | 2,43 s | graphique | Trois mots en noir et rose s'empilent sur une page crème barrée de rectangles noirs. |
+| S114 | 154,07 s | 1,90 s | graphique | Une silhouette tramée sur noir, une phrase en pastilles bleues s'empile sur son torse. |
+| S115 | 155,97 s | 0,43 s | montage | Un mot se tape sur une bande rose au-dessus d'une page noire. |
+| S116 | 156,40 s | 0,40 s | montage | Mots successifs en capitales sur bande rose, très bref. |
+| S117 | 156,80 s | 0,40 s | montage | Mot en pixels en haut et mot en capitales sur bande rose. |
+| S118 | 157,20 s | 0,43 s | montage | Un mot sur bande rose avec un terminal au-dessus. |
+| S119 | 157,63 s | 0,13 s | montage | Un mot sur bande rose devant des nuages en pointillés, très bref. |
+| S120 | 157,77 s | 3,73 s | graphique | Un mot rose sur noir puis des fenêtres sombres qui s'emboîtent. |
+| S121 | 161,50 s | 0,23 s | montage | Fond rose : un mot en cadre bleu sous la silhouette, très bref. |
+| S122 | 161,73 s | 0,83 s | graphique | Mots géants roses sur fond sombre tramé de mots répétés. |
+| S123 | 162,57 s | 0,27 s | montage | Le deuxième mot rose plein cadre, très bref. |
+| S124 | 162,83 s | 0,53 s | graphique | Un mot répété en colonnes verticales sur rose et noir. |
+| S125 | 163,37 s | 0,20 s | montage | Colonnes verticales de mots en noir, très bref. |
+| S126 | 163,57 s | 1,23 s | graphique | Un mot géant rose sur noir, barré et glitché à la fin. |
+| S127 | 164,80 s | 0,43 s | montage | Fond rose : le mot en cadre bleu sous la silhouette. |
+| S128 | 165,23 s | 0,60 s | graphique | Mosaïque de petites fenêtres et un mot rose en grand. |
+| S129 | 165,83 s | 0,40 s | montage | Mosaïque de fenêtres crème et mot géant en capitales. |
+| S130 | 166,23 s | 0,43 s | montage | La mosaïque se répète en miroir avec un mot en bande. |
+| S131 | 166,67 s | 0,17 s | montage | Mosaïque en miroir, très bref. |
+| S132 | 166,83 s | 0,50 s | graphique | La mosaïque et un mot géant rose qui change. |
+| S133 | 167,33 s | 0,57 s | graphique | Le mot rose dans la mosaïque puis une phrase répétée en capitales roses sur noir. |
+| S134 | 167,90 s | 1,23 s | graphique | Une clé dorée et des mots noirs géants sur bandes roses. |
+| S135 | 169,13 s | 1,63 s | graphique | Mots en capitales sur bandes roses avec étiquettes de prix et listes. |
+| S136 | 170,77 s | 0,20 s | montage | Un mot répété trois fois sur une bande rose, très bref. |
+| S137 | 170,97 s | 3,47 s | graphique | Des tas de blocs roses s'effondrent avec une étiquette de vente, silhouette au centre. |
+| S138 | 174,43 s | 2,83 s | graphique | Retour au début : une phrase se tape dans un champ crème au-dessus de la mascotte. |
+| S139 | 177,27 s | 0,47 s | montage | Barres verticales roses sur noir comme un curseur géant. |
+| S140 | 177,73 s | 0,40 s | montage | Fond violet : la bouche et l'œil de la mascotte en très gros plan. |
+| S141 | 178,13 s | 0,40 s | montage | Gros plan du visage de la mascotte sur violet, yeux rectangulaires roses. |
+| S142 | 178,53 s | 0,40 s | montage | La bulle mascotte entre accolades sur fond noir, très bref. |
+| S143 | 178,93 s | 2,87 s | graphique | La mascotte clignote au-dessus de son étiquette de nom sur noir, fin. |
+
+Paramètres : `settings.json`, sections `analysis.bible`, `analysis.camera`, `analysis.easefit`, `analysis.sound` (12 October 2026).

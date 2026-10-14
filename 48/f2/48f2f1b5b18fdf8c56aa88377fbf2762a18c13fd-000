@@ -1,0 +1,715 @@
+{
+ "date": "12 October 2026",
+ "method": "Revue à l'œil de la liste des plans, d'une tuile début, milieu, fin par plan et des pics de différence non retenus par le détecteur ; descriptions paraphrasées, sans texte affiché ni nom de marque.",
+ "reference": "Clip musical nostalgique construit dans l'univers d'un système d'exploitation de bureau des années 2000 : fond d'écran de colline, fenêtres et boîtes de dialogue qui s'empilent, assistant animé, économiseurs d'écran, avec une jeune femme incrustée qui danse et des prises de vue réelles dans une vraie prairie.",
+ "add_cuts": [
+  {
+   "t": 8.208,
+   "kind": "hard"
+  },
+  {
+   "t": 8.625,
+   "kind": "hard"
+  },
+  {
+   "t": 9.083,
+   "kind": "hard"
+  },
+  {
+   "t": 15.125,
+   "kind": "hard"
+  },
+  {
+   "t": 17.083,
+   "kind": "hard"
+  },
+  {
+   "t": 18.5,
+   "kind": "hard"
+  },
+  {
+   "t": 21.708,
+   "kind": "hard"
+  },
+  {
+   "t": 24.958,
+   "kind": "hard"
+  },
+  {
+   "t": 25.583,
+   "kind": "hard"
+  },
+  {
+   "t": 27.458,
+   "kind": "hard"
+  },
+  {
+   "t": 38.083,
+   "kind": "hard"
+  },
+  {
+   "t": 46.5,
+   "kind": "hard"
+  },
+  {
+   "t": 75.917,
+   "kind": "hard"
+  },
+  {
+   "t": 76.417,
+   "kind": "hard"
+  },
+  {
+   "t": 99.708,
+   "kind": "hard"
+  },
+  {
+   "t": 111.25,
+   "kind": "hard"
+  },
+  {
+   "t": 170.417,
+   "kind": "hard"
+  }
+ ],
+ "remove_cuts": [],
+ "shots": [
+  {
+   "t": 2.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Écran bleu d'ouverture de session d'un vieux système de bureau, une icône d'utilisateur et un message de bienvenue qui change."
+  },
+  {
+   "t": 6.125,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le fond d'écran de colline verte sous le ciel bleu, une jeune femme incrustée danse au pied de l'écran pendant qu'une bulle d'aide s'ouvre."
+  },
+  {
+   "t": 8.417,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Des fenêtres de photos s'ouvrent sur le bureau, très bref."
+  },
+  {
+   "t": 8.854,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les fenêtres se multiplient avec la jeune femme qui pose, très bref."
+  },
+  {
+   "t": 9.979,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Bureau encombré de fenêtres et d'une photo en grand, la danseuse passe devant."
+  },
+  {
+   "t": 11.208,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La danseuse sur la colline, la barre des tâches et une date apparaissent en bas."
+  },
+  {
+   "t": 12.167,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un vieux moniteur translucide dans une pièce blanche, une main sur une souris."
+  },
+  {
+   "t": 13.833,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Plan serré sur l'écran du moniteur où s'ouvre une boîte de dialogue."
+  },
+  {
+   "t": 15.0,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Boîte de dialogue au-dessus de la danseuse sur la colline, très bref."
+  },
+  {
+   "t": 15.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fenêtre de photos de groupe, la danseuse de face qui salue."
+  },
+  {
+   "t": 16.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fenêtres de photos et la danseuse qui marche sur le fond d'écran."
+  },
+  {
+   "t": 17.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une fenêtre de discussion en ligne avec la danseuse incrustée et le curseur."
+  },
+  {
+   "t": 19.542,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fenêtres de navigation empilées montrant un décollage de fusée, la danseuse au premier plan."
+  },
+  {
+   "t": 20.833,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fenêtres de dialogue et la danseuse en manteau brillant, très bref."
+  },
+  {
+   "t": 21.396,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même empilement de fenêtres, la danseuse change de pose."
+  },
+  {
+   "t": 22.146,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Grille de vignettes de photos dans une fenêtre, curseur."
+  },
+  {
+   "t": 22.833,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une fenêtre se ferme et la danseuse apparaît sur le fond d'écran de nuit."
+  },
+  {
+   "t": 23.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fond d'écran nocturne, une boîte de dialogue et la danseuse en manteau bleu."
+  },
+  {
+   "t": 24.083,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La danseuse tourne sur le fond nocturne, une fenêtre d'alerte s'ouvre."
+  },
+  {
+   "t": 24.646,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Plusieurs copies de la danseuse sur le fond nocturne, curseur en flèche."
+  },
+  {
+   "t": 25.062,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fond nocturne vide avec seulement le curseur, très bref."
+  },
+  {
+   "t": 25.375,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fenêtre de dossiers de fichiers, la danseuse en coin, très bref."
+  },
+  {
+   "t": 26.333,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un clavier virtuel s'affiche sous la danseuse sur le fond nocturne."
+  },
+  {
+   "t": 27.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La danseuse et un sablier d'attente géant, très bref."
+  },
+  {
+   "t": 28.562,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La danseuse danse sur le fond nocturne, une notification apparaît en bas."
+  },
+  {
+   "t": 31.938,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une page de moteur de recherche avec un assistant animé et la danseuse dans une bulle d'aide."
+  },
+  {
+   "t": 34.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même page de recherche, la bulle d'aide change."
+  },
+  {
+   "t": 36.062,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Pages de recherche empilées, la danseuse dans l'assistant."
+  },
+  {
+   "t": 37.646,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un mur de fenêtres de photos se superpose, très bref."
+  },
+  {
+   "t": 37.979,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Cascade de fenêtres identiques qui se répètent en diagonale, très bref."
+  },
+  {
+   "t": 39.479,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les fenêtres en cascade se referment et laissent la danseuse sur la colline."
+  },
+  {
+   "t": 42.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en robe imprimée de nuages tourne sur une colline réelle."
+  },
+  {
+   "t": 45.604,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Vue d'une fenêtre ouverte d'une pièce blanche donnant sur la colline, une boîte de dialogue."
+  },
+  {
+   "t": 46.958,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une flèche de curseur géante et un voilage qui flotte dans la pièce."
+  },
+  {
+   "t": 49.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La colline réelle sous le soleil, des fenêtres apparaissent puis un mot en lettres blanches en haut à droite."
+  },
+  {
+   "t": 54.938,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un curseur géant glisse sur la colline où danse la jeune femme."
+  },
+  {
+   "t": 59.292,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une flèche blanche en relief traverse la colline vers la danseuse."
+  },
+  {
+   "t": 61.542,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le fond devient un écran vert d'incrustation avec des cadres photo."
+  },
+  {
+   "t": 62.562,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Des tuyaux blancs en arc rebondissent sur fond vert avec des cadres photo."
+  },
+  {
+   "t": 63.438,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le fond vert se couvre d'un égaliseur graphique, la danseuse au premier plan."
+  },
+  {
+   "t": 64.208,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Barres d'égaliseur vertes sur noir derrière la danseuse."
+  },
+  {
+   "t": 64.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La danseuse devant l'égaliseur, autre pose."
+  },
+  {
+   "t": 65.792,
+   "content": "graphic",
+   "text": "Un économiseur d'écran de tuyaux colorés en 3D remplit l'image."
+  },
+  {
+   "t": 68.417,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une fenêtre de code et des boîtes de copie de fichiers sur le bureau."
+  },
+  {
+   "t": 71.146,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une bulle de notification se met à jour en bas de l'écran."
+  },
+  {
+   "t": 72.063,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un jeu de flipper sur l'écran avec la danseuse en surimpression, très bref."
+  },
+  {
+   "t": 72.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le flipper et la danseuse, score qui défile."
+  },
+  {
+   "t": 73.354,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même flipper, la danseuse plus proche."
+  },
+  {
+   "t": 74.062,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une page web avec des photos, très bref."
+  },
+  {
+   "t": 74.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une page web d'actualités de réseau s'ouvre en grand."
+  },
+  {
+   "t": 75.708,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une page de journal en ligne avec un gros titre, très bref."
+  },
+  {
+   "t": 76.167,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La page de journal montre l'image d'une ville la nuit."
+  },
+  {
+   "t": 77.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Page de journal et image de ville nocturne, zoom."
+  },
+  {
+   "t": 78.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fenêtres de dialogue, puis la danseuse en robe argentée sur fond étoilé avec une phrase blanche."
+  },
+  {
+   "t": 80.542,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un vieux moniteur bleuté affiche la danseuse et une phrase."
+  },
+  {
+   "t": 81.313,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une pièce blanche avec un écran bleu au mur."
+  },
+  {
+   "t": 83.437,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fenêtres de messagerie et deux danseuses sur la colline."
+  },
+  {
+   "t": 86.563,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Gros plan d'une jeune femme en veste verte qui pointe la caméra, texte en italique."
+  },
+  {
+   "t": 92.208,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une main ouvre une fenêtre réelle derrière une bulle d'aide, puis des boîtes de dialogue."
+  },
+  {
+   "t": 98.083,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une fenêtre réelle ouverte sur la colline numérique couverte de fenêtres."
+  },
+  {
+   "t": 99.937,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La colline avec une palette de couleurs flottante, très bref."
+  },
+  {
+   "t": 101.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une main effleure l'herbe haute sous des notifications du bureau."
+  },
+  {
+   "t": 102.292,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La main dans l'herbe, autre moment."
+  },
+  {
+   "t": 103.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La main se referme dans l'herbe, bulles d'aide."
+  },
+  {
+   "t": 105.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une main tient un vieux téléphone à clapet au-dessus de l'herbe."
+  },
+  {
+   "t": 108.562,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La colline vide puis la jeune femme au bord du cadre, boîte de dialogue."
+  },
+  {
+   "t": 110.875,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une fenêtre de visionneuse d'images montre la colline."
+  },
+  {
+   "t": 112.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme sur un fond de ciel rose, un message se tape dans une fenêtre."
+  },
+  {
+   "t": 114.875,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même ciel rose, le message continue."
+  },
+  {
+   "t": 116.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une visionneuse de photos avec un nuage de fumée et une jeune femme."
+  },
+  {
+   "t": 118.563,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Gros plan d'une jeune femme aux cheveux noirs dans une fourrure blanche, reflets colorés."
+  },
+  {
+   "t": 122.083,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en combinaison argentée pose la main contre l'écran."
+  },
+  {
+   "t": 124.854,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une main caresse l'herbe, deux mots blancs s'écrivent au-dessus."
+  },
+  {
+   "t": 126.938,
+   "content": "graphic",
+   "text": "Un logo de système s'allume sur fond noir avec une barre de chargement."
+  },
+  {
+   "t": 128.792,
+   "content": "graphic",
+   "text": "Écran de démarrage avec la barre de progression qui avance."
+  },
+  {
+   "t": 130.625,
+   "content": "graphic",
+   "text": "Le logo et la barre de chargement grossissent puis disparaissent."
+  },
+  {
+   "t": 133.396,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une silhouette en tenue blanche flotte dans un champ d'étoiles."
+  },
+  {
+   "t": 136.854,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Écran de session bleu, icônes d'utilisateurs."
+  },
+  {
+   "t": 139.375,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Écran de bienvenue qui se fond vers le blanc."
+  },
+  {
+   "t": 140.646,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Blanc puis bureau couvert de fenêtres et la danseuse."
+  },
+  {
+   "t": 141.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mosaïque dense de fenêtres et de photos avec un visage masqué de rouge."
+  },
+  {
+   "t": 141.75,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même mosaïque, les fenêtres changent."
+  },
+  {
+   "t": 142.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mosaïque de fenêtres, autre agencement."
+  },
+  {
+   "t": 142.75,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mosaïque de fenêtres, la danseuse en bas."
+  },
+  {
+   "t": 143.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La mosaïque commence à se refermer."
+  },
+  {
+   "t": 143.75,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les fenêtres se ferment, la colline réapparaît avec la danseuse."
+  },
+  {
+   "t": 144.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Dernières fenêtres et la danseuse sur la colline, très bref."
+  },
+  {
+   "t": 146.167,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La colline réelle sous le vent, une fenêtre de dialogue au loin."
+  },
+  {
+   "t": 148.125,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Ciel de nuages blancs sur la colline."
+  },
+  {
+   "t": 149.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en robe de nuages court sur la colline, fenêtres en surimpression."
+  },
+  {
+   "t": 150.313,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Elle tourne en contre-plongée devant le ciel."
+  },
+  {
+   "t": 151.854,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Contre-plongée de la jeune femme qui tourne, la robe se confond avec le ciel."
+  },
+  {
+   "t": 153.438,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même contre-plongée, la robe flotte."
+  },
+  {
+   "t": 154.375,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Elle tourne encore sous le ciel."
+  },
+  {
+   "t": 154.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Rotation rapide, très bref."
+  },
+  {
+   "t": 155.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fin de la rotation face au ciel."
+  },
+  {
+   "t": 156.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un gestionnaire de tâches s'ouvre avec des danseuses miniatures en rang."
+  },
+  {
+   "t": 156.875,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une boîte d'erreur au milieu de fenêtres et de petites danseuses."
+  },
+  {
+   "t": 158.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Des dizaines de petites danseuses alignées sur la colline."
+  },
+  {
+   "t": 161.062,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un vieux téléphone à clapet tenu dans l'herbe, écran allumé."
+  },
+  {
+   "t": 164.292,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une flèche blanche géante pointe la danseuse en bleu sur la colline."
+  },
+  {
+   "t": 167.625,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une jeune femme de dos assise dans l'herbe devant un moniteur posé sur la colline."
+  },
+  {
+   "t": 169.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le moniteur dans l'herbe montre un visage, puis l'écran du bureau."
+  },
+  {
+   "t": 170.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le menu de démarrage s'ouvre sur le bureau, très bref."
+  },
+  {
+   "t": 171.208,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La boîte d'extinction de l'ordinateur sur un fond qui se désature."
+  },
+  {
+   "t": 173.729,
+   "content": "textcard",
+   "text": "Écran noir avec un petit astérisque et une phrase orange qui s'écrit."
+  },
+  {
+   "t": 178.375,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme assise dans l'herbe face au moniteur, un mot en grand blanc apparaît."
+  }
+ ]
+}

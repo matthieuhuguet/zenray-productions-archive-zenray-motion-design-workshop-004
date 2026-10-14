@@ -1,0 +1,66 @@
+{
+ "eventDev": {
+  "drums": [
+   {
+    "round": 0,
+    "meanAbsDb": 9.691,
+    "cells": 3312
+   },
+   {
+    "round": 1,
+    "meanAbsDb": 5.231,
+    "cells": 3336
+   },
+   {
+    "round": 2,
+    "meanAbsDb": 3.097,
+    "cells": 3304
+   },
+   {
+    "round": 3,
+    "meanAbsDb": 2.496,
+    "cells": 3289
+   }
+  ],
+  "bass": [
+   {
+    "round": 0,
+    "meanAbsDb": 7.01,
+    "cells": 746
+   },
+   {
+    "round": 1,
+    "meanAbsDb": 3.403,
+    "cells": 706
+   },
+   {
+    "round": 2,
+    "meanAbsDb": 1.764,
+    "cells": 703
+   },
+   {
+    "round": 3,
+    "meanAbsDb": 1.167,
+    "cells": 696
+   }
+  ],
+  "other": [
+   {
+    "round": 0,
+    "meanAbsDb": 10.383,
+    "cells": 1560
+   },
+   {
+    "round": 1,
+    "meanAbsDb": 8.317,
+    "cells": 1510
+   },
+   {
+    "round": 2,
+    "meanAbsDb": 7.355,
+    "cells": 1508
+   }
+  ]
+ },
+ "numbersFromReference": 40166
+}

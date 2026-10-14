@@ -1,0 +1,401 @@
+# Bible graphique de la référence x-anabology-2105325733312884869 (12 October 2026)
+
+Bible mesurée par `zrmd.bible` le 12 October 2026, à partir du fichier du cache local ; aucun pixel ni aucun échantillon de la référence n'entre dans ce document, qui ne porte que des nombres et des descriptions paraphrasées. Storyboard : [storyboard.html](storyboard.html). Données : [bible.json](bible.json). (12 October 2026)
+
+Clip musical sombre et cinématographique sur un mythe marin : marins, mât, cordes, tempête et une chanteuse en robe blanche, monté très vite avec des sous-titres qui s'écrivent mot à mot, des mots géants en capitales, des pictogrammes de consigne, des compteurs qui s'emballent et des captures de messages de réseau social. (12 October 2026)
+
+## Identité
+
+| Mesure | Valeur |
+|---|---|
+| Durée | 191,64 s |
+| Format | 1920 x 1080 |
+| Cadence du fichier | 24,000 images par seconde |
+| Cadence du contenu | 24,00 images par seconde |
+| Son | oui |
+
+## Rythme de montage
+
+La référence compte 223 plans et 222 coupes, soit 69,5 coupes par minute ; un plan dure 0,50 s en médiane et 0,86 s en moyenne, du plus court (0,04 s) au plus long (4,25 s), avec un coefficient de variation de 0,88. 102 plans durent moins d'une demi-seconde et 5 plus de trois secondes. La part des coupes tombant à 50 ms près d'un temps de la grille vaut 37 %, et celle des coupes tombant sur une attaque sonore 36 %. Le plan médian dure 1,09 temps. Le détecteur avait trouvé 214 coupes ; la revue à l'œil des planches (une image tous les quarts de seconde) en a ajouté 15 et retiré 0, chaque ajout étant recalé sur l'image de plus forte différence à 0,3 s près.
+
+## Familles de plans
+
+| Famille | Part du temps |
+|---|---|
+| plaque 3D ou prise de vue | 66,3 % |
+| montage | 17,4 % |
+| graphique | 16,3 % |
+
+Le classement automatique (aplats, couverture du texte, entropie des zones non plates, sonde 3D) concorde avec le classement à l'œil sur 212 plans sur 223, soit 95 % ; la bible retient le classement à l'œil et garde la mesure à côté (`content_measured`).
+
+La famille « montage » regroupe les plans de moins d'une demi-seconde, quel que soit leur contenu ; la part du contenu seul est : plaque 3D ou prise de vue 80,9 %, graphique 19,1 %.
+
+## Couleurs
+
+Palette globale (regroupement Lab, fusion sous 6 unités CIEDE2000, pondérée par la surface et la durée) :
+
+| Couleur | Part | L* | Chroma |
+|---|---|---|---|
+| `#040806` | 27,9 % | 1,9 | 1,6 |
+| `#0b1c16` | 18,8 % | 8,9 | 9,1 |
+| `#233a32` | 6,3 % | 22,2 | 11,4 |
+| `#425956` | 4,2 % | 35,9 | 9,2 |
+| `#728387` | 4,0 % | 53,6 | 6,9 |
+| `#355056` | 3,5 % | 32,1 | 10,9 |
+| `#526a71` | 3,5 % | 43,3 | 9,8 |
+| `#2e2f25` | 3,1 % | 18,9 | 6,8 |
+| `#829ba0` | 3,0 % | 62,2 | 9,2 |
+| `#1c3a3e` | 2,1 % | 22,5 | 11,5 |
+| `#4e4a44` | 1,8 % | 31,8 | 4,4 |
+| `#6a6d68` | 1,7 % | 45,8 | 3,3 |
+
+Rôles (part du temps où la couleur tient ce rôle) :
+
+| Rôle | Couleurs |
+|---|---|
+| fond | `#0c1d15` (22 %), `#000101` (22 %), `#010d02` (20 %), `#527176` (4 %) |
+| accent | `#c46a56` (7 %), `#c5361e` (3 %), `#6c1b0d` (3 %), `#9c503c` (2 %) |
+| texte | `#dfdfdf` (4 %), `#c8c7c9` (3 %), `#4d4b49` (2 %), `#5d6364` (2 %) |
+
+## Typographie
+
+119 lignes de texte ont été mesurées sur l'image où le texte est le plus présent de chaque plan carte texte ou graphique. La hauteur d'x, ramenée à une image de 1080 pixels de haut, va de 3,0 à 202,0 pixels, médiane 24,0 ; la densité de trait médiane vaut 0,391. On compte 54 lignes en capitales et 65 en bas de casse, et 90 % des lignes sont claires sur fond sombre. Couleurs de texte relevées : `#000d02`, `#071f15`, `#082933`, `#092016`, `#0a2028`, `#0b323c`, `#0d0c0e`, `#1e2726`.
+
+Appariement de police faible sur la ligne de S50 (meilleur score 3,839, au-delà du seuil 0,60) : aucune police libre de la base ne ressemble assez au dessin mesuré, la plus proche étant Hubot Sans 200 ; la police se choisira à l'œil.
+
+## Mouvements et courbes
+
+Courbes identifiées contre la table exacte de GSAP 3.14.2 (une courbe n'est gardée que si elle explique le mouvement à 6 % de l'amplitude près et que le mouvement dépasse dix fois le bruit de mesure) :
+
+| Ease | Occurrences |
+|---|---|
+| `elastic.inOut(1,0.3)` | 27 |
+| `none` | 23 |
+| `circ.out` | 20 |
+| `circ.in` | 17 |
+| `back.inOut(1.70158)` | 15 |
+| `elastic.inOut(1.2,0.3)` | 14 |
+| `elastic.in(1,0.3)` | 13 |
+| `elastic.out(1.2,0.3)` | 13 |
+| `css.ease-out` | 12 |
+| `bounce.inOut` | 12 |
+| `sine.inOut` | 12 |
+| `circ.inOut` | 12 |
+| `power1.out` | 11 |
+| `expo.inOut` | 11 |
+
+Un mouvement d'élément dure 0,25 s en médiane.
+
+Mouvement global de l'image (similarité chaînée image après image ; sur un fond uni, il suit le calque dominant) :
+
+| Mouvement | Plans |
+|---|---|
+| zoom avant | 97 |
+| travelling vertical | 72 |
+| panoramique | 67 |
+| roulis | 67 |
+| zoom arrière | 62 |
+| fixe | 48 |
+
+## Transitions
+
+| Transition d'entrée | Plans |
+|---|---|
+| coupe franche | 175 |
+| fondu enchaîné | 24 |
+| coupe franche (relevée à l'œil) | 15 |
+| coupe franche vers un noir | 4 |
+| coupe franche après passage au noir | 4 |
+| ouverture | 1 |
+
+## Usage de la 3D
+
+Les plaques (rendu 3D ou prise de vue) occupent 80,9 % du temps, dont 0 plans que la sonde géométrique classe comme 3D (perspective, parallaxe, scène rigide, apparence changeante ou mouvement complexe). La sonde répond juste quand elle dit 3D, mais elle manque les objets 3D qui glissent comme un calque (R04, section 10) ; les descriptions plan par plan corrigent ce point à l'œil.
+
+| Classe de la sonde | Plans |
+|---|---|
+| calque 2D | 110 |
+| plusieurs couches en parallaxe (2,5D) | 51 |
+| mouvement complexe (déformation, fluide ou rendu 3D éclairé) | 26 |
+| immobile | 18 |
+| calque 2D déformé (affine) | 11 |
+| scène 3D rigide en profondeur | 3 |
+| calque 2D dont l'apparence change (rendu éclairé ou 3D possible) | 2 |
+| carte plane en perspective | 2 |
+
+## Son
+
+Sonie intégrée -14,6 LUFS, centroïde spectral médian 3905 Hz, part harmonique 91 %. Le détecteur d'attaques relève 436 événements (attaque médium 435, clic aigu 1) et le détecteur de houles 16 montées ou souffles longs.
+
+Événements principaux (les plus forts) :
+
+| Instant | Nature | Crête |
+|---|---|---|
+| 19,46 s | attaque médium | -21,0 dB |
+| 23,60 s | attaque médium | -21,7 dB |
+| 27,70 s | attaque médium | -18,9 dB |
+| 29,56 s | attaque médium | -18,8 dB |
+| 32,10 s | attaque médium | -13,7 dB |
+| 105,18 s | attaque médium | -23,1 dB |
+| 126,07 s | attaque médium | -12,7 dB |
+| 127,22 s | attaque médium | -18,3 dB |
+| 127,44 s | attaque médium | -12,9 dB |
+| 147,57 s | attaque médium | -12,0 dB |
+| 148,02 s | attaque médium | -11,1 dB |
+| 148,48 s | attaque médium | -12,4 dB |
+
+Houles : 8,84 s (montée 0,33 s), 26,04 s (montée 0,23 s), 38,84 s (montée 0,43 s), 51,55 s (montée 0,32 s), 62,60 s (montée 0,29 s), 63,98 s (montée 0,33 s), 93,94 s (montée 0,21 s), 96,69 s (montée 0,36 s), 124,43 s (montée 0,72 s), 128,60 s (montée 0,28 s), 134,31 s (montée 0,26 s), 143,21 s (montée 0,55 s), 184,31 s (montée 0,48 s), 186,91 s (montée 0,22 s), 187,28 s (montée 0,77 s), 189,71 s (montée 0,70 s).
+
+## Musique
+
+Tempo estimé 130,4 BPM, 414 temps détectés, régularité de la grille 0,057 (écart type relatif des intervalles, 0 pour une grille parfaite). La musique ne se reprend jamais note à note : seuls le tempo, la grille, les sections, l'énergie et la production servent.
+
+| Section | Début | Fin | Niveau médian |
+|---|---|---|---|
+| 1 | 0,00 s | 3,00 s | -36,0 dB |
+| 2 | 3,00 s | 10,80 s | -20,3 dB |
+| 3 | 10,80 s | 18,25 s | -17,9 dB |
+| 4 | 18,25 s | 44,15 s | -20,5 dB |
+| 5 | 44,15 s | 57,25 s | -17,5 dB |
+| 6 | 57,25 s | 66,50 s | -18,3 dB |
+| 7 | 66,50 s | 92,10 s | -19,0 dB |
+| 8 | 92,10 s | 105,00 s | -17,1 dB |
+| 9 | 105,00 s | 108,00 s | -22,9 dB |
+| 10 | 108,00 s | 115,25 s | -16,6 dB |
+| 11 | 115,25 s | 129,75 s | -20,9 dB |
+| 12 | 129,75 s | 144,40 s | -17,0 dB |
+| 13 | 144,40 s | 162,60 s | -17,5 dB |
+| 14 | 162,60 s | 175,35 s | -15,8 dB |
+| 15 | 175,35 s | 184,60 s | -14,2 dB |
+| 16 | 184,60 s | 187,60 s | -27,5 dB |
+| 17 | 187,60 s | 191,65 s | -20,4 dB |
+
+## Plans
+
+| Plan | Début | Durée | Famille | Description |
+|---|---|---|---|---|
+| S01 | 0,00 s | 2,75 s | plaque 3D ou prise de vue | Très gros plan d'un œil bleu traversé d'une trace rouge, deux lignes de sous-titres s'écrivent à côté. |
+| S02 | 2,75 s | 2,17 s | plaque 3D ou prise de vue | L'œil, puis une mer agitée vue de haut avec un compteur dans le coin. |
+| S03 | 4,92 s | 0,25 s | montage | Mer agitée vue de haut, un tourbillon se forme, très bref. |
+| S04 | 5,17 s | 0,29 s | montage | Vagues qui se brisent sur des rochers, très bref. |
+| S05 | 5,46 s | 0,62 s | plaque 3D ou prise de vue | Mer houleuse contre des rochers, compteur qui change. |
+| S06 | 6,08 s | 0,25 s | montage | Un disque lumineux à la surface de la mer, très bref. |
+| S07 | 6,33 s | 0,67 s | plaque 3D ou prise de vue | Vagues sombres contre la falaise. |
+| S08 | 7,00 s | 0,96 s | plaque 3D ou prise de vue | Une jeune femme en robe blanche bouffante, cheveux noirs, sur fond de mer, une barre de lecture en bas. |
+| S09 | 7,96 s | 0,92 s | plaque 3D ou prise de vue | La jeune femme de dos face à la mer, une icône d'alerte jaune s'affiche. |
+| S10 | 8,88 s | 1,88 s | plaque 3D ou prise de vue | Gros plan de la jeune femme, une question en capitales blanches et rouges se compose à gauche. |
+| S11 | 10,75 s | 0,46 s | montage | Image en négatif puis la jeune femme et ses doubles, un multiplicateur dans le coin. |
+| S12 | 11,21 s | 0,46 s | montage | Plusieurs copies de la jeune femme côte à côte, le multiplicateur double. |
+| S13 | 11,67 s | 0,46 s | montage | Encore plus de copies alignées, très bref. |
+| S14 | 12,12 s | 0,46 s | montage | Une foule de copies en robe blanche, compteur qui grimpe. |
+| S15 | 12,58 s | 0,46 s | montage | Des centaines de silhouettes en blanc de dos, le compteur s'emballe. |
+| S16 | 13,04 s | 0,46 s | montage | Un anneau de silhouettes blanches sur un rocher en mer, compteur au millier. |
+| S17 | 13,50 s | 0,62 s | plaque 3D ou prise de vue | Une marée de silhouettes blanches face à la mer de nuit. |
+| S18 | 14,12 s | 0,33 s | montage | Les silhouettes alignées vers l'horizon nocturne, très bref. |
+| S19 | 14,46 s | 0,92 s | plaque 3D ou prise de vue | Cercles concentriques à la surface d'une mer sombre devant un navire. |
+| S20 | 15,38 s | 0,46 s | montage | Des marins barbus serrés dans la pénombre, très bref. |
+| S21 | 15,83 s | 0,33 s | montage | Très gros plan d'un bouchon rouge enfoncé dans une oreille, très bref. |
+| S22 | 16,17 s | 0,12 s | montage | Un homme barbu au téléphone au milieu des rameurs, quatre images. |
+| S23 | 16,29 s | 0,29 s | montage | Mer sombre traversée par une affiche de consignes, très bref. |
+| S24 | 16,58 s | 0,21 s | montage | Mer et affiche, puis image en négatif d'un navire. |
+| S25 | 16,79 s | 0,46 s | montage | L'homme barbu entouré de l'équipage, regard vers le bas. |
+| S26 | 17,25 s | 0,46 s | montage | L'homme penché sur un écran lumineux au milieu de l'équipage. |
+| S27 | 17,71 s | 0,25 s | montage | Image en négatif puis capture d'un message de réseau social avec la photo d'un homme. |
+| S28 | 17,96 s | 3,88 s | graphique | Messages de réseau social empilés avec photos et la jeune femme qui chante à droite. |
+| S29 | 21,83 s | 1,29 s | plaque 3D ou prise de vue | Un message de réseau social, un mot rouge géant s'imprime dessus. |
+| S30 | 23,12 s | 1,88 s | graphique | Un autre message avec une silhouette en blanc, la jeune femme endormie à droite. |
+| S31 | 25,00 s | 0,58 s | plaque 3D ou prise de vue | Un homme allongé, le visage strié de lumière bleue, une phrase en surimpression. |
+| S32 | 25,58 s | 0,42 s | montage | Le même homme allongé les yeux ouverts, un compteur rouge descend. |
+| S33 | 26,00 s | 0,96 s | plaque 3D ou prise de vue | Un réveil à chiffres rouges sur une table de chevet, une heure tardive s'écrit dessous. |
+| S34 | 26,96 s | 0,46 s | montage | Très gros plan d'un œil où se reflète un écran, une jauge apparaît. |
+| S35 | 27,42 s | 0,50 s | plaque 3D ou prise de vue | L'homme allongé dans la lumière bleue, un sigle en rouge en bas. |
+| S36 | 27,92 s | 0,54 s | plaque 3D ou prise de vue | Le réveil, puis un pourcentage rouge géant le remplace. |
+| S37 | 28,46 s | 1,75 s | plaque 3D ou prise de vue | Interface noire avec la miniature d'un navire dans la tempête et des titres. |
+| S38 | 30,21 s | 0,75 s | plaque 3D ou prise de vue | Un homme crie accroché au mât dans les embruns, sous-titre qui s'écrit. |
+| S39 | 30,96 s | 1,12 s | plaque 3D ou prise de vue | Même scène de tempête, des vagues balaient le pont. |
+| S40 | 32,08 s | 0,71 s | plaque 3D ou prise de vue | L'homme crie au mât, plus près. |
+| S41 | 32,79 s | 0,25 s | montage | L'homme hurle au mât, très bref. |
+| S42 | 33,04 s | 0,92 s | graphique | Fil de messages sombre, une phrase rose se compose au centre. |
+| S43 | 33,96 s | 0,92 s | graphique | Messages et graphique en forme de lame qui grandit, phrase blanche. |
+| S44 | 34,88 s | 1,33 s | graphique | La phrase complète et le graphique en lame sur noir. |
+| S45 | 36,21 s | 0,50 s | plaque 3D ou prise de vue | Fil de messages avec la jeune femme qui chante, un mot blanc apparaît. |
+| S46 | 36,71 s | 0,50 s | graphique | Mosaïque de messages, une phrase se tape en rouge et blanc. |
+| S47 | 37,21 s | 0,42 s | montage | Mosaïque de vignettes de la jeune femme, très bref. |
+| S48 | 37,62 s | 0,46 s | montage | Mosaïque dense de vignettes, la phrase se termine. |
+| S49 | 38,08 s | 0,46 s | montage | Grille de vignettes avec un mot qui se déplace, très bref. |
+| S50 | 38,54 s | 0,46 s | montage | Grille de vignettes, très bref. |
+| S51 | 39,00 s | 0,42 s | montage | Grille de vignettes qui se décale, très bref. |
+| S52 | 39,42 s | 1,00 s | plaque 3D ou prise de vue | Vue aérienne d'un navire à voile carrée sur la mer au couchant, un tracé apparaît. |
+| S53 | 40,42 s | 1,21 s | plaque 3D ou prise de vue | Un navire près d'une île, une question se tape en haut avec des mots masqués. |
+| S54 | 41,62 s | 1,50 s | plaque 3D ou prise de vue | La jeune femme en robe blanche sur un rocher, la question se complète. |
+| S55 | 43,12 s | 0,29 s | montage | Pictogramme d'un personnage attaché à un mât, mots en capitales blanches à côté. |
+| S56 | 43,42 s | 0,25 s | montage | La jeune femme sur le rocher, des mots en capitales s'ajoutent en bas. |
+| S57 | 43,67 s | 0,21 s | montage | Les marins en t-shirts noirs, la phrase en capitales s'allonge. |
+| S58 | 43,88 s | 0,25 s | montage | La jeune femme sur le rocher, la phrase en capitales se termine en rouge. |
+| S59 | 44,12 s | 0,29 s | montage | Les marins, la phrase imprimée défile sur leurs t-shirts. |
+| S60 | 44,42 s | 0,33 s | montage | La phrase répétée en surimpression floue sur les marins. |
+| S61 | 44,75 s | 0,08 s | montage | La phrase floue, deux images. |
+| S62 | 44,83 s | 1,62 s | plaque 3D ou prise de vue | L'homme barbu assis à la proue, cordes autour de lui, sous-titre en bas. |
+| S63 | 46,46 s | 0,21 s | montage | Pictogramme d'un personnage casqué sur fond crème, un mot noir. |
+| S64 | 46,67 s | 0,71 s | plaque 3D ou prise de vue | Le bouchon rouge dans l'oreille en très gros plan, mots blancs successifs. |
+| S65 | 47,38 s | 1,12 s | plaque 3D ou prise de vue | L'oreille et le bouchon rouge, une courbe et des mots qui s'enchaînent. |
+| S66 | 48,50 s | 0,71 s | plaque 3D ou prise de vue | Une main qui se tend vers le bord du navire, mot en rouge. |
+| S67 | 49,21 s | 1,33 s | plaque 3D ou prise de vue | L'homme barbu ligoté au mât, une phrase s'écrit à gauche. |
+| S68 | 50,54 s | 0,29 s | montage | La jeune femme chante, la phrase et un compteur à droite. |
+| S69 | 50,83 s | 0,67 s | plaque 3D ou prise de vue | La jeune femme chante en gros plan, compteur qui avance. |
+| S70 | 51,50 s | 0,58 s | plaque 3D ou prise de vue | L'homme ligoté, la phrase se termine et le compteur avance. |
+| S71 | 52,08 s | 0,38 s | montage | Pictogramme d'un personnage barré dans un cercle, mot blanc. |
+| S72 | 52,46 s | 0,88 s | plaque 3D ou prise de vue | La jeune femme chante devant des embruns, mots en capitales en bas. |
+| S73 | 53,33 s | 0,96 s | plaque 3D ou prise de vue | Un nœud de corde en gros plan, mots en capitales et mesure de distance. |
+| S74 | 54,29 s | 0,62 s | plaque 3D ou prise de vue | La jeune femme tend la main vers la caméra, un mot à droite. |
+| S75 | 54,92 s | 0,29 s | montage | Elle hurle face caméra, un mot en capitales, puis flou. |
+| S76 | 55,21 s | 1,79 s | plaque 3D ou prise de vue | La proue d'un navire sur une mer calme, une citation se tape en haut. |
+| S77 | 57,00 s | 1,62 s | graphique | Un titre en capitales énormes texturé d'images sur noir, un sous-titre rouge. |
+| S78 | 58,62 s | 2,58 s | plaque 3D ou prise de vue | Une figurine de personnage d'animation sur un rocher, une phrase se tape à côté. |
+| S79 | 61,21 s | 0,33 s | montage | Un téléphone en main puis l'équipage, numéros qui défilent. |
+| S80 | 61,54 s | 1,00 s | graphique | Mosaïque d'écrans de téléphone qui se multiplie, compteur. |
+| S81 | 62,54 s | 1,88 s | plaque 3D ou prise de vue | L'homme barbu au téléphone, un nombre et des mots en rouge et blanc. |
+| S82 | 64,42 s | 3,71 s | plaque 3D ou prise de vue | Un rameur en capuche dans l'ombre, une phrase s'écrit en blanc. |
+| S83 | 68,12 s | 1,38 s | plaque 3D ou prise de vue | Le bouchon rouge en gros plan, une phrase blanche à droite. |
+| S84 | 69,50 s | 1,33 s | plaque 3D ou prise de vue | Un mot rose géant au-dessus d'une foule de silhouettes blanches. |
+| S85 | 70,83 s | 2,38 s | plaque 3D ou prise de vue | La jeune femme qui chante, pourcentages et un mot rouge. |
+| S86 | 73,21 s | 1,62 s | plaque 3D ou prise de vue | La jeune femme en robe argentée, une phrase avec un nom se compose. |
+| S87 | 74,83 s | 1,75 s | plaque 3D ou prise de vue | La jeune femme sur la mer, la phrase s'allonge puis un mot en bas. |
+| S88 | 76,58 s | 1,83 s | graphique | Message de réseau social avec la photo d'une personne aux cheveux clairs, phrase en rouge. |
+| S89 | 78,42 s | 0,08 s | montage | Une image verticale minuscule au centre du noir, deux images. |
+| S90 | 78,50 s | 1,92 s | plaque 3D ou prise de vue | L'homme barbu à bord, regard vers le haut, une phrase s'écrit. |
+| S91 | 80,42 s | 3,58 s | graphique | Fil de messages avec la jeune femme chantant et une phrase avec un nom. |
+| S92 | 84,00 s | 0,08 s | montage | Gros plan rouge de deux visages, deux images. |
+| S93 | 84,08 s | 2,04 s | plaque 3D ou prise de vue | Un homme et la jeune femme allongés tête contre tête, phrase en rouge. |
+| S94 | 86,12 s | 1,79 s | plaque 3D ou prise de vue | Un navire au loin entre des rochers, une phrase se tape en haut. |
+| S95 | 87,92 s | 0,04 s | montage | Pictogramme barré d'un plongeur sur noir, consigne en capitales, une image. |
+| S96 | 87,96 s | 0,46 s | montage | Le navire près des rochers, un objet jaillit de l'eau. |
+| S97 | 88,42 s | 0,67 s | plaque 3D ou prise de vue | Une ville sombre au bord de l'eau avec des flammes, multiplicateur qui grimpe. |
+| S98 | 89,08 s | 0,50 s | graphique | Interface noire avec de petites vignettes, une question se compose. |
+| S99 | 89,58 s | 0,08 s | montage | La jeune femme en gros plan, deux images. |
+| S100 | 89,67 s | 1,38 s | plaque 3D ou prise de vue | La jeune femme à genoux en robe argentée, la question se complète en bas. |
+| S101 | 91,04 s | 0,25 s | montage | Pictogramme d'un personnage au mât, phrase et mot en capitales. |
+| S102 | 91,29 s | 0,29 s | montage | Mer de nuit et lueurs, phrase en capitales qui s'écrit. |
+| S103 | 91,58 s | 0,50 s | plaque 3D ou prise de vue | La jeune femme penchée devant des flammes, la phrase en capitales se termine. |
+| S104 | 92,08 s | 0,42 s | montage | Image en négatif puis la phrase en capitales sur la scène nocturne. |
+| S105 | 92,50 s | 0,25 s | montage | La jeune femme hurle devant les flammes, très bref. |
+| S106 | 92,75 s | 2,79 s | plaque 3D ou prise de vue | La jeune femme dans l'ombre, des phrases blanches puis une gravure en négatif. |
+| S107 | 95,54 s | 0,25 s | montage | Un homme barbu illuminé, un mot en capitales en bas. |
+| S108 | 95,79 s | 0,71 s | plaque 3D ou prise de vue | L'homme dans la pénombre verte, le mot en capitales répété. |
+| S109 | 96,50 s | 1,92 s | plaque 3D ou prise de vue | La jeune femme penchée dans un décor rocheux orange, phrase qui s'écrit. |
+| S110 | 98,42 s | 1,92 s | plaque 3D ou prise de vue | Un torrent dans une grotte avec une lueur, phrase qui se complète. |
+| S111 | 100,33 s | 0,21 s | montage | Pictogramme barré d'un personnage au mât, consigne en capitales. |
+| S112 | 100,54 s | 0,21 s | montage | La jeune femme crie au bord d'un trou, mot en capitales. |
+| S113 | 100,75 s | 1,42 s | plaque 3D ou prise de vue | L'eau tourbillonne, mot en capitales en bas. |
+| S114 | 102,17 s | 0,92 s | plaque 3D ou prise de vue | La jeune femme au bord du gouffre, la phrase en capitales se construit. |
+| S115 | 103,08 s | 0,42 s | montage | L'homme barbu de nuit, la phrase en capitales complète en bas. |
+| S116 | 103,50 s | 1,42 s | plaque 3D ou prise de vue | L'homme barbu dans l'ombre, regard intense. |
+| S117 | 104,92 s | 0,46 s | montage | Titre en capitales énormes sur fond crème, sous-titre rouge. |
+| S118 | 105,38 s | 2,33 s | plaque 3D ou prise de vue | Embruns sombres, une phrase en italique en haut. |
+| S119 | 107,71 s | 1,83 s | plaque 3D ou prise de vue | Une barque sur une mer immobile au couchant, deux phrases s'écrivent. |
+| S120 | 109,54 s | 1,83 s | plaque 3D ou prise de vue | Rameurs penchés sur leurs avirons, vu de près. |
+| S121 | 111,38 s | 0,92 s | graphique | Un visage en trame de points sur noir, étiquettes rouges. |
+| S122 | 112,29 s | 1,33 s | plaque 3D ou prise de vue | Très gros plan d'une oreille rougie puis noir. |
+| S123 | 113,62 s | 1,42 s | plaque 3D ou prise de vue | La jeune femme en armure argentée, un mot rouge en bas à droite. |
+| S124 | 115,04 s | 0,46 s | montage | La jeune femme en armure, le mot rouge empilé. |
+| S125 | 115,50 s | 0,46 s | montage | Même plan, une étiquette en bas, très bref. |
+| S126 | 115,96 s | 0,46 s | montage | La jeune femme en armure, sous-titre qui change. |
+| S127 | 116,42 s | 0,04 s | montage | Image claire en négatif d'une silhouette, une image. |
+| S128 | 116,46 s | 0,42 s | montage | Un mot chromé et une silhouette argentée sur fond sombre. |
+| S129 | 116,88 s | 0,46 s | montage | Le mot chromé et la silhouette, sous-titre en bas. |
+| S130 | 117,33 s | 0,92 s | plaque 3D ou prise de vue | La jeune femme en armure argentée, sous-titre qui s'allonge. |
+| S131 | 118,25 s | 0,79 s | plaque 3D ou prise de vue | L'homme barbu et la jeune femme en armure, phrase qui s'écrit. |
+| S132 | 119,04 s | 0,71 s | plaque 3D ou prise de vue | L'homme et la jeune femme, la phrase se termine en rouge. |
+| S133 | 119,75 s | 0,79 s | plaque 3D ou prise de vue | Une main sur l'épaule puis de l'eau qui coule, sous-titre. |
+| S134 | 120,54 s | 3,25 s | graphique | Interface noire : une formule chimique et un téléphone, phrases successives. |
+| S135 | 123,79 s | 1,08 s | plaque 3D ou prise de vue | L'homme et la jeune femme en armure tête contre tête, phrases avec un téléphone. |
+| S136 | 124,88 s | 0,71 s | plaque 3D ou prise de vue | Le couple, la phrase change, flou de mouvement. |
+| S137 | 125,58 s | 2,29 s | plaque 3D ou prise de vue | Une porte lumineuse au bout d'un couloir sombre, un mot rouge. |
+| S138 | 127,88 s | 0,96 s | plaque 3D ou prise de vue | Un couloir de toilettes sous une lumière froide, phrase qui s'écrit. |
+| S139 | 128,83 s | 0,71 s | plaque 3D ou prise de vue | Même couloir, la phrase se complète. |
+| S140 | 129,54 s | 1,75 s | plaque 3D ou prise de vue | Une main argentée sur un tissu, une phrase rouge et blanche. |
+| S141 | 131,29 s | 2,08 s | graphique | Des yeux qui brillent en très gros plan, un mot en capitales énorme en haut. |
+| S142 | 133,38 s | 0,46 s | montage | L'homme barbu au téléphone dans l'ombre, un mot rouge. |
+| S143 | 133,83 s | 0,88 s | plaque 3D ou prise de vue | La jeune femme éclairée de face, phrase qui s'écrit. |
+| S144 | 134,71 s | 0,75 s | plaque 3D ou prise de vue | L'homme au téléphone, la phrase se termine. |
+| S145 | 135,46 s | 0,29 s | montage | Une spirale hypnotique noire et blanche, deux images. |
+| S146 | 135,75 s | 0,50 s | graphique | La spirale qui tourne, un mot rouge en bas. |
+| S147 | 136,25 s | 0,38 s | montage | La spirale, très bref. |
+| S148 | 136,62 s | 0,29 s | montage | L'homme et la jeune femme en armure, très bref. |
+| S149 | 136,92 s | 1,96 s | plaque 3D ou prise de vue | Le couple enlacé, phrases successives en haut. |
+| S150 | 138,88 s | 1,67 s | plaque 3D ou prise de vue | L'homme renverse la tête sous une douche, phrases et sigle en rouge. |
+| S151 | 140,54 s | 0,58 s | plaque 3D ou prise de vue | L'homme sous l'eau, la phrase change. |
+| S152 | 141,12 s | 2,58 s | graphique | L'homme puis un graphique de courbe sur noir et une phrase en capitales. |
+| S153 | 143,71 s | 4,25 s | plaque 3D ou prise de vue | Un navire dans la tempête, flèches rouges qui montent et descendent avec une phrase. |
+| S154 | 147,96 s | 2,96 s | plaque 3D ou prise de vue | La tempête, flèche rouge vers le haut, phrase. |
+| S155 | 150,92 s | 0,08 s | montage | Tempête, deux images. |
+| S156 | 151,00 s | 0,33 s | montage | Visage de la jeune femme mouillé, puis le navire et une image en négatif. |
+| S157 | 151,33 s | 0,29 s | montage | La jeune femme avec une étoile rouge, phrase en rouge. |
+| S158 | 151,62 s | 0,46 s | montage | La jeune femme dans les vagues, une phrase en capitales en haut. |
+| S159 | 152,08 s | 0,75 s | plaque 3D ou prise de vue | Même plan, la phrase reste. |
+| S160 | 152,83 s | 1,79 s | plaque 3D ou prise de vue | Des centaines d'yeux sur une surface sombre, phrase qui se complète. |
+| S161 | 154,62 s | 0,29 s | montage | Un mot sur fond crème, puis la jeune femme et un mot rouge. |
+| S162 | 154,92 s | 0,79 s | plaque 3D ou prise de vue | Mots en capitales empilés sur la jeune femme qui garde les yeux fermés. |
+| S163 | 155,71 s | 0,29 s | montage | La phrase en capitales empilée complète, très bref. |
+| S164 | 156,00 s | 0,46 s | montage | Même phrase sur la jeune femme, très bref. |
+| S165 | 156,46 s | 0,62 s | plaque 3D ou prise de vue | Les mots en capitales réapparaissent un par un en rouge puis blanc. |
+| S166 | 157,08 s | 0,46 s | montage | Les mots empilés sur un nœud de corde. |
+| S167 | 157,54 s | 0,46 s | montage | Les mots empilés sur une ville en flammes au bord de l'eau. |
+| S168 | 158,00 s | 1,75 s | graphique | La phrase empilée puis une courbe avec flèches sur noir. |
+| S169 | 159,75 s | 1,00 s | plaque 3D ou prise de vue | La jeune femme à la peau de porcelaine, les yeux mi-clos, sous-titre. |
+| S170 | 160,75 s | 0,96 s | plaque 3D ou prise de vue | La jeune femme pâle ouvre la bouche, sous-titre qui change. |
+| S171 | 161,71 s | 0,42 s | montage | Le couple sur le bateau, un mot en capitales apparaît en bas. |
+| S172 | 162,12 s | 0,46 s | montage | Le couple en noir et blanc puis la jeune femme qui crie, mot en capitales. |
+| S173 | 162,58 s | 0,42 s | montage | Image en négatif puis la jeune femme qui crie, mot en capitales. |
+| S174 | 163,00 s | 0,25 s | montage | Le couple en noir et blanc, phrase en capitales et pictogramme. |
+| S175 | 163,25 s | 0,42 s | montage | La jeune femme et l'homme front contre front, sous-titre. |
+| S176 | 163,67 s | 0,25 s | montage | Le couple enlacé, sous-titre qui change. |
+| S177 | 163,92 s | 0,25 s | montage | La jeune femme pâle, sous-titre en blanc et rouge. |
+| S178 | 164,17 s | 0,17 s | montage | Le couple sur le pont, très bref. |
+| S179 | 164,33 s | 0,46 s | montage | Le couple, sous-titre qui s'allonge. |
+| S180 | 164,79 s | 0,50 s | plaque 3D ou prise de vue | La jeune femme pâle, phrase complète. |
+| S181 | 165,29 s | 0,29 s | montage | Image en négatif puis l'homme et un mot en capitales en noir et blanc. |
+| S182 | 165,58 s | 0,58 s | plaque 3D ou prise de vue | L'homme et un mot en capitales en noir et blanc. |
+| S183 | 166,17 s | 0,71 s | plaque 3D ou prise de vue | Cordages en contre-jour orangé, mots en capitales qui s'ajoutent. |
+| S184 | 166,88 s | 0,08 s | montage | Le bordé d'un navire en bois, deux images. |
+| S185 | 166,96 s | 0,12 s | montage | Le navire entre des falaises rouges, trois images. |
+| S186 | 167,08 s | 1,38 s | plaque 3D ou prise de vue | La jeune femme en robe blanche dans une grotte marine, phrase qui s'écrit. |
+| S187 | 168,46 s | 0,46 s | montage | Même plan, la phrase continue. |
+| S188 | 168,92 s | 0,88 s | plaque 3D ou prise de vue | La jeune femme bras ouverts, phrase complète. |
+| S189 | 169,79 s | 1,04 s | plaque 3D ou prise de vue | L'homme ligoté qui grimace dans les embruns, phrase. |
+| S190 | 170,83 s | 0,12 s | montage | La jeune femme qui chante, mot en capitales, trois images. |
+| S191 | 170,96 s | 0,21 s | montage | Les marins, mot en capitales, très bref. |
+| S192 | 171,17 s | 0,54 s | plaque 3D ou prise de vue | La jeune femme qui crie, mots en capitales. |
+| S193 | 171,71 s | 0,12 s | montage | Falaises et mer, mots en capitales géants, trois images. |
+| S194 | 171,83 s | 0,71 s | plaque 3D ou prise de vue | Falaises, la jeune femme passe, mots en capitales. |
+| S195 | 172,54 s | 0,50 s | plaque 3D ou prise de vue | La jeune femme danse devant les falaises, mots en capitales qui clignotent. |
+| S196 | 173,04 s | 0,42 s | montage | La jeune femme bras levés devant les falaises, mots en capitales. |
+| S197 | 173,46 s | 0,71 s | plaque 3D ou prise de vue | Le navire avance entre les falaises au soleil. |
+| S198 | 174,17 s | 1,12 s | graphique | Titre en capitales énormes texturé d'images sur noir. |
+| S199 | 175,29 s | 0,96 s | plaque 3D ou prise de vue | Le navire à contre-jour, une image en négatif au milieu. |
+| S200 | 176,25 s | 0,42 s | montage | Le navire sur la mer scintillante, très bref. |
+| S201 | 176,67 s | 0,50 s | plaque 3D ou prise de vue | Le navire, image en négatif, puis normal. |
+| S202 | 177,17 s | 0,21 s | montage | Le navire sur la mer scintillante, très bref. |
+| S203 | 177,38 s | 0,25 s | montage | Le navire, puis en négatif, très bref. |
+| S204 | 177,62 s | 0,12 s | montage | Le navire, trois images. |
+| S205 | 177,75 s | 0,71 s | plaque 3D ou prise de vue | Le couple s'embrasse au bord du navire, un mot entre parenthèses. |
+| S206 | 178,46 s | 0,46 s | montage | Le couple, la jeune femme se retourne, très bref. |
+| S207 | 178,92 s | 0,67 s | plaque 3D ou prise de vue | Le couple s'embrasse, mot entre parenthèses. |
+| S208 | 179,58 s | 0,25 s | montage | Le couple, très bref. |
+| S209 | 179,83 s | 0,46 s | montage | Un nœud de corde serré en noir et blanc, très bref. |
+| S210 | 180,29 s | 0,46 s | montage | L'homme ligoté en noir et blanc, pictogramme barré et consigne. |
+| S211 | 180,75 s | 0,46 s | montage | Le nœud et le pictogramme, très bref. |
+| S212 | 181,21 s | 0,46 s | montage | Le couple en noir et blanc, pictogramme et consigne. |
+| S213 | 181,67 s | 0,42 s | montage | Image en négatif puis le nœud et le pictogramme. |
+| S214 | 182,08 s | 0,46 s | montage | L'homme ligoté, pictogramme et un mot rouge. |
+| S215 | 182,54 s | 0,92 s | plaque 3D ou prise de vue | Le nœud, pictogramme et mot rouge. |
+| S216 | 183,46 s | 1,33 s | plaque 3D ou prise de vue | La jeune femme attache l'homme au mât, un mot rouge vertical s'inscrit. |
+| S217 | 184,79 s | 0,50 s | plaque 3D ou prise de vue | Le mot rouge en capitales sur la mer, en oblique puis droit. |
+| S218 | 185,29 s | 1,54 s | plaque 3D ou prise de vue | Sillage d'un bateau à rames sur la mer scintillante. |
+| S219 | 186,83 s | 0,25 s | montage | Sillage, puis le navire de près, très bref. |
+| S220 | 187,08 s | 0,46 s | montage | Nœud de corde en contre-jour doré. |
+| S221 | 187,54 s | 1,38 s | plaque 3D ou prise de vue | L'homme couché, des lignes rouges dessinées sur son visage. |
+| S222 | 188,92 s | 1,04 s | graphique | Un disque orange sur noir qui se déforme puis devient un œil, une onde en dessous. |
+| S223 | 189,96 s | 1,62 s | plaque 3D ou prise de vue | Gros plan d'un œil bleu avec une trace rouge, un encart de titre à droite. |
+
+Paramètres : `settings.json`, sections `analysis.bible`, `analysis.camera`, `analysis.easefit`, `analysis.sound` (12 October 2026).

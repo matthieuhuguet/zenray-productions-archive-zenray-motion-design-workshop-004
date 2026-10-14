@@ -1,0 +1,949 @@
+{
+ "date": "12 October 2026",
+ "method": "Revue à l'œil de la liste des plans, d'une tuile début, milieu, fin par plan et des pics de différence non retenus par le détecteur ; descriptions paraphrasées, sans texte affiché ni nom de marque.",
+ "reference": "Clip musical entièrement graphique, cadencé sur la musique : interfaces crème, roses, bleues et noires, mots géants en capitales qui s'empilent, se glitchent et se répètent, silhouette dansante, petite bulle mascotte, et fausses fenêtres de discussion, de messagerie et de boutique qui racontent une histoire d'injection d'instructions.",
+ "add_cuts": [
+  {
+   "t": 8.167,
+   "kind": "hard"
+  },
+  {
+   "t": 18.267,
+   "kind": "hard"
+  },
+  {
+   "t": 19.933,
+   "kind": "hard"
+  },
+  {
+   "t": 25.067,
+   "kind": "hard"
+  },
+  {
+   "t": 27.267,
+   "kind": "hard"
+  },
+  {
+   "t": 29.8,
+   "kind": "hard"
+  },
+  {
+   "t": 37.3,
+   "kind": "hard"
+  },
+  {
+   "t": 37.467,
+   "kind": "hard"
+  },
+  {
+   "t": 42.2,
+   "kind": "hard"
+  },
+  {
+   "t": 43.667,
+   "kind": "hard"
+  },
+  {
+   "t": 45.8,
+   "kind": "hard"
+  },
+  {
+   "t": 46.2,
+   "kind": "hard"
+  },
+  {
+   "t": 46.833,
+   "kind": "hard"
+  },
+  {
+   "t": 47.5,
+   "kind": "hard"
+  },
+  {
+   "t": 47.867,
+   "kind": "hard"
+  },
+  {
+   "t": 49.2,
+   "kind": "hard"
+  },
+  {
+   "t": 50.867,
+   "kind": "hard"
+  },
+  {
+   "t": 51.3,
+   "kind": "hard"
+  },
+  {
+   "t": 51.667,
+   "kind": "hard"
+  },
+  {
+   "t": 52.567,
+   "kind": "hard"
+  },
+  {
+   "t": 54.0,
+   "kind": "hard"
+  },
+  {
+   "t": 54.267,
+   "kind": "hard"
+  },
+  {
+   "t": 55.967,
+   "kind": "hard"
+  },
+  {
+   "t": 57.9,
+   "kind": "hard"
+  },
+  {
+   "t": 60.0,
+   "kind": "hard"
+  },
+  {
+   "t": 61.067,
+   "kind": "hard"
+  },
+  {
+   "t": 61.233,
+   "kind": "hard"
+  },
+  {
+   "t": 61.5,
+   "kind": "hard"
+  },
+  {
+   "t": 62.333,
+   "kind": "hard"
+  },
+  {
+   "t": 64.467,
+   "kind": "hard"
+  },
+  {
+   "t": 65.733,
+   "kind": "hard"
+  },
+  {
+   "t": 67.833,
+   "kind": "hard"
+  },
+  {
+   "t": 79.867,
+   "kind": "hard"
+  },
+  {
+   "t": 81.767,
+   "kind": "hard"
+  },
+  {
+   "t": 89.133,
+   "kind": "hard"
+  },
+  {
+   "t": 94.167,
+   "kind": "hard"
+  },
+  {
+   "t": 94.4,
+   "kind": "hard"
+  },
+  {
+   "t": 95.6,
+   "kind": "hard"
+  },
+  {
+   "t": 96.7,
+   "kind": "hard"
+  },
+  {
+   "t": 98.2,
+   "kind": "hard"
+  },
+  {
+   "t": 107.833,
+   "kind": "hard"
+  },
+  {
+   "t": 108.667,
+   "kind": "hard"
+  },
+  {
+   "t": 112.833,
+   "kind": "hard"
+  },
+  {
+   "t": 113.667,
+   "kind": "hard"
+  },
+  {
+   "t": 114.5,
+   "kind": "hard"
+  },
+  {
+   "t": 148.633,
+   "kind": "hard"
+  },
+  {
+   "t": 148.933,
+   "kind": "hard"
+  },
+  {
+   "t": 150.367,
+   "kind": "hard"
+  },
+  {
+   "t": 151.067,
+   "kind": "hard"
+  },
+  {
+   "t": 151.467,
+   "kind": "hard"
+  },
+  {
+   "t": 156.4,
+   "kind": "hard"
+  },
+  {
+   "t": 157.2,
+   "kind": "hard"
+  },
+  {
+   "t": 165.833,
+   "kind": "hard"
+  },
+  {
+   "t": 166.667,
+   "kind": "hard"
+  },
+  {
+   "t": 169.133,
+   "kind": "hard"
+  },
+  {
+   "t": 170.767,
+   "kind": "hard"
+  }
+ ],
+ "remove_cuts": [],
+ "shots": [
+  {
+   "t": 0.233,
+   "content": "graphic",
+   "text": "Un visage de bulle de conversation violette entre accolades clignote sur fond noir, une étiquette de nom se tape dessous."
+  },
+  {
+   "t": 0.567,
+   "content": "graphic",
+   "text": "Un mot en grand serif noir répété trois fois sur fond crème, très bref."
+  },
+  {
+   "t": 0.783,
+   "content": "graphic",
+   "text": "Le même mot dans des cadres bleus sur noir, très bref."
+  },
+  {
+   "t": 2.0,
+   "content": "graphic",
+   "text": "Une ligne de saisie se remplit d'une phrase pendant qu'une silhouette bleue danse au-dessus, fond crème."
+  },
+  {
+   "t": 3.133,
+   "content": "graphic",
+   "text": "La phrase éclatée en étiquettes bleues dispersées, deux images."
+  },
+  {
+   "t": 3.3,
+   "content": "graphic",
+   "text": "Les étiquettes de mots se réorganisent autour de la bulle, très bref."
+  },
+  {
+   "t": 5.8,
+   "content": "graphic",
+   "text": "Fenêtres d'interface crème où la phrase se recompose et se surligne en bleu, petite bulle mascotte à droite."
+  },
+  {
+   "t": 8.317,
+   "content": "graphic",
+   "text": "Un mot rose énorme se tape dans une fenêtre, très bref."
+  },
+  {
+   "t": 8.567,
+   "content": "graphic",
+   "text": "Barres verticales roses sur noir, comme un curseur géant."
+  },
+  {
+   "t": 8.9,
+   "content": "graphic",
+   "text": "Deux mots roses géants s'écrivent dans la fenêtre crème."
+  },
+  {
+   "t": 9.167,
+   "content": "graphic",
+   "text": "Le dernier mot sur fond violet avec un œil rond de la mascotte, deux images."
+  },
+  {
+   "t": 11.217,
+   "content": "graphic",
+   "text": "Une fausse page de recommandations de lieux défile, un passage caché surligné et la silhouette bleue en marge."
+  },
+  {
+   "t": 14.167,
+   "content": "graphic",
+   "text": "Un réglage de police minuscule est montré par une étiquette rose puis une bande de couleurs rose et bleue."
+  },
+  {
+   "t": 16.683,
+   "content": "graphic",
+   "text": "Une ligne de texte quasi invisible en bas de page se révèle, puis une notification d'envoi."
+  },
+  {
+   "t": 18.517,
+   "content": "graphic",
+   "text": "Une fenêtre de discussion où une demande se tape, très bref."
+  },
+  {
+   "t": 19.2,
+   "content": "graphic",
+   "text": "La demande se complète dans la fenêtre de discussion."
+  },
+  {
+   "t": 19.783,
+   "content": "graphic",
+   "text": "Des blocs de texte surlignés apparaissent sur une page, silhouette bleue."
+  },
+  {
+   "t": 20.067,
+   "content": "graphic",
+   "text": "Une colonne de texte de code se déroule, la mascotte en bas."
+  },
+  {
+   "t": 20.433,
+   "content": "graphic",
+   "text": "La mascotte en très grand plan fait un clin d'œil sur fond crème, un mot rose à côté."
+  },
+  {
+   "t": 21.05,
+   "content": "graphic",
+   "text": "Zoom sur l'œil de la mascotte qui devient une spirale de texte."
+  },
+  {
+   "t": 21.983,
+   "content": "graphic",
+   "text": "L'œil en spirale tourne, des mots s'enroulent autour."
+  },
+  {
+   "t": 22.85,
+   "content": "graphic",
+   "text": "La mascotte change d'expression trois fois, une étiquette rose à droite."
+  },
+  {
+   "t": 23.533,
+   "content": "graphic",
+   "text": "Une boîte de réception s'ouvre et des messages se surlignent un par un."
+  },
+  {
+   "t": 24.483,
+   "content": "graphic",
+   "text": "La liste de messages s'allonge avec des étiquettes roses."
+  },
+  {
+   "t": 25.717,
+   "content": "graphic",
+   "text": "Un agenda et une liste de fichiers défilent, cases roses cochées."
+  },
+  {
+   "t": 26.817,
+   "content": "graphic",
+   "text": "Un mot se tape lettre à lettre dans des pastilles bleues puis roses."
+  },
+  {
+   "t": 28.533,
+   "content": "graphic",
+   "text": "Des fenêtres de code avec un appel d'outil, la phrase en bas change de mot surligné."
+  },
+  {
+   "t": 32.567,
+   "content": "graphic",
+   "text": "Une citation et des mots surlignés en couleur se répartissent sur la page crème."
+  },
+  {
+   "t": 36.033,
+   "content": "graphic",
+   "text": "Une ligne de mots en pastilles défile horizontalement sur fond crème, un mot rose apparaît à droite."
+  },
+  {
+   "t": 37.017,
+   "content": "graphic",
+   "text": "Un mot rose en grand glisse sur une bande blanche qui se replie."
+  },
+  {
+   "t": 37.383,
+   "content": "graphic",
+   "text": "Le mot rose minuscule au centre d'un écran noir."
+  },
+  {
+   "t": 38.95,
+   "content": "graphic",
+   "text": "Des mains en icônes et une clé dorée apparaissent autour de la mascotte, phrases blanches en haut, fond noir."
+  },
+  {
+   "t": 41.317,
+   "content": "graphic",
+   "text": "Une rangée d'icônes d'outils s'aligne sur fond noir, phrases qui se tapent en haut."
+  },
+  {
+   "t": 42.933,
+   "content": "graphic",
+   "text": "Une phrase en serif italique blanche se tape puis une autre en rose sur noir, curseur visible."
+  },
+  {
+   "t": 43.883,
+   "content": "graphic",
+   "text": "Deux mots en rose plein cadre sur fond rose vif."
+  },
+  {
+   "t": 44.95,
+   "content": "graphic",
+   "text": "Fenêtres d'interface roses : trois mots en capitales géantes s'empilent avec la silhouette au trait."
+  },
+  {
+   "t": 46.0,
+   "content": "graphic",
+   "text": "Les mots géants sur fond noir sous une barre de titre, silhouette rose."
+  },
+  {
+   "t": 46.517,
+   "content": "graphic",
+   "text": "Silhouette bleue qui danse sur un panneau noir, bannière de mots en haut."
+  },
+  {
+   "t": 47.167,
+   "content": "graphic",
+   "text": "Un fragment de mot en capitales géantes se répète en grand."
+  },
+  {
+   "t": 47.683,
+   "content": "graphic",
+   "text": "Le fragment se démultiplie en pile, très bref."
+  },
+  {
+   "t": 48.533,
+   "content": "graphic",
+   "text": "Le mot complet se reconstruit en couches."
+  },
+  {
+   "t": 49.733,
+   "content": "graphic",
+   "text": "Le dernier mot en capitales blanches sur bande noire, fenêtres roses autour."
+  },
+  {
+   "t": 50.567,
+   "content": "graphic",
+   "text": "Une fiche de profil d'interface se remplit sur fond noir."
+  },
+  {
+   "t": 51.083,
+   "content": "graphic",
+   "text": "La fiche de profil sur fond rose, une phrase se tape en haut."
+  },
+  {
+   "t": 51.483,
+   "content": "graphic",
+   "text": "La phrase s'allonge au-dessus de la fiche, très bref."
+  },
+  {
+   "t": 51.917,
+   "content": "graphic",
+   "text": "La silhouette bleue apparaît dans la fiche, un mot se tape dans un champ."
+  },
+  {
+   "t": 52.367,
+   "content": "graphic",
+   "text": "Un mot à la fois en grand sur rose, silhouette noire et mascotte."
+  },
+  {
+   "t": 53.283,
+   "content": "graphic",
+   "text": "Mots successifs en blanc sur noir, silhouette bleue qui pointe."
+  },
+  {
+   "t": 54.2,
+   "content": "graphic",
+   "text": "Un mot rose en capitales sur noir avec une petite liste d'outils dessous."
+  },
+  {
+   "t": 55.117,
+   "content": "graphic",
+   "text": "Le même mot sur fond rose avec une liste d'actions qui s'allonge."
+  },
+  {
+   "t": 56.817,
+   "content": "graphic",
+   "text": "Trois colonnes de commandes s'alignent sous le mot sur noir."
+  },
+  {
+   "t": 57.783,
+   "content": "graphic",
+   "text": "Le mot en rose sur page crème avec la silhouette au trait, très bref."
+  },
+  {
+   "t": 58.95,
+   "content": "graphic",
+   "text": "Une fenêtre de message : trois mots géants s'empilent en bleu, noir et rose."
+  },
+  {
+   "t": 60.533,
+   "content": "graphic",
+   "text": "Une alerte d'instruction inhabituelle avec un panneau d'avertissement jaune apparaît dans un message."
+  },
+  {
+   "t": 61.15,
+   "content": "graphic",
+   "text": "Un message de recruteur s'affiche avec du texte surligné, très bref."
+  },
+  {
+   "t": 61.367,
+   "content": "graphic",
+   "text": "Un cadre bleu plein porte un mot en capitales blanches au milieu du message."
+  },
+  {
+   "t": 61.917,
+   "content": "graphic",
+   "text": "Les cadres bleus s'empilent avec deux puis trois mots."
+  },
+  {
+   "t": 63.4,
+   "content": "graphic",
+   "text": "Alerte jaune et recette affichée dans le message, cadre bleu à droite."
+  },
+  {
+   "t": 65.1,
+   "content": "graphic",
+   "text": "Un château dessiné au trait avec une clé rose, mots roses en capitales, prix affiché."
+  },
+  {
+   "t": 66.783,
+   "content": "graphic",
+   "text": "Une fiche produit de château avec prix et bouton de commande, le prix change."
+  },
+  {
+   "t": 68.983,
+   "content": "graphic",
+   "text": "Le prix chute à une somme dérisoire et une étiquette rose de vente s'affiche."
+  },
+  {
+   "t": 71.367,
+   "content": "graphic",
+   "text": "Un terminal noir : une phrase se tape et un interrupteur passe au jaune."
+  },
+  {
+   "t": 72.933,
+   "content": "graphic",
+   "text": "Un nuage en pixels argentés monte sur fond noir, mascotte et fenêtre."
+  },
+  {
+   "t": 74.133,
+   "content": "graphic",
+   "text": "Une boîte de permission jaune : le bouton d'autorisation permanente s'allonge."
+  },
+  {
+   "t": 75.65,
+   "content": "graphic",
+   "text": "Des fenêtres contextuelles s'empilent en cascade, un mot rose en bas."
+  },
+  {
+   "t": 76.4,
+   "content": "graphic",
+   "text": "Un réglage de configuration passe à vrai, mot rose en capitales répété."
+  },
+  {
+   "t": 78.183,
+   "content": "graphic",
+   "text": "Un résumé d'e-mails se tape dans une fenêtre, un badge jaune de félicitations apparaît."
+  },
+  {
+   "t": 80.817,
+   "content": "graphic",
+   "text": "Un e-mail se transfère avec des pièces jointes sensibles, champs remplis."
+  },
+  {
+   "t": 83.017,
+   "content": "graphic",
+   "text": "Un e-mail d'envoi vers une adresse inconnue se tape, bouton d'envoi."
+  },
+  {
+   "t": 86.7,
+   "content": "graphic",
+   "text": "Trois cases à cocher d'un schéma de risque se remplissent en rose."
+  },
+  {
+   "t": 90.317,
+   "content": "graphic",
+   "text": "Un triangle rose relie trois risques, une bannière d'achèvement s'affiche."
+  },
+  {
+   "t": 92.117,
+   "content": "graphic",
+   "text": "Fond bleu électrique : mots géants blancs et silhouette bleue sur des panneaux."
+  },
+  {
+   "t": 93.15,
+   "content": "graphic",
+   "text": "Les trois mots blancs s'empilent sur fond bleu, silhouette à droite."
+  },
+  {
+   "t": 93.867,
+   "content": "graphic",
+   "text": "Même composition bleue, variation de mise en page."
+  },
+  {
+   "t": 94.283,
+   "content": "graphic",
+   "text": "Un fragment de mot répété en blanc sur bleu, très bref."
+  },
+  {
+   "t": 95.0,
+   "content": "graphic",
+   "text": "Le fragment se multiplie puis le mot entier apparaît, fond bleu."
+  },
+  {
+   "t": 95.95,
+   "content": "graphic",
+   "text": "Un mot blanc seul sur fond bleu, silhouette à droite."
+  },
+  {
+   "t": 96.5,
+   "content": "graphic",
+   "text": "Un long mot coupé en trois lignes, contours puis plein, fond bleu."
+  },
+  {
+   "t": 97.1,
+   "content": "graphic",
+   "text": "Les trois lignes se remplissent en blanc l'une après l'autre."
+  },
+  {
+   "t": 97.85,
+   "content": "graphic",
+   "text": "Une phrase en capitales se construit mot à mot en blanc et en pastille noire, fond bleu."
+  },
+  {
+   "t": 98.583,
+   "content": "graphic",
+   "text": "La phrase complète en capitales blanches sur noir, un mot barré."
+  },
+  {
+   "t": 99.217,
+   "content": "graphic",
+   "text": "Une silhouette rose danse derrière une bande blanche oblique portant un mot."
+  },
+  {
+   "t": 100.367,
+   "content": "graphic",
+   "text": "Fenêtres de terminal autour de la silhouette rose, un mot change en bas à gauche."
+  },
+  {
+   "t": 101.633,
+   "content": "graphic",
+   "text": "Un mot rose sur noir, la silhouette au centre et des listes qui défilent."
+  },
+  {
+   "t": 102.4,
+   "content": "graphic",
+   "text": "La silhouette rose danse entourée de petites bulles mascottes."
+  },
+  {
+   "t": 103.017,
+   "content": "graphic",
+   "text": "La silhouette tourne, rangée de bulles, très bref."
+  },
+  {
+   "t": 104.067,
+   "content": "graphic",
+   "text": "Fond rose : la silhouette en miroir et des bulles mascottes en colonnes."
+  },
+  {
+   "t": 106.033,
+   "content": "graphic",
+   "text": "Mots en pixels roses empilés sur fond sombre tramé, silhouette bleue à droite."
+  },
+  {
+   "t": 107.5,
+   "content": "graphic",
+   "text": "Rangées de pilules d'interface sur fond sombre, un mot rose au centre."
+  },
+  {
+   "t": 108.033,
+   "content": "graphic",
+   "text": "Le mot rose suivi d'un autre dans les rangées de pilules, très bref."
+  },
+  {
+   "t": 108.45,
+   "content": "graphic",
+   "text": "Fenêtres sombres avec un mot en cadre bleu, silhouette, très bref."
+  },
+  {
+   "t": 109.583,
+   "content": "graphic",
+   "text": "Trois mots roses en capitales s'empilent à gauche de la silhouette bleue."
+  },
+  {
+   "t": 110.833,
+   "content": "graphic",
+   "text": "Le mot rose seul au milieu des rangées de pilules."
+  },
+  {
+   "t": 112.0,
+   "content": "graphic",
+   "text": "Un mot noir sur rose, puis une ville de blocs de données avec une clé."
+  },
+  {
+   "t": 113.25,
+   "content": "graphic",
+   "text": "Des mots en capitales noires défilent sur la ville de blocs roses."
+  },
+  {
+   "t": 114.083,
+   "content": "graphic",
+   "text": "Un mot se répète sur la ville de blocs, étiquettes de prix."
+  },
+  {
+   "t": 116.117,
+   "content": "graphic",
+   "text": "Le mot de vente en grand sur la ville rose avec un compteur négatif en haut."
+  },
+  {
+   "t": 118.0,
+   "content": "graphic",
+   "text": "Un grand cercle rose balaie un objet blanc qui tombe sur noir."
+  },
+  {
+   "t": 124.717,
+   "content": "graphic",
+   "text": "Long plan sur page crème : un texte en serif italique se tape, des annotations et un mot surligné apparaissent, un téléphone en marge."
+  },
+  {
+   "t": 132.217,
+   "content": "graphic",
+   "text": "Une phrase se tape au-dessus de la mascotte et une liste de permissions cochées."
+  },
+  {
+   "t": 134.5,
+   "content": "graphic",
+   "text": "Fond violet : une phrase s'enroule en cercle autour du curseur."
+  },
+  {
+   "t": 138.65,
+   "content": "graphic",
+   "text": "Des fiches d'agenda et de boîte de réception s'empilent autour de la mascotte sur fond clair."
+  },
+  {
+   "t": 143.217,
+   "content": "graphic",
+   "text": "Fond violet : un mot dans un cadre en pointillés glisse et se défait lettre à lettre."
+  },
+  {
+   "t": 146.6,
+   "content": "graphic",
+   "text": "Les lettres roses du mot s'éparpillent sur fond noir autour de la mascotte."
+  },
+  {
+   "t": 148.483,
+   "content": "graphic",
+   "text": "Fond rose : un mot géant en capitales sous la silhouette au trait, très bref."
+  },
+  {
+   "t": 148.783,
+   "content": "graphic",
+   "text": "Le même mot sur rose en variante noire, très bref."
+  },
+  {
+   "t": 149.25,
+   "content": "graphic",
+   "text": "Deuxième mot géant sur rose, mots répétés en fond."
+  },
+  {
+   "t": 149.683,
+   "content": "graphic",
+   "text": "Un long mot coupé sur deux lignes en noir sur rose, très bref."
+  },
+  {
+   "t": 150.083,
+   "content": "graphic",
+   "text": "Le mot rose sur bande noire avec une page de recommandations derrière."
+  },
+  {
+   "t": 150.717,
+   "content": "graphic",
+   "text": "Colonnes de pastilles roses qui se remplissent d'un mot répété."
+  },
+  {
+   "t": 151.267,
+   "content": "graphic",
+   "text": "Les colonnes de pastilles roses se décalent, très bref."
+  },
+  {
+   "t": 151.55,
+   "content": "graphic",
+   "text": "Même grille de pastilles, deux images."
+  },
+  {
+   "t": 152.85,
+   "content": "graphic",
+   "text": "Trois mots en noir et rose s'empilent sur une page crème barrée de rectangles noirs."
+  },
+  {
+   "t": 155.017,
+   "content": "graphic",
+   "text": "Une silhouette tramée sur noir, une phrase en pastilles bleues s'empile sur son torse."
+  },
+  {
+   "t": 156.183,
+   "content": "graphic",
+   "text": "Un mot se tape sur une bande rose au-dessus d'une page noire."
+  },
+  {
+   "t": 156.6,
+   "content": "graphic",
+   "text": "Mots successifs en capitales sur bande rose, très bref."
+  },
+  {
+   "t": 157.0,
+   "content": "graphic",
+   "text": "Mot en pixels en haut et mot en capitales sur bande rose."
+  },
+  {
+   "t": 157.417,
+   "content": "graphic",
+   "text": "Un mot sur bande rose avec un terminal au-dessus."
+  },
+  {
+   "t": 157.7,
+   "content": "graphic",
+   "text": "Un mot sur bande rose devant des nuages en pointillés, très bref."
+  },
+  {
+   "t": 159.633,
+   "content": "graphic",
+   "text": "Un mot rose sur noir puis des fenêtres sombres qui s'emboîtent."
+  },
+  {
+   "t": 161.617,
+   "content": "graphic",
+   "text": "Fond rose : un mot en cadre bleu sous la silhouette, très bref."
+  },
+  {
+   "t": 162.15,
+   "content": "graphic",
+   "text": "Mots géants roses sur fond sombre tramé de mots répétés."
+  },
+  {
+   "t": 162.7,
+   "content": "graphic",
+   "text": "Le deuxième mot rose plein cadre, très bref."
+  },
+  {
+   "t": 163.1,
+   "content": "graphic",
+   "text": "Un mot répété en colonnes verticales sur rose et noir."
+  },
+  {
+   "t": 163.467,
+   "content": "graphic",
+   "text": "Colonnes verticales de mots en noir, très bref."
+  },
+  {
+   "t": 164.183,
+   "content": "graphic",
+   "text": "Un mot géant rose sur noir, barré et glitché à la fin."
+  },
+  {
+   "t": 165.017,
+   "content": "graphic",
+   "text": "Fond rose : le mot en cadre bleu sous la silhouette."
+  },
+  {
+   "t": 165.533,
+   "content": "graphic",
+   "text": "Mosaïque de petites fenêtres et un mot rose en grand."
+  },
+  {
+   "t": 166.033,
+   "content": "graphic",
+   "text": "Mosaïque de fenêtres crème et mot géant en capitales."
+  },
+  {
+   "t": 166.45,
+   "content": "graphic",
+   "text": "La mosaïque se répète en miroir avec un mot en bande."
+  },
+  {
+   "t": 166.75,
+   "content": "graphic",
+   "text": "Mosaïque en miroir, très bref."
+  },
+  {
+   "t": 167.083,
+   "content": "graphic",
+   "text": "La mosaïque et un mot géant rose qui change."
+  },
+  {
+   "t": 167.617,
+   "content": "graphic",
+   "text": "Le mot rose dans la mosaïque puis une phrase répétée en capitales roses sur noir."
+  },
+  {
+   "t": 168.517,
+   "content": "graphic",
+   "text": "Une clé dorée et des mots noirs géants sur bandes roses."
+  },
+  {
+   "t": 169.95,
+   "content": "graphic",
+   "text": "Mots en capitales sur bandes roses avec étiquettes de prix et listes."
+  },
+  {
+   "t": 170.867,
+   "content": "graphic",
+   "text": "Un mot répété trois fois sur une bande rose, très bref."
+  },
+  {
+   "t": 172.7,
+   "content": "graphic",
+   "text": "Des tas de blocs roses s'effondrent avec une étiquette de vente, silhouette au centre."
+  },
+  {
+   "t": 175.85,
+   "content": "graphic",
+   "text": "Retour au début : une phrase se tape dans un champ crème au-dessus de la mascotte."
+  },
+  {
+   "t": 177.5,
+   "content": "graphic",
+   "text": "Barres verticales roses sur noir comme un curseur géant."
+  },
+  {
+   "t": 177.933,
+   "content": "graphic",
+   "text": "Fond violet : la bouche et l'œil de la mascotte en très gros plan."
+  },
+  {
+   "t": 178.333,
+   "content": "graphic",
+   "text": "Gros plan du visage de la mascotte sur violet, yeux rectangulaires roses."
+  },
+  {
+   "t": 178.733,
+   "content": "graphic",
+   "text": "La bulle mascotte entre accolades sur fond noir, très bref."
+  },
+  {
+   "t": 180.367,
+   "content": "graphic",
+   "text": "La mascotte clignote au-dessus de son étiquette de nom sur noir, fin."
+  }
+ ]
+}

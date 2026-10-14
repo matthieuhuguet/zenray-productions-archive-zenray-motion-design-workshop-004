@@ -1,0 +1,1372 @@
+{
+ "date": "12 October 2026",
+ "method": "Revue à l'œil de la liste des plans, d'une tuile début, milieu, fin par plan et des pics de différence non retenus par le détecteur ; descriptions paraphrasées, sans texte affiché ni nom de marque.",
+ "reference": "Clip musical sombre et cinématographique sur un mythe marin : marins, mât, cordes, tempête et une chanteuse en robe blanche, monté très vite avec des sous-titres qui s'écrivent mot à mot, des mots géants en capitales, des pictogrammes de consigne, des compteurs qui s'emballent et des captures de messages de réseau social.",
+ "add_cuts": [
+  {
+   "t": 16.792,
+   "kind": "hard"
+  },
+  {
+   "t": 32.792,
+   "kind": "hard"
+  },
+  {
+   "t": 95.542,
+   "kind": "hard"
+  },
+  {
+   "t": 95.792,
+   "kind": "hard"
+  },
+  {
+   "t": 103.083,
+   "kind": "hard"
+  },
+  {
+   "t": 115.5,
+   "kind": "hard"
+  },
+  {
+   "t": 115.958,
+   "kind": "hard"
+  },
+  {
+   "t": 119.75,
+   "kind": "hard"
+  },
+  {
+   "t": 158.0,
+   "kind": "hard"
+  },
+  {
+   "t": 160.75,
+   "kind": "hard"
+  },
+  {
+   "t": 171.708,
+   "kind": "hard"
+  },
+  {
+   "t": 176.25,
+   "kind": "hard"
+  },
+  {
+   "t": 176.667,
+   "kind": "hard"
+  },
+  {
+   "t": 177.167,
+   "kind": "hard"
+  },
+  {
+   "t": 177.625,
+   "kind": "hard"
+  }
+ ],
+ "remove_cuts": [],
+ "shots": [
+  {
+   "t": 1.375,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Très gros plan d'un œil bleu traversé d'une trace rouge, deux lignes de sous-titres s'écrivent à côté."
+  },
+  {
+   "t": 3.833,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'œil, puis une mer agitée vue de haut avec un compteur dans le coin."
+  },
+  {
+   "t": 5.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mer agitée vue de haut, un tourbillon se forme, très bref."
+  },
+  {
+   "t": 5.313,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Vagues qui se brisent sur des rochers, très bref."
+  },
+  {
+   "t": 5.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mer houleuse contre des rochers, compteur qui change."
+  },
+  {
+   "t": 6.208,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un disque lumineux à la surface de la mer, très bref."
+  },
+  {
+   "t": 6.667,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Vagues sombres contre la falaise."
+  },
+  {
+   "t": 7.479,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une jeune femme en robe blanche bouffante, cheveux noirs, sur fond de mer, une barre de lecture en bas."
+  },
+  {
+   "t": 8.417,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme de dos face à la mer, une icône d'alerte jaune s'affiche."
+  },
+  {
+   "t": 9.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Gros plan de la jeune femme, une question en capitales blanches et rouges se compose à gauche."
+  },
+  {
+   "t": 10.979,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Image en négatif puis la jeune femme et ses doubles, un multiplicateur dans le coin."
+  },
+  {
+   "t": 11.437,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Plusieurs copies de la jeune femme côte à côte, le multiplicateur double."
+  },
+  {
+   "t": 11.896,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Encore plus de copies alignées, très bref."
+  },
+  {
+   "t": 12.354,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une foule de copies en robe blanche, compteur qui grimpe."
+  },
+  {
+   "t": 12.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Des centaines de silhouettes en blanc de dos, le compteur s'emballe."
+  },
+  {
+   "t": 13.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un anneau de silhouettes blanches sur un rocher en mer, compteur au millier."
+  },
+  {
+   "t": 13.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une marée de silhouettes blanches face à la mer de nuit."
+  },
+  {
+   "t": 14.292,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les silhouettes alignées vers l'horizon nocturne, très bref."
+  },
+  {
+   "t": 14.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Cercles concentriques à la surface d'une mer sombre devant un navire."
+  },
+  {
+   "t": 15.604,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Des marins barbus serrés dans la pénombre, très bref."
+  },
+  {
+   "t": 16.0,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Très gros plan d'un bouchon rouge enfoncé dans une oreille, très bref."
+  },
+  {
+   "t": 16.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un homme barbu au téléphone au milieu des rameurs, quatre images."
+  },
+  {
+   "t": 16.438,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mer sombre traversée par une affiche de consignes, très bref."
+  },
+  {
+   "t": 16.687,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mer et affiche, puis image en négatif d'un navire."
+  },
+  {
+   "t": 17.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu entouré de l'équipage, regard vers le bas."
+  },
+  {
+   "t": 17.479,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme penché sur un écran lumineux au milieu de l'équipage."
+  },
+  {
+   "t": 17.833,
+   "content": "graphic",
+   "text": "Image en négatif puis capture d'un message de réseau social avec la photo d'un homme."
+  },
+  {
+   "t": 19.896,
+   "content": "graphic",
+   "text": "Messages de réseau social empilés avec photos et la jeune femme qui chante à droite."
+  },
+  {
+   "t": 22.479,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un message de réseau social, un mot rouge géant s'imprime dessus."
+  },
+  {
+   "t": 24.062,
+   "content": "graphic",
+   "text": "Un autre message avec une silhouette en blanc, la jeune femme endormie à droite."
+  },
+  {
+   "t": 25.292,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un homme allongé, le visage strié de lumière bleue, une phrase en surimpression."
+  },
+  {
+   "t": 25.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le même homme allongé les yeux ouverts, un compteur rouge descend."
+  },
+  {
+   "t": 26.479,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un réveil à chiffres rouges sur une table de chevet, une heure tardive s'écrit dessous."
+  },
+  {
+   "t": 27.187,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Très gros plan d'un œil où se reflète un écran, une jauge apparaît."
+  },
+  {
+   "t": 27.667,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme allongé dans la lumière bleue, un sigle en rouge en bas."
+  },
+  {
+   "t": 28.188,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le réveil, puis un pourcentage rouge géant le remplace."
+  },
+  {
+   "t": 29.333,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Interface noire avec la miniature d'un navire dans la tempête et des titres."
+  },
+  {
+   "t": 30.583,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un homme crie accroché au mât dans les embruns, sous-titre qui s'écrit."
+  },
+  {
+   "t": 31.521,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même scène de tempête, des vagues balaient le pont."
+  },
+  {
+   "t": 32.437,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme crie au mât, plus près."
+  },
+  {
+   "t": 32.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme hurle au mât, très bref."
+  },
+  {
+   "t": 33.5,
+   "content": "graphic",
+   "text": "Fil de messages sombre, une phrase rose se compose au centre."
+  },
+  {
+   "t": 34.417,
+   "content": "graphic",
+   "text": "Messages et graphique en forme de lame qui grandit, phrase blanche."
+  },
+  {
+   "t": 35.542,
+   "content": "graphic",
+   "text": "La phrase complète et le graphique en lame sur noir."
+  },
+  {
+   "t": 36.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Fil de messages avec la jeune femme qui chante, un mot blanc apparaît."
+  },
+  {
+   "t": 36.958,
+   "content": "graphic",
+   "text": "Mosaïque de messages, une phrase se tape en rouge et blanc."
+  },
+  {
+   "t": 37.417,
+   "content": "graphic",
+   "text": "Mosaïque de vignettes de la jeune femme, très bref."
+  },
+  {
+   "t": 37.854,
+   "content": "graphic",
+   "text": "Mosaïque dense de vignettes, la phrase se termine."
+  },
+  {
+   "t": 38.312,
+   "content": "graphic",
+   "text": "Grille de vignettes avec un mot qui se déplace, très bref."
+  },
+  {
+   "t": 38.771,
+   "content": "graphic",
+   "text": "Grille de vignettes, très bref."
+  },
+  {
+   "t": 39.208,
+   "content": "graphic",
+   "text": "Grille de vignettes qui se décale, très bref."
+  },
+  {
+   "t": 39.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Vue aérienne d'un navire à voile carrée sur la mer au couchant, un tracé apparaît."
+  },
+  {
+   "t": 41.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un navire près d'une île, une question se tape en haut avec des mots masqués."
+  },
+  {
+   "t": 42.375,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en robe blanche sur un rocher, la question se complète."
+  },
+  {
+   "t": 43.271,
+   "content": "graphic",
+   "text": "Pictogramme d'un personnage attaché à un mât, mots en capitales blanches à côté."
+  },
+  {
+   "t": 43.542,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme sur le rocher, des mots en capitales s'ajoutent en bas."
+  },
+  {
+   "t": 43.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les marins en t-shirts noirs, la phrase en capitales s'allonge."
+  },
+  {
+   "t": 44.0,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme sur le rocher, la phrase en capitales se termine en rouge."
+  },
+  {
+   "t": 44.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les marins, la phrase imprimée défile sur leurs t-shirts."
+  },
+  {
+   "t": 44.583,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La phrase répétée en surimpression floue sur les marins."
+  },
+  {
+   "t": 44.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La phrase floue, deux images."
+  },
+  {
+   "t": 45.646,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu assis à la proue, cordes autour de lui, sous-titre en bas."
+  },
+  {
+   "t": 46.562,
+   "content": "graphic",
+   "text": "Pictogramme d'un personnage casqué sur fond crème, un mot noir."
+  },
+  {
+   "t": 47.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le bouchon rouge dans l'oreille en très gros plan, mots blancs successifs."
+  },
+  {
+   "t": 47.938,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'oreille et le bouchon rouge, une courbe et des mots qui s'enchaînent."
+  },
+  {
+   "t": 48.854,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une main qui se tend vers le bord du navire, mot en rouge."
+  },
+  {
+   "t": 49.875,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu ligoté au mât, une phrase s'écrit à gauche."
+  },
+  {
+   "t": 50.688,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme chante, la phrase et un compteur à droite."
+  },
+  {
+   "t": 51.167,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme chante en gros plan, compteur qui avance."
+  },
+  {
+   "t": 51.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme ligoté, la phrase se termine et le compteur avance."
+  },
+  {
+   "t": 52.271,
+   "content": "graphic",
+   "text": "Pictogramme d'un personnage barré dans un cercle, mot blanc."
+  },
+  {
+   "t": 52.896,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme chante devant des embruns, mots en capitales en bas."
+  },
+  {
+   "t": 53.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un nœud de corde en gros plan, mots en capitales et mesure de distance."
+  },
+  {
+   "t": 54.604,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme tend la main vers la caméra, un mot à droite."
+  },
+  {
+   "t": 55.063,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Elle hurle face caméra, un mot en capitales, puis flou."
+  },
+  {
+   "t": 56.104,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La proue d'un navire sur une mer calme, une citation se tape en haut."
+  },
+  {
+   "t": 57.812,
+   "content": "graphic",
+   "text": "Un titre en capitales énormes texturé d'images sur noir, un sous-titre rouge."
+  },
+  {
+   "t": 59.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une figurine de personnage d'animation sur un rocher, une phrase se tape à côté."
+  },
+  {
+   "t": 61.375,
+   "content": "graphic",
+   "text": "Un téléphone en main puis l'équipage, numéros qui défilent."
+  },
+  {
+   "t": 62.042,
+   "content": "graphic",
+   "text": "Mosaïque d'écrans de téléphone qui se multiplie, compteur."
+  },
+  {
+   "t": 63.479,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu au téléphone, un nombre et des mots en rouge et blanc."
+  },
+  {
+   "t": 66.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un rameur en capuche dans l'ombre, une phrase s'écrit en blanc."
+  },
+  {
+   "t": 68.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le bouchon rouge en gros plan, une phrase blanche à droite."
+  },
+  {
+   "t": 70.167,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un mot rose géant au-dessus d'une foule de silhouettes blanches."
+  },
+  {
+   "t": 72.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme qui chante, pourcentages et un mot rouge."
+  },
+  {
+   "t": 74.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en robe argentée, une phrase avec un nom se compose."
+  },
+  {
+   "t": 75.708,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme sur la mer, la phrase s'allonge puis un mot en bas."
+  },
+  {
+   "t": 77.5,
+   "content": "graphic",
+   "text": "Message de réseau social avec la photo d'une personne aux cheveux clairs, phrase en rouge."
+  },
+  {
+   "t": 78.458,
+   "content": "graphic",
+   "text": "Une image verticale minuscule au centre du noir, deux images."
+  },
+  {
+   "t": 79.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu à bord, regard vers le haut, une phrase s'écrit."
+  },
+  {
+   "t": 82.208,
+   "content": "graphic",
+   "text": "Fil de messages avec la jeune femme chantant et une phrase avec un nom."
+  },
+  {
+   "t": 84.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Gros plan rouge de deux visages, deux images."
+  },
+  {
+   "t": 85.104,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un homme et la jeune femme allongés tête contre tête, phrase en rouge."
+  },
+  {
+   "t": 87.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un navire au loin entre des rochers, une phrase se tape en haut."
+  },
+  {
+   "t": 87.938,
+   "content": "graphic",
+   "text": "Pictogramme barré d'un plongeur sur noir, consigne en capitales, une image."
+  },
+  {
+   "t": 88.187,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire près des rochers, un objet jaillit de l'eau."
+  },
+  {
+   "t": 88.75,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une ville sombre au bord de l'eau avec des flammes, multiplicateur qui grimpe."
+  },
+  {
+   "t": 89.333,
+   "content": "graphic",
+   "text": "Interface noire avec de petites vignettes, une question se compose."
+  },
+  {
+   "t": 89.625,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en gros plan, deux images."
+  },
+  {
+   "t": 90.354,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme à genoux en robe argentée, la question se complète en bas."
+  },
+  {
+   "t": 91.167,
+   "content": "graphic",
+   "text": "Pictogramme d'un personnage au mât, phrase et mot en capitales."
+  },
+  {
+   "t": 91.438,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mer de nuit et lueurs, phrase en capitales qui s'écrit."
+  },
+  {
+   "t": 91.833,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme penchée devant des flammes, la phrase en capitales se termine."
+  },
+  {
+   "t": 92.292,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Image en négatif puis la phrase en capitales sur la scène nocturne."
+  },
+  {
+   "t": 92.625,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme hurle devant les flammes, très bref."
+  },
+  {
+   "t": 94.146,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme dans l'ombre, des phrases blanches puis une gravure en négatif."
+  },
+  {
+   "t": 95.667,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un homme barbu illuminé, un mot en capitales en bas."
+  },
+  {
+   "t": 96.146,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme dans la pénombre verte, le mot en capitales répété."
+  },
+  {
+   "t": 97.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme penchée dans un décor rocheux orange, phrase qui s'écrit."
+  },
+  {
+   "t": 99.375,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un torrent dans une grotte avec une lueur, phrase qui se complète."
+  },
+  {
+   "t": 100.437,
+   "content": "graphic",
+   "text": "Pictogramme barré d'un personnage au mât, consigne en capitales."
+  },
+  {
+   "t": 100.646,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme crie au bord d'un trou, mot en capitales."
+  },
+  {
+   "t": 101.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'eau tourbillonne, mot en capitales en bas."
+  },
+  {
+   "t": 102.625,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme au bord du gouffre, la phrase en capitales se construit."
+  },
+  {
+   "t": 103.292,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu de nuit, la phrase en capitales complète en bas."
+  },
+  {
+   "t": 104.208,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu dans l'ombre, regard intense."
+  },
+  {
+   "t": 105.146,
+   "content": "graphic",
+   "text": "Titre en capitales énormes sur fond crème, sous-titre rouge."
+  },
+  {
+   "t": 106.542,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Embruns sombres, une phrase en italique en haut."
+  },
+  {
+   "t": 108.625,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une barque sur une mer immobile au couchant, deux phrases s'écrivent."
+  },
+  {
+   "t": 110.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Rameurs penchés sur leurs avirons, vu de près."
+  },
+  {
+   "t": 111.833,
+   "content": "graphic",
+   "text": "Un visage en trame de points sur noir, étiquettes rouges."
+  },
+  {
+   "t": 112.958,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Très gros plan d'une oreille rougie puis noir."
+  },
+  {
+   "t": 114.333,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en armure argentée, un mot rouge en bas à droite."
+  },
+  {
+   "t": 115.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en armure, le mot rouge empilé."
+  },
+  {
+   "t": 115.729,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même plan, une étiquette en bas, très bref."
+  },
+  {
+   "t": 116.187,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en armure, sous-titre qui change."
+  },
+  {
+   "t": 116.438,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Image claire en négatif d'une silhouette, une image."
+  },
+  {
+   "t": 116.667,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un mot chromé et une silhouette argentée sur fond sombre."
+  },
+  {
+   "t": 117.104,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le mot chromé et la silhouette, sous-titre en bas."
+  },
+  {
+   "t": 117.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en armure argentée, sous-titre qui s'allonge."
+  },
+  {
+   "t": 118.646,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu et la jeune femme en armure, phrase qui s'écrit."
+  },
+  {
+   "t": 119.396,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme et la jeune femme, la phrase se termine en rouge."
+  },
+  {
+   "t": 120.146,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une main sur l'épaule puis de l'eau qui coule, sous-titre."
+  },
+  {
+   "t": 122.167,
+   "content": "graphic",
+   "text": "Interface noire : une formule chimique et un téléphone, phrases successives."
+  },
+  {
+   "t": 124.333,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme et la jeune femme en armure tête contre tête, phrases avec un téléphone."
+  },
+  {
+   "t": 125.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple, la phrase change, flou de mouvement."
+  },
+  {
+   "t": 126.729,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une porte lumineuse au bout d'un couloir sombre, un mot rouge."
+  },
+  {
+   "t": 128.354,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un couloir de toilettes sous une lumière froide, phrase qui s'écrit."
+  },
+  {
+   "t": 129.187,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même couloir, la phrase se complète."
+  },
+  {
+   "t": 130.417,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Une main argentée sur un tissu, une phrase rouge et blanche."
+  },
+  {
+   "t": 132.333,
+   "content": "graphic",
+   "text": "Des yeux qui brillent en très gros plan, un mot en capitales énorme en haut."
+  },
+  {
+   "t": 133.604,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme barbu au téléphone dans l'ombre, un mot rouge."
+  },
+  {
+   "t": 134.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme éclairée de face, phrase qui s'écrit."
+  },
+  {
+   "t": 135.083,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme au téléphone, la phrase se termine."
+  },
+  {
+   "t": 135.604,
+   "content": "graphic",
+   "text": "Une spirale hypnotique noire et blanche, deux images."
+  },
+  {
+   "t": 136.0,
+   "content": "graphic",
+   "text": "La spirale qui tourne, un mot rouge en bas."
+  },
+  {
+   "t": 136.438,
+   "content": "graphic",
+   "text": "La spirale, très bref."
+  },
+  {
+   "t": 136.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme et la jeune femme en armure, très bref."
+  },
+  {
+   "t": 137.896,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple enlacé, phrases successives en haut."
+  },
+  {
+   "t": 139.708,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme renverse la tête sous une douche, phrases et sigle en rouge."
+  },
+  {
+   "t": 140.833,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme sous l'eau, la phrase change."
+  },
+  {
+   "t": 142.417,
+   "content": "graphic",
+   "text": "L'homme puis un graphique de courbe sur noir et une phrase en capitales."
+  },
+  {
+   "t": 145.833,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un navire dans la tempête, flèches rouges qui montent et descendent avec une phrase."
+  },
+  {
+   "t": 149.437,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La tempête, flèche rouge vers le haut, phrase."
+  },
+  {
+   "t": 150.958,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Tempête, deux images."
+  },
+  {
+   "t": 151.167,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Visage de la jeune femme mouillé, puis le navire et une image en négatif."
+  },
+  {
+   "t": 151.479,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme avec une étoile rouge, phrase en rouge."
+  },
+  {
+   "t": 151.854,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme dans les vagues, une phrase en capitales en haut."
+  },
+  {
+   "t": 152.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même plan, la phrase reste."
+  },
+  {
+   "t": 153.729,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Des centaines d'yeux sur une surface sombre, phrase qui se complète."
+  },
+  {
+   "t": 154.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un mot sur fond crème, puis la jeune femme et un mot rouge."
+  },
+  {
+   "t": 155.313,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Mots en capitales empilés sur la jeune femme qui garde les yeux fermés."
+  },
+  {
+   "t": 155.854,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La phrase en capitales empilée complète, très bref."
+  },
+  {
+   "t": 156.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même phrase sur la jeune femme, très bref."
+  },
+  {
+   "t": 156.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les mots en capitales réapparaissent un par un en rouge puis blanc."
+  },
+  {
+   "t": 157.312,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les mots empilés sur un nœud de corde."
+  },
+  {
+   "t": 157.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les mots empilés sur une ville en flammes au bord de l'eau."
+  },
+  {
+   "t": 158.875,
+   "content": "graphic",
+   "text": "La phrase empilée puis une courbe avec flèches sur noir."
+  },
+  {
+   "t": 160.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme à la peau de porcelaine, les yeux mi-clos, sous-titre."
+  },
+  {
+   "t": 161.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme pâle ouvre la bouche, sous-titre qui change."
+  },
+  {
+   "t": 161.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple sur le bateau, un mot en capitales apparaît en bas."
+  },
+  {
+   "t": 162.354,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple en noir et blanc puis la jeune femme qui crie, mot en capitales."
+  },
+  {
+   "t": 162.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Image en négatif puis la jeune femme qui crie, mot en capitales."
+  },
+  {
+   "t": 163.125,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple en noir et blanc, phrase en capitales et pictogramme."
+  },
+  {
+   "t": 163.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme et l'homme front contre front, sous-titre."
+  },
+  {
+   "t": 163.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple enlacé, sous-titre qui change."
+  },
+  {
+   "t": 164.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme pâle, sous-titre en blanc et rouge."
+  },
+  {
+   "t": 164.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple sur le pont, très bref."
+  },
+  {
+   "t": 164.562,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple, sous-titre qui s'allonge."
+  },
+  {
+   "t": 165.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme pâle, phrase complète."
+  },
+  {
+   "t": 165.438,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Image en négatif puis l'homme et un mot en capitales en noir et blanc."
+  },
+  {
+   "t": 165.875,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme et un mot en capitales en noir et blanc."
+  },
+  {
+   "t": 166.521,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Cordages en contre-jour orangé, mots en capitales qui s'ajoutent."
+  },
+  {
+   "t": 166.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le bordé d'un navire en bois, deux images."
+  },
+  {
+   "t": 167.021,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire entre des falaises rouges, trois images."
+  },
+  {
+   "t": 167.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme en robe blanche dans une grotte marine, phrase qui s'écrit."
+  },
+  {
+   "t": 168.687,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Même plan, la phrase continue."
+  },
+  {
+   "t": 169.354,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme bras ouverts, phrase complète."
+  },
+  {
+   "t": 170.313,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme ligoté qui grimace dans les embruns, phrase."
+  },
+  {
+   "t": 170.896,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme qui chante, mot en capitales, trois images."
+  },
+  {
+   "t": 171.062,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Les marins, mot en capitales, très bref."
+  },
+  {
+   "t": 171.438,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme qui crie, mots en capitales."
+  },
+  {
+   "t": 171.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Falaises et mer, mots en capitales géants, trois images."
+  },
+  {
+   "t": 172.187,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Falaises, la jeune femme passe, mots en capitales."
+  },
+  {
+   "t": 172.792,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme danse devant les falaises, mots en capitales qui clignotent."
+  },
+  {
+   "t": 173.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme bras levés devant les falaises, mots en capitales."
+  },
+  {
+   "t": 173.812,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire avance entre les falaises au soleil."
+  },
+  {
+   "t": 174.729,
+   "content": "graphic",
+   "text": "Titre en capitales énormes texturé d'images sur noir."
+  },
+  {
+   "t": 175.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire à contre-jour, une image en négatif au milieu."
+  },
+  {
+   "t": 176.458,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire sur la mer scintillante, très bref."
+  },
+  {
+   "t": 176.917,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire, image en négatif, puis normal."
+  },
+  {
+   "t": 177.271,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire sur la mer scintillante, très bref."
+  },
+  {
+   "t": 177.5,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire, puis en négatif, très bref."
+  },
+  {
+   "t": 177.688,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le navire, trois images."
+  },
+  {
+   "t": 178.104,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple s'embrasse au bord du navire, un mot entre parenthèses."
+  },
+  {
+   "t": 178.687,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple, la jeune femme se retourne, très bref."
+  },
+  {
+   "t": 179.25,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple s'embrasse, mot entre parenthèses."
+  },
+  {
+   "t": 179.708,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple, très bref."
+  },
+  {
+   "t": 180.062,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Un nœud de corde serré en noir et blanc, très bref."
+  },
+  {
+   "t": 180.521,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme ligoté en noir et blanc, pictogramme barré et consigne."
+  },
+  {
+   "t": 180.979,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le nœud et le pictogramme, très bref."
+  },
+  {
+   "t": 181.437,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le couple en noir et blanc, pictogramme et consigne."
+  },
+  {
+   "t": 181.875,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Image en négatif puis le nœud et le pictogramme."
+  },
+  {
+   "t": 182.312,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme ligoté, pictogramme et un mot rouge."
+  },
+  {
+   "t": 183.0,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le nœud, pictogramme et mot rouge."
+  },
+  {
+   "t": 184.125,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "La jeune femme attache l'homme au mât, un mot rouge vertical s'inscrit."
+  },
+  {
+   "t": 185.042,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Le mot rouge en capitales sur la mer, en oblique puis droit."
+  },
+  {
+   "t": 186.063,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Sillage d'un bateau à rames sur la mer scintillante."
+  },
+  {
+   "t": 186.958,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Sillage, puis le navire de près, très bref."
+  },
+  {
+   "t": 187.312,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Nœud de corde en contre-jour doré."
+  },
+  {
+   "t": 188.229,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "L'homme couché, des lignes rouges dessinées sur son visage."
+  },
+  {
+   "t": 189.438,
+   "content": "graphic",
+   "text": "Un disque orange sur noir qui se déforme puis devient un œil, une onde en dessous."
+  },
+  {
+   "t": 190.771,
+   "content": "plate",
+   "plate_kind": "image",
+   "text": "Gros plan d'un œil bleu avec une trace rouge, un encart de titre à droite."
+  }
+ ]
+}

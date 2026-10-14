@@ -1,0 +1,25 @@
+{
+ "fps": 59.99988387718593,
+ "cadence": {
+  "fps": 29.999941938592965,
+  "factor": 2,
+  "duplicate_ratio": 0.381
+ },
+ "frames": 3633,
+ "duration": 60.5501171875,
+ "width": 1340,
+ "height": 1080,
+ "cuts": [],
+ "shots": [
+  {
+   "id": "S01",
+   "start_frame": 0,
+   "end_frame": 3633,
+   "start": 0.0,
+   "end": 60.5501171875,
+   "duration": 60.5501171875,
+   "enter": "start",
+   "enter_score": null
+  }
+ ]
+}

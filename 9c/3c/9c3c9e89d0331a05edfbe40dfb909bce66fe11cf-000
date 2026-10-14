@@ -1,0 +1,10 @@
+{
+ "date": "12 October 2026",
+ "method": "Revue à l'œil des planches (une image tous les quarts de seconde) ; descriptions paraphrasées, sans texte affiché ni nom de marque.",
+ "reference": "Capture d'écran continue d'un outil de création : l'interface reste fixe et seule la zone de canevas change, où défile une suite rapide d'animations typographiques monospaces (mots répétés, pages qui se courbent en 3D, glyphes, collages, terminal), sans aucune coupe de montage.",
+ "add_cuts": [],
+ "remove_cuts": [],
+ "shots": [
+  {"t": 30.0, "content": "plate", "plate_kind": "image", "text": "Plan unique d'une minute : dans la zone centrale d'un logiciel clair, un mot se répète en pile puis s'efface, des feuilles imprimées se courbent et tournent comme du papier en 3D, de grands glyphes isolés défilent, des cartes de lettres s'empilent, une photo s'invite dans le collage, une phrase se tape sur fond noir et du code défile avant le retour au canevas vide."}
+ ]
+}
